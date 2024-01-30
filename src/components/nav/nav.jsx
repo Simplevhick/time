@@ -1,12 +1,10 @@
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
-// import { Link } from "react-scroll";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { FaTimes } from "react-icons/fa";
 import { CiMenuFries } from "react-icons/ci";
 import Img from "./new.jpeg";
-import Typed from "react-typed";
 import Img1 from "./logo.png";
 import Img2 from "./hmm2.jpg";
 import Img3 from "./pix.jpeg";
@@ -144,18 +142,6 @@ const Nav = () => {
             <h1 className="lg:text-6xl lg:ml-[21px] lg:mt-[25px] Poppins lg:text-[#00A3BA] sm:text-[28px] sm:mt-[5px] sm:ml-[14px] sm:leading-[25px] sm:text-[#00A3BA] md:text-[3.1rem] md:leading-[43px] md:ml-[21px] md:mt-[19px] md:text-[#00A3BA]">
               We redefine entertainment.
             </h1>
-            <Typed
-              strings={[
-                "Video Editing",
-                "Music Production",
-                "Record Label",
-                "Voice Over",
-              ]}
-              typeSpeed={120}
-              backSpeed={140}
-              loop
-              className="lg:text-2xl lg:ml-[5rem] lg:mt-[25px] Poppins ptSerif lg:text-[#00A3BA] sm:hidden md:text-6xl md:leading-10 md:ml-[21px] md:mt-[19px] md:text-[#00A3BA]"
-            />
             <p className="lg:mt-[1.3rem] lg:text-2xl lg:ml-[25px] lg:w-[29rem] lg:text-white sm:mt-[7px] sm:text-sm sm:ml-[14px] sm:w-[15.6rem] sm:leading-[18px] sm:text-white md:mt-[10px] md:leading-[30px] md:text-2xl md:ml-[19px] md:w-[25rem] md:text-white">
               Timeline Entertainment Limited was established by a team of
               professionals in music, audio-visuals, software managers, and
