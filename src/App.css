@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Poppins;
+    src: url(../public/Poppins-SemiBoldItalic.ttf);
+}
+.Poppins{
+    font-family: Poppins;
+}
+
+@font-face {
+    font-family: PTSerif;
+    src: url(../public/PTSerif-BoldItalic.ttf); 
+}
+.ptSerif{
+    font-family: PtSerif;
+}
+
+
+@font-face {
+    font-family: InterTight;
+    src: url(../public/InterTight-Italic.ttf); 
+}
+.interTight{
+    font-family: InterTight;
+}
