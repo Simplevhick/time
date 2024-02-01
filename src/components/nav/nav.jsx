@@ -132,12 +132,12 @@ const Nav = () => {
         </button>
       </div>
       <div
-        className="lg:text-black lg:relative lg:bg-auto lg:bg-cover lg:bg-contain lg:bg-no-repeat lg:h-[40rem] lg:w-[64rem] md:bg-auto md:bg-cover md:bg-contain md:bg-no-repeat md:h-[40rem] md:w-[48rem] sm:bg-auto sm:bg-cover sm:bg-contain sm:bg-no-repeat sm:h-[20rem] sm:w-[40rem] xl:bg-auto xl:bg-cover xl:bg-contain xl:bg-no-repeat xl:h-[60rem] xl:w-[80rem] z-10 "
+        className="lg:text-black lg:relative lg:bg-auto lg:bg-cover lg:bg-contain lg:bg-no-repeat lg:h-[40rem] lg:w-[64rem] md:bg-auto md:bg-cover md:bg-contain md:bg-no-repeat md:h-[40rem] md:w-[48rem] sm:bg-auto sm:bg-cover sm:bg-contain sm:bg-no-repeat sm:h-[23rem] sm:w-[37.5rem] xl:bg-auto xl:bg-cover xl:bg-contain xl:bg-no-repeat xl:h-[60rem] xl:w-[80rem] z-10 "
         style={{
           backgroundImage: `url(${Img})`,
         }}
       >
-        <div className="lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[35rem] lg:left-[4rem] sm:h-[12rem] sm:w-[16.5rem] sm:bg-black sm:bg-opacity-15 sm-border-none sm:absolute sm:top-[12.3rem] sm:left-[1rem] md:h-[22rem] md:w-[26.7rem] md:bg-black md:bg-opacity-20 md:border-none md:absolute md:top-[22.4rem] md:left-[1.6rem]">
+        <div className="lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[35rem] lg:left-[4rem] sm:h-[12rem] sm:w-[16.5rem] sm:bg-black sm:bg-opacity-15 sm-border-none sm:absolute sm:top-[14.5rem] sm:left-[1rem] md:h-[22rem] md:w-[26.7rem] md:bg-black md:bg-opacity-20 md:border-none md:absolute md:top-[22.4rem] md:left-[1.6rem]">
           <div>
             <h1 className="lg:text-6xl lg:ml-[21px] lg:mt-[25px] Poppins lg:text-[#00A3BA] sm:text-[28px] sm:mt-[5px] sm:ml-[14px] sm:leading-[25px] sm:text-[#00A3BA] md:text-[3.1rem] md:leading-[43px] md:ml-[21px] md:mt-[19px] md:text-[#00A3BA]">
               We redefine entertainment.
@@ -156,7 +156,7 @@ const Nav = () => {
             </Link>
           </div>
           <section id="about" className="lg:relative sm:relative z-10">
-            <div className="lg:h-[30rem] z-30 lg:ml-[-45px] relative lg:w-[26rem] lg:mt-[14rem] sm:h-[10rem] z-30 relative sm:w-[16rem] sm:ml-[1rem] sm:mt-[8rem] md:h-[80rem] z-30 relative md:w-[18rem] md:ml-[-2.5rem] md:mt-[11rem]">
+            <div className="lg:h-[30rem] z-30 lg:ml-[-45px] relative lg:w-[26rem] lg:mt-[14rem] sm:h-[10rem] z-30 relative sm:w-[16rem] sm:ml-[-2.2rem] sm:mt-[8rem] md:h-[80rem] z-30 relative md:w-[18rem] md:ml-[-2.5rem] md:mt-[11rem]">
               <div className="lg:h-[30rem] z-30 relative lg:w-[26rem] lg:ml-[17.5rem] lg:mt-[6.2rem] sm:h-[10rem] z-30 relative sm:w-[16rem] sm:ml-[11rem] sm:mt-[4.5rem] md:h-[80rem] z-30 relative md:w-[18rem] md:ml-[15.5rem] md:mt-[8rem]">
                 <img
                   src={Img2}
@@ -216,12 +216,12 @@ const Nav = () => {
           </section>
 
           <section id="team">
-            <div className="sm:mt-[70rem] sm:w-[40rem] sm:h-[193rem] lg:h-[80rem] lg:w-[80rem] lg:ml-[-4rem] lg:mt-[22rem] md:h-[78rem] md:ml-[-2rem] md:w-[48.4rem] md:mt-[7rem] lg:border-2 lg: bg-[#29A59D] sm:ml-[-1rem] sm:border-2 sm:bg-[#29A59D] md:border-2 md:bg-[#29A59D]">
-              <div className="Poppins ptSerif lg:text-5xl lg:text-[#fff] lg:mt-[6rem] lg:ml-[25rem] md:text-5xl md:text-[#fff] md:mt-[4rem] md:ml-[11rem] sm:text-5xl sm:text-[#fff] sm:mt-[4rem] sm:ml-[7rem]">
+            <div className="sm:mt-[70rem] sm:w-[37.5rem] sm:h-[193rem] lg:h-[80rem] lg:w-[80rem] lg:ml-[-4rem] lg:mt-[22rem] md:h-[78rem] md:ml-[-2rem] md:w-[48.4rem] md:mt-[7rem] lg:border-2 lg: bg-[#29A59D] sm:ml-[-1rem] sm:border-2 sm:bg-[#29A59D] md:border-2 md:bg-[#29A59D]">
+              <div className="Poppins ptSerif lg:text-5xl lg:text-[#fff] lg:mt-[6rem] lg:ml-[25rem] md:text-5xl md:text-[#fff] md:mt-[4rem] md:ml-[11rem] sm:text-5xl sm:text-[#fff] sm:mt-[4rem] sm:ml-[5rem]">
                 Our Amazing Team
               </div>
 
-              <div className="lg:grid lg:grid-cols-3 lg:border lg:relative lg:h-[60rem] lg:mt-[5rem] lg:w-[70rem] lg:ml-[5rem] lg:bg-white md:grid md:grid-cols-2 md:border md:relative md:mt-[3rem] md:h-[64rem] md:w-[38rem] md:ml-[5.3rem] md:bg-white sm:grid sm:grid-cols-1 sm:border sm:relative sm:mt-[3rem] sm:w-[26rem] sm:h-[175rem] sm:ml-[7rem] sm:bg-white ">
+              <div className="lg:grid lg:grid-cols-3 lg:border lg:relative lg:h-[60rem] lg:mt-[5rem] lg:w-[70rem] lg:ml-[5rem] lg:bg-white md:grid md:grid-cols-2 md:border md:relative md:mt-[3rem] md:h-[64rem] md:w-[38rem] md:ml-[5.3rem] md:bg-white sm:grid sm:grid-cols-1 sm:border sm:relative sm:mt-[3rem] sm:w-[26rem] sm:h-[175rem] sm:ml-[5.5rem] sm:bg-white ">
                 <div>
                   <div>
                     <img
@@ -397,27 +397,27 @@ const Nav = () => {
       </div>
 
       <section id="services">
-        <div className="lg:mt-[155rem] sm:mt-[291rem] md:mt-[185rem]">
+        <div className="lg:mt-[155rem] sm:mt-[304rem] md:mt-[185rem]">
           <div className="Poppins ptSerif lg:ml-[32rem] lg:text-4xl sm:ml-[13rem] sm:text-4xl md:ml-[17rem] md:text-4xl">
             <h1>What We Do</h1>
           </div>
           <div>
-            <p className="lg:ml-[16rem] lg:mt-[10px] lg:text-[20px] sm:ml-[1.7rem] sm:mt-[10px] sm:text-[15px] md:ml-[2rem] md:mt-[10px] md:text-[18px]">
+            <p className="lg:ml-[16rem] lg:mt-[10px] lg:text-[20px] sm:ml-[1.7rem] sm:mt-[10px] sm:text-[14px] md:ml-[2rem] md:mt-[10px] md:text-[18px]">
               Timeline Entertainment Company specializes in taking entertainment
               to the next level.
             </p>
-            <p className="lg:ml-[26rem] lg:text-[20px] sm:ml-[10rem] sm:text-[13px] md:ml-[12rem] md:text-[18px]">
+            <p className="lg:ml-[26rem] lg:text-[20px] sm:ml-[10rem] sm:mt-[3px] sm:text-[14px] md:ml-[12rem] md:text-[18px]">
               We offer swift and beautiful responses to us.
             </p>
           </div>
-          <div className="lg:flex lg:items-center lg:ml-[31rem] lg:mt-[3rem] lg:text-[20px] lg:transition lg:ease-in-and-out lg:duration-500 lg:font-bold lg:hover:text-cyan-500 sm:flex sm:items-center sm:ml-[11.5rem] sm:mt-[3rem] sm:text-[20px] sm:transition sm:ease-in-and-out sm:duration-500 sm:font-bold sm:hover:text-cyan-500 md:flex md:items-center md:ml-[16rem] md:mt-[3rem] md:text-[20px] md:transition md:ease-in-and-out md:duration-500 md:font-bold md:hover:text-cyan-500">
+          <div className="lg:flex lg:items-center lg:ml-[31rem] lg:mt-[3rem] lg:text-[20px] lg:transition lg:ease-in-and-out lg:duration-500 lg:font-bold lg:hover:text-cyan-500 sm:flex sm:items-center sm:ml-[11rem] sm:mt-[3rem] sm:text-[20px] sm:transition sm:ease-in-and-out sm:duration-500 sm:font-bold sm:hover:text-cyan-500 md:flex md:items-center md:ml-[16rem] md:mt-[3rem] md:text-[20px] md:transition md:ease-in-and-out md:duration-500 md:font-bold md:hover:text-cyan-500">
             <p className="">More About Our Services</p>
             <p className="">
               {" "}
               <MdOutlineNextPlan />{" "}
             </p>
           </div>
-          <div className="lg:flex lg:max-w-5xl lg:ml-[5rem] lg:mt-[4rem] lg:gap-8 group sm:max-w-5xl sm:ml-[11rem] sm:mt-[4rem] sm:gap-8 sm:group md:max-w-5xl md:ml-[5rem] md:grid md:grid-cols-2 md:mt-[4rem] md:gap-8 group">
+          <div className="lg:flex lg:max-w-5xl lg:ml-[5rem] lg:mt-[4rem] lg:gap-8 group sm:max-w-5xl sm:ml-[10rem] sm:mt-[4rem] sm:gap-8 sm:group md:max-w-5xl md:ml-[5rem] md:grid md:grid-cols-2 md:mt-[4rem] md:gap-8 group">
             <div className="lg:bg-[#abd9d9] lg:duration-500 lg:group-hover:blur-sm lg:hover:!blur-none lg:group-hover:scale-[0.85] lg:hover:!scale-100 lg:cursor-pointer lg:p-8 lg:rounded-xl sm:bg-[#abd9d9] sm:duration-500 sm:group-hover:blur-sm sm:hover:!blur-none sm:group-hover:scale-[0.85] sm:hover:!scale-100 sm:mt-[1rem] sm:w-[17rem] sm:cursor-pointer sm:p-8 sm:rounded-xl md:bg-[#abd9d9] md:duration-500 md:group-hover:blur-sm md:hover:!blur-none md:group-hover:scale-[0.85] md:hover:!scale-100 md:cursor-pointer md:p-8 md:rounded-xl">
               <p>
                 <LiaFileAudio className="lg:h-20 lg:mx-auto lg:w-[9rem] sm:h-[7rem] sm:ml-[3.7rem] sm:w-[5rem] md:h-20 md:mx-auto md:w-[9rem]" />
@@ -498,7 +498,7 @@ const Nav = () => {
 
       <div
         id="contact"
-        className="lg:text-black lg:mt-[16rem] lg:bg-auto lg:bg-cover lg:bg-contain lg:bg-no-repeat md:bg-auto md:bg-cover md:bg-contain md:bg-no-repeat md:h-[28rem] md:mt-[16rem] md:w-[48rem] sm:bg-auto sm:bg-cover sm:bg-contain sm:bg-no-repeat sm:h-[20rem] sm:w-[40rem] sm:mt-[12rem] xl:bg-auto xl:bg-cover xl:bg-contain xl:bg-no-repeat xl:h-[60rem] xl:w-[80rem] z-10 "
+        className="lg:text-black lg:mt-[16rem] lg:bg-auto lg:bg-cover lg:bg-contain lg:bg-no-repeat md:bg-auto md:bg-cover md:bg-contain md:bg-no-repeat md:h-[28rem] md:mt-[16rem] md:w-[48rem] sm:bg-auto sm:bg-cover sm:bg-contain sm:bg-no-repeat sm:h-[20rem] sm:w-[37.5rem] sm:mt-[12rem] xl:bg-auto xl:bg-cover xl:bg-contain xl:bg-no-repeat xl:h-[60rem] xl:w-[80rem] z-10 "
         style={{
           backgroundImage: `url(${Img6})`,
         }}
@@ -547,7 +547,7 @@ const Nav = () => {
           </div>
 
           <div>
-            <div className="lg:border lg:ml-[0.2px] lg:w-[29rem] lg:mt-[33rem] lg:bg-[#e5e5e5] lg:h-[30rem] sm:border sm:w-[29rem] sm:mt-[12rem] sm:ml-[-27.5rem] sm:bg-[#e5e5e5] sm:h-[30rem] md:border md:w-[34rem] md:ml-[-31rem] md:mt-[15rem] md:bg-[#e5e5e5] md:h-[33rem]">
+            <div className="lg:border lg:ml-[0.2px] lg:w-[29rem] lg:mt-[33rem] lg:bg-[#e5e5e5] lg:h-[30rem] sm:border sm:w-[29rem] sm:mt-[12rem] sm:ml-[-28.8rem] sm:bg-[#e5e5e5] sm:h-[30rem] md:border md:w-[34rem] md:ml-[-31rem] md:mt-[15rem] md:bg-[#e5e5e5] md:h-[33rem]">
               <div>
                 <p className="lg:font-bold lg:text-[28px] lg:p-[31px] lg:ml-[7rem] sm:font-bold sm:text-[32px] sm:p-[31px] sm:ml-[6rem] md:font-bold md:text-[42px] md:p-[31px] md:ml-[7rem]">
                   CONTACT US
