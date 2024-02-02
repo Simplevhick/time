@@ -132,7 +132,7 @@ const Nav = () => {
         </button>
       </div>
       <div
-        className="lg:text-black lg:relative lg:bg-auto lg:bg-cover lg:bg-contain lg:bg-no-repeat lg:h-[40rem] lg:w-full md:bg-auto md:bg-cover md:bg-contain md:mx-auto md:w-full md:bg-no-repeat md:h-[40rem] md:w-[48rem] sm:bg-auto sm:bg-cover sm:mx-auto sm:bg-contain sm:bg-no-repeat sm:h-[23rem] sm:w-full sm:w-[37.5rem] xl:bg-auto xl:bg-cover xl:bg-contain xl:bg-no-repeat xl:h-[60rem] xl:w-[80rem] z-10 "
+        className="lg:text-black  lg:relative lg:bg-auto lg:bg-cover lg:bg-contain lg:bg-no-repeat lg:h-[40rem] lg:w-[100%] md:bg-auto md:bg-cover md:bg-contain md:w-[100%] md:bg-no-repeat md:h-[40rem] sm:bg-auto sm:bg-cover sm:mx-auto sm:bg-contain sm:bg-no-repeat sm:h-[23rem] sm:w-[100%] xl:bg-auto xl:bg-cover xl:bg-contain xl:bg-no-repeat xl:h-[60rem] xl:w-[80rem] z-10 "
         style={{
           backgroundImage: `url(${Img})`,
         }}
@@ -156,7 +156,7 @@ const Nav = () => {
             </Link>
           </div>
           <section id="about" className="lg:relative sm:relative z-10 ">
-            <div className="lg:h-[30rem] z-30 lg:ml-[-45px] relative lg:w-[26rem] lg:mt-[14rem] sm:h-[10rem] z-30 relative sm:w-[16rem] sm:ml-[-2.2rem] sm:mt-[8rem] md:h-[80rem] z-30 relative md:w-[18rem] md:ml-[-2.5rem] md:mt-[11rem]">
+            <div className="lg:h-[30rem] z-30 lg:ml-[-45px] relative lg:w-[26rem] lg:mt-[14rem] sm:h-[10rem] z-30 relative sm:w-[100%] sm:ml-[-2.2rem] sm:mt-[8rem] md:h-[80rem] z-30 relative md:w-[18rem] md:ml-[-2.5rem] md:mt-[11rem]">
               <div className="lg:h-[30rem] z-30 relative lg:w-[26rem] lg:ml-[17.5rem] lg:mt-[6.2rem] sm:h-[10rem] z-30 relative sm:w-[16rem] sm:ml-[11rem] sm:mt-[4.5rem] md:h-[80rem] z-30 relative md:w-[18rem] md:ml-[15.5rem] md:mt-[8rem]">
                 <img
                   src={Img2}
@@ -216,7 +216,7 @@ const Nav = () => {
           </section>
 
           <section id="team">
-            <div className="sm:mt-[70rem] sm:w-[37.5rem] sm:h-[193rem] lg:h-[80rem] lg:w-[80rem] lg:ml-[-4rem] lg:mt-[22rem] md:h-[78rem] md:ml-[-2rem] md:w-[48.4rem] md:mt-[7rem] lg:border-2 lg: bg-[#29A59D] sm:ml-[-1rem] sm:border-2 sm:bg-[#29A59D] md:border-2 md:bg-[#29A59D]">
+            <div className="sm:mt-[70rem] sm:w-[37.5rem] sm:h-[193rem] lg:h-[80rem] lg:w-[80rem] lg:ml-[-4rem] lg:mt-[22rem] md:h-[78rem] md:ml-[-2rem] md:w-[100%] md:mt-[7rem] lg:border-2 lg: bg-[#29A59D] sm:ml-[-1rem] sm:border-2 sm:bg-[#29A59D] md:border-2 md:bg-[#29A59D]">
               <div className="Poppins ptSerif lg:text-5xl lg:text-[#fff] lg:mt-[6rem] lg:ml-[25rem] md:text-5xl md:text-[#fff] md:mt-[4rem] md:ml-[11rem] sm:text-5xl sm:text-[#fff] sm:mt-[4rem] sm:ml-[5rem]">
                 Our Amazing Team
               </div>
@@ -498,7 +498,7 @@ const Nav = () => {
 
       <div
         id="contact"
-        className="lg:text-black lg:mt-[16rem] lg:bg-auto lg:bg-cover lg:bg-contain lg:bg-no-repeat md:bg-auto md:bg-cover md:bg-contain md:bg-no-repeat md:h-[28rem] md:mt-[16rem] md:w-[48rem] sm:bg-auto sm:bg-cover sm:bg-contain sm:bg-no-repeat sm:h-[20rem] sm:w-[37.5rem] sm:mt-[12rem] xl:bg-auto xl:bg-cover xl:bg-contain xl:bg-no-repeat xl:h-[60rem] xl:w-[80rem] z-10 "
+        className="lg:text-black lg:mt-[16rem] lg:bg-auto lg:bg-cover lg:bg-contain lg:bg-no-repeat md:bg-auto md:bg-cover md:bg-contain md:bg-no-repeat md:h-[28rem] md:mt-[16rem] md:w-[100%] sm:bg-auto sm:bg-cover sm:bg-contain sm:bg-no-repeat sm:h-[20rem] sm:w-[100%] sm:mt-[12rem] xl:bg-auto xl:bg-cover xl:bg-contain xl:bg-no-repeat xl:h-[60rem] xl:w-[80rem] z-10 "
         style={{
           backgroundImage: `url(${Img6})`,
         }}
