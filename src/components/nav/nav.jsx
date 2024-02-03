@@ -156,8 +156,8 @@ const Nav = () => {
             </Link>
           </div>
           
-          <section id="about" className="lg:relative lg:mx-auto sm:mx-auto md:mx-auto sm:relative z-10 ">
-            <div className="lg:h-[30rem] z-30 lg:ml-[-45px] relative lg:w-[26rem] lg:mt-[14rem] sm:h-[10rem] z-30 relative sm:w-[100%] sm:ml-[-2.2rem] sm:mt-[8rem] md:h-[80rem] z-30 relative md:w-[18rem] md:ml-[-2.5rem] md:mt-[11rem]">
+          <section id="about" className="lg:relative sm:relative z-10 ">
+            <div className="lg:h-[30rem] lg:mx-auto sm:mx-auto md:mx-auto z-30 lg:ml-[-45px] relative lg:w-[26rem] lg:mt-[14rem] sm:h-[10rem] z-30 relative sm:w-[100%] sm:ml-[-2.2rem] sm:mt-[8rem] md:h-[80rem] z-30 relative md:w-[18rem] md:ml-[-2.5rem] md:mt-[11rem]">
               <div className="lg:h-[30rem] z-30 relative lg:w-[26rem] lg:ml-[17.5rem] lg:mt-[6.2rem] sm:h-[10rem] z-30 relative sm:w-[16rem] sm:ml-[11rem] sm:mt-[4.5rem] md:h-[80rem] z-30 relative md:w-[18rem] md:ml-[15.5rem] md:mt-[8rem]">
                 <img
                   src={Img2}
