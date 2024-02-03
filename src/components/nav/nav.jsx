@@ -131,18 +131,19 @@ const Nav = () => {
           {click ? <FaTimes /> : <CiMenuFries />}
         </button>
       </div>
+      {/* lg:w-screen lg:h-screen lg:bg-cover lg:bg-no-repeat */}
       <div
-        className="lg:text-black  lg:relative lg:bg-auto lg:bg-cover lg:bg-contain lg:bg-no-repeat lg:h-[40rem] lg:w-[100%] md:bg-auto md:bg-cover md:bg-contain md:w-[100%] md:bg-no-repeat md:h-[40rem] sm:bg-auto sm:bg-cover sm:mx-auto sm:bg-contain sm:bg-no-repeat sm:h-[23rem] sm:w-[100%] xl:bg-auto xl:bg-cover xl:bg-contain xl:bg-no-repeat xl:h-[60rem] xl:w-[80rem] z-10 "
+         className="lg:w-full lg:bg-cover lg:bg-no-repeat lg:h-[46rem] md:w-full md:bg-contain md:bg-no-repeat md:h-[46rem] sm:w-full sm:bg-contain sm:bg-no-repeat sm:h-[43rem]"
         style={{
           backgroundImage: `url(${Img})`,
         }}
       >
-        <div className="lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[35rem] lg:left-[4rem] sm:h-[12rem] sm:w-[16.5rem] sm:bg-black sm:bg-opacity-15 sm-border-none sm:absolute sm:top-[14.5rem] sm:left-[1rem] md:h-[22rem] md:w-[26.7rem] md:bg-black md:bg-opacity-20 md:border-none md:absolute md:top-[22.4rem] md:left-[1.6rem]">
+        <div className="lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[25rem] lg:left-[2rem] sm:h-[12rem] sm:w-[16.5rem] sm:bg-black sm:bg-opacity-15 sm-border-none sm:absolute sm:top-[16.8rem] sm:left-[1rem] md:h-[18.7rem] md:w-[26.7rem] md:bg-black md:bg-opacity-20 md:border-none md:absolute md:top-[17rem] md:left-[1.6rem]">
           <div>
-            <h1 className="lg:text-6xl lg:ml-[21px] lg:mt-[25px] Poppins lg:text-[#00A3BA] sm:text-[28px] sm:mt-[5px] sm:ml-[14px] sm:leading-[25px] sm:text-[#00A3BA] md:text-[3.1rem] md:leading-[43px] md:ml-[21px] md:mt-[19px] md:text-[#00A3BA]">
+            <h1 className="lg:text-6xl lg:ml-[21px] lg:mt-[25px] Poppins lg:text-[#00A3BA] sm:text-[28px] sm:mt-[5px] sm:ml-[14px] sm:leading-[25px] sm:text-[#00A3BA] md:text-[2.8rem] md:leading-[43px] md:ml-[21px] md:mt-[19px] md:text-[#00A3BA]">
               We redefine entertainment.
             </h1>
-            <p className="lg:mt-[1.3rem] lg:text-2xl lg:ml-[25px] lg:w-[29rem] lg:text-white sm:mt-[7px] sm:text-sm sm:ml-[14px] sm:w-[15.6rem] sm:leading-[18px] sm:text-white md:mt-[10px] md:leading-[30px] md:text-2xl md:ml-[19px] md:w-[25rem] md:text-white">
+            <p className="lg:mt-[1.3rem] lg:text-2xl lg:ml-[25px] lg:w-[29rem] lg:text-white sm:mt-[7px] sm:text-sm sm:ml-[14px] sm:w-[15.6rem] sm:leading-[18px] sm:text-white md:mt-[10px] md:leading-[30px] md:text-[1.3rem] md:ml-[19px] md:w-[25rem] md:text-white">
               Timeline Entertainment Limited was established by a team of
               professionals in music, audio-visuals, software managers, and
               media strategists in 2007.
@@ -641,3 +642,4 @@ const Nav = () => {
 export default Nav;
 
 
+// className="lg:text-black  lg:relative lg:bg-auto lg:bg-cover lg:bg-contain lg:bg-no-repeat lg:h-[40rem] lg:w-[100%] md:bg-auto md:bg-cover md:bg-contain md:w-[100%] md:bg-no-repeat md:h-[40rem] sm:bg-auto sm:bg-cover sm:mx-auto sm:bg-contain sm:bg-no-repeat sm:h-[23rem] sm:w-[100%] xl:bg-auto xl:bg-cover xl:bg-contain xl:bg-no-repeat xl:h-[60rem] xl:w-[80rem] z-10 "
