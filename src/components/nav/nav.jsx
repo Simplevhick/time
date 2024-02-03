@@ -131,7 +131,6 @@ const Nav = () => {
           {click ? <FaTimes /> : <CiMenuFries />}
         </button>
       </div>
-      {/* lg:w-screen lg:h-screen lg:bg-cover lg:bg-no-repeat */}
       <div
          className="lg:w-full lg:bg-cover lg:bg-no-repeat lg:h-[60rem] md:w-full md:bg-contain md:bg-no-repeat md:h-[46rem] sm:w-full sm:bg-contain sm:bg-no-repeat sm:h-[43rem]"
         style={{
@@ -156,7 +155,8 @@ const Nav = () => {
               />
             </Link>
           </div>
-          <section id="about" className="lg:relative sm:relative z-10 ">
+          
+          <section id="about" className="lg:relative lg:mx-auto sm:mx-auto md:mx-auto sm:relative z-10 ">
             <div className="lg:h-[30rem] z-30 lg:ml-[-45px] relative lg:w-[26rem] lg:mt-[14rem] sm:h-[10rem] z-30 relative sm:w-[100%] sm:ml-[-2.2rem] sm:mt-[8rem] md:h-[80rem] z-30 relative md:w-[18rem] md:ml-[-2.5rem] md:mt-[11rem]">
               <div className="lg:h-[30rem] z-30 relative lg:w-[26rem] lg:ml-[17.5rem] lg:mt-[6.2rem] sm:h-[10rem] z-30 relative sm:w-[16rem] sm:ml-[11rem] sm:mt-[4.5rem] md:h-[80rem] z-30 relative md:w-[18rem] md:ml-[15.5rem] md:mt-[8rem]">
                 <img
@@ -198,6 +198,7 @@ const Nav = () => {
                   />
                 </Link>
               </div>
+
               <div>
                 <div className="lg:ml-[0.5rem] lg:text-[#000907] lg:absolute lg:top-[0.5rem] lg:left-[64rem] lg:h-[170px] lg:w-[170px] lg:bg-[#ce905e] lg:rounded-[50%] lg:transition lg:lg:ease-out lg:duration-500 lg:hover:bg-cyan-500 sm:ml-[2rem] sm:absolute sm:top-[30rem] sm:left-[24rem] sm:h-[110px] sm:w-[110px] sm:bg-[#ce905e] sm:rounded-[50%] sm:transition sm:lg:ease-out sm:duration-500 sm:hover:bg-cyan-500 md:ml-[2rem] md:absolute md:top-[34rem] md:left-[29rem] md:h-[140px] md:w-[140px] md:bg-[#ce905e] md:rounded-[50%] md:transition md:ease-out md:duration-500 md:hover:bg-cyan-500"></div>
               </div>
@@ -397,8 +398,8 @@ const Nav = () => {
         </div>
       </div>
 
-      <section id="services" className="">
-        <div className="lg:mt-[155rem] sm:mt-[304rem] md:mt-[185rem]">
+      <section id="services" className="lg:mx-auto sm:mx-auto md:mx-auto">
+        <div className="lg:mt-[155rem] sm:mt-[280rem] md:mt-[175rem]">
           <div className="Poppins ptSerif lg:ml-[32rem] lg:text-4xl sm:ml-[13rem] sm:text-4xl md:ml-[17rem] md:text-4xl">
             <h1>What We Do</h1>
           </div>
@@ -499,7 +500,7 @@ const Nav = () => {
 
       <div
         id="contact"
-        className="lg:text-black lg:mt-[16rem] lg:bg-auto lg:bg-cover lg:bg-contain lg:bg-no-repeat md:bg-auto md:bg-cover md:bg-contain md:bg-no-repeat md:h-[28rem] md:mt-[16rem] md:w-[100%] sm:bg-auto sm:bg-cover sm:bg-contain sm:bg-no-repeat sm:h-[20rem] sm:w-[100%] sm:mt-[12rem] xl:bg-auto xl:bg-cover xl:bg-contain xl:bg-no-repeat xl:h-[60rem] xl:w-[80rem] z-10 "
+          className="lg:w-full lg:bg-cover lg:bg-no-repeat lg:h-[60rem] lg:mt-[15rem] md:w-full md:bg-contain md:bg-no-repeat md:mt-[17rem] md:h-[46rem] sm:w-full sm:bg-contain sm:bg-no-repeat sm:mt-[14rem] sm:h-[43rem]"
         style={{
           backgroundImage: `url(${Img6})`,
         }}
@@ -569,7 +570,7 @@ const Nav = () => {
         </div>
       </div>
 
-      <footer className="lg:mt-[12rem] lg:border lg:bg-[#00A3BA] lg:pr-[2rem] lg:pl-[2rem] lg:pt-[2rem] lg:pb-[1rem] lg:text-center lg:font-[0.9rem] md:mt-[63rem] md:border md:bg-[#00A3BA] md:pr-[2rem] md:pl-[2rem] md:pt-[2rem] md:pb-[1rem] md:text-center md:font-[0.9rem] sm:mt-[70rem] sm:border sm:bg-[#00A3BA] sm:pr-[2rem] sm:pl-[2rem] sm:pt-[2rem] lg:pb-[1rem] sm:text-center sm:font-[0.9rem]">
+      <footer className="lg:mt-[12rem] lg:border lg:bg-[#00A3BA] lg:pr-[2rem] lg:pl-[2rem] lg:pt-[2rem] lg:pb-[1rem] lg:text-center lg:font-[0.9rem] md:mt-[48rem] md:border md:bg-[#00A3BA] md:pr-[2rem] md:pl-[2rem] md:pt-[2rem] md:pb-[1rem] md:text-center md:font-[0.9rem] sm:mt-[57rem] sm:border sm:bg-[#00A3BA] sm:pr-[2rem] sm:pl-[2rem] sm:pt-[2rem] lg:pb-[1rem] sm:text-center sm:font-[0.9rem]">
         <a
           href="#"
           className="lg:font-bold md:font-bold sm:font-bold lg:text-4xl lg:text-[#1f1f38] sm:text-3xl"
@@ -641,5 +642,3 @@ const Nav = () => {
 
 export default Nav;
 
-
-// className="lg:text-black  lg:relative lg:bg-auto lg:bg-cover lg:bg-contain lg:bg-no-repeat lg:h-[40rem] lg:w-[100%] md:bg-auto md:bg-cover md:bg-contain md:w-[100%] md:bg-no-repeat md:h-[40rem] sm:bg-auto sm:bg-cover sm:mx-auto sm:bg-contain sm:bg-no-repeat sm:h-[23rem] sm:w-[100%] xl:bg-auto xl:bg-cover xl:bg-contain xl:bg-no-repeat xl:h-[60rem] xl:w-[80rem] z-10 "
