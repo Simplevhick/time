@@ -133,17 +133,17 @@ const Nav = () => {
       </div>
       {/* lg:w-screen lg:h-screen lg:bg-cover lg:bg-no-repeat */}
       <div
-         className="lg:w-full lg:bg-cover lg:bg-no-repeat lg:h-[46rem] md:w-full md:bg-contain md:bg-no-repeat md:h-[46rem] sm:w-full sm:bg-contain sm:bg-no-repeat sm:h-[43rem]"
+         className="lg:w-full lg:bg-cover lg:bg-no-repeat lg:h-[55rem] md:w-full md:bg-contain md:bg-no-repeat md:h-[46rem] sm:w-full sm:bg-contain sm:bg-no-repeat sm:h-[43rem]"
         style={{
           backgroundImage: `url(${Img})`,
         }}
       >
-        <div className="lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[25rem] lg:left-[2rem] sm:h-[12rem] sm:w-[16.5rem] sm:bg-black sm:bg-opacity-15 sm-border-none sm:absolute sm:top-[16.8rem] sm:left-[1rem] md:h-[18.7rem] md:w-[26.7rem] md:bg-black md:bg-opacity-20 md:border-none md:absolute md:top-[17rem] md:left-[1.6rem]">
+        <div className="lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[34rem] lg:left-[2rem] sm:h-[12rem] sm:w-[16.5rem] sm:bg-black sm:bg-opacity-15 sm-border-none sm:absolute sm:top-[16.8rem] sm:left-[1rem] md:h-[16.5rem] md:w-[16.5rem] md:bg-black md:bg-opacity-20 md:border-none md:absolute md:top-[18rem] md:left-[1.6rem]">
           <div>
-            <h1 className="lg:text-6xl lg:ml-[21px] lg:mt-[25px] Poppins lg:text-[#00A3BA] sm:text-[28px] sm:mt-[5px] sm:ml-[14px] sm:leading-[25px] sm:text-[#00A3BA] md:text-[2.8rem] md:leading-[43px] md:ml-[21px] md:mt-[19px] md:text-[#00A3BA]">
+            <h1 className="lg:text-6xl lg:ml-[21px] lg:mt-[25px] Poppins lg:text-[#00A3BA] sm:text-[28px] sm:mt-[5px] sm:ml-[14px] sm:leading-[25px] sm:text-[#00A3BA] md:text-[28px] md:leading-[29px] md:ml-[21px] md:mt-[19px] md:text-[#00A3BA]">
               We redefine entertainment.
             </h1>
-            <p className="lg:mt-[1.3rem] lg:text-2xl lg:ml-[25px] lg:w-[29rem] lg:text-white sm:mt-[7px] sm:text-sm sm:ml-[14px] sm:w-[15.6rem] sm:leading-[18px] sm:text-white md:mt-[10px] md:leading-[30px] md:text-[1.3rem] md:ml-[19px] md:w-[25rem] md:text-white">
+            <p className="lg:mt-[1.3rem] lg:text-2xl lg:ml-[25px] lg:w-[29rem] lg:text-white sm:mt-[7px] sm:text-sm sm:ml-[14px] sm:w-[15.6rem] sm:leading-[18px] sm:text-white md:mt-[10px] md:leading-[28px] md:text-base md:ml-[19px] md:w-[15.6rem] md:text-white">
               Timeline Entertainment Limited was established by a team of
               professionals in music, audio-visuals, software managers, and
               media strategists in 2007.
@@ -152,7 +152,7 @@ const Nav = () => {
               <input
                 type="button"
                 value="READ MORE"
-                className="lg:mt-[30px] lg:ml-[28px] lg:bg-[#00A3BA] lg:text-[#fff] lg:border-none lg:pl-[12px] lg:pt-[12px] lg:pb-[12px] lg:pr-[12px] lg:text-[16px] cursor-pointer lg:rounded-[7px] lg:hover:bg-[#00A3BA] lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 sm:ml-[16px] sm:mt-[8.5px] sm:text-[#fff] sm:bg-[#00A3BA] sm:border-none sm:pl-[7px] sm:pt-[7px] sm:pb-[7px] sm:pr-[7px] sm:text-[12px] sm:rounded-[3px] sm:hover:bg-[#00A3BA] sm:hover:text-[#000000] sm:transition sm:ease-out sm:duration-500 md:mt-[12px] md:text-[#fff] lg:ml-[30px] md:bg-[#00A3BA] md:border-2 md:pl-[10px] md:pt-[10px] md:pb-[10px] md:pr-[10px] md:text-[18px] md:rounded-[7px] md:hover:bg-[#00A3BA] md:hover:text-[#000000] md:transition md:ease-out md:duration-500"
+                className="lg:mt-[30px] lg:ml-[28px] lg:bg-[#00A3BA] lg:text-[#fff] lg:border-none lg:pl-[12px] lg:pt-[12px] lg:pb-[12px] lg:pr-[12px] lg:text-[16px] cursor-pointer lg:rounded-[7px] lg:hover:bg-[#00A3BA] lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 sm:ml-[16px] sm:mt-[8.5px] sm:text-[#fff] sm:bg-[#00A3BA] sm:border-none sm:pl-[7px] sm:pt-[7px] sm:pb-[7px] sm:pr-[7px] sm:text-[12px] sm:rounded-[3px] sm:hover:bg-[#00A3BA] sm:hover:text-[#000000] sm:transition sm:ease-out sm:duration-500 md:mt-[12px] md:text-[#fff] lg:ml-[30px] md:bg-[#00A3BA] md:border-2 md:pl-[9px] md:pt-[9px] md:pb-[9px] md:pr-[9px] md:text-[12px] md:rounded-[7px] md:hover:bg-[#00A3BA] md:hover:text-[#000000] md:transition md:ease-out md:duration-500"
               />
             </Link>
           </div>
