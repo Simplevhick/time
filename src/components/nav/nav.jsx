@@ -163,10 +163,10 @@ const Nav = () => {
             </Link>
           </div>
 
-          <section id="about" className="z-10 lg:w-[75rem] lg:mt-[15rem] lg:p-[6rem] sm:w-[29rem] sm:mt-[11rem] md:w-[15rem] md:mt-[15rem] xl:w-[75rem] xl:mt-[15rem] xl:p-[6rem]">
+          <section id="about" className="z-10 lg:w-[75rem] lg:mt-[15rem] lg:p-[6rem] sm:w-[29rem] sm:mt-[11rem] md:w-[15rem] md:mt-[15rem] xl:w-[75rem] xl:mt-[15rem] xl:p-[6rem] 2xl:w-[75rem] 2xl:mt-[13rem] 2xl:p-[6rem] 2xl:ml-[9.5rem]">
             <div className="">
               <div className="lg:flex">
-                <div className="lg:text-[2.8rem] lg:text-xl lg:font-bold lg:ml-[3rem] md:text-[2.6rem] md:text-xl md:font-bold md:ml-[1.5rem] sm:text-[2.7rem] sm:text-xl sm:font-bold sm:ml-[14rem] xl:text-[2.8rem] xl:text-xl xl:font-bold xl:ml-[3rem]">
+                <div className="lg:text-[2.8rem] lg:text-xl lg:font-bold lg:ml-[3rem] md:text-[2.6rem] md:text-xl md:font-bold md:ml-[1.5rem] sm:text-[2.7rem] sm:text-xl sm:font-bold sm:ml-[14rem] xl:text-[2.8rem] xl:text-xl xl:font-bold xl:ml-[3rem] 2xl:text-[2.8rem] 2xl:text-xl 2xl:font-bold 2xl:ml-[6rem] ">
                   <h1 className="lg:text-[#00A3BA] sm:text-[#00A3BA] md:text-[#00A3BA] xl:text-[#00A3BA]">About Us</h1>
                 </div>
 
@@ -194,12 +194,12 @@ const Nav = () => {
           </section>
 
           <section id="team">
-            <div className="sm:mt-[70rem] sm:w-[37.5rem] sm:h-[193rem] lg:h-[80rem] lg:w-[80rem] lg:ml-[-4rem] lg:mt-[22rem] md:h-[78rem] md:ml-[-2rem] md:w-[100%] md:mt-[7rem] lg:border-2 lg: bg-[#29A59D] sm:ml-[-1rem] sm:border-2 sm:bg-[#29A59D] md:border-2 md:bg-[#29A59D]">
-              <div className="Poppins ptSerif lg:text-5xl lg:text-[#fff] lg:mt-[6rem] lg:ml-[25rem] md:text-5xl md:text-[#fff] md:mt-[4rem] md:ml-[11rem] sm:text-5xl sm:text-[#fff] sm:mt-[4rem] sm:ml-[5rem]">
+            <div className="sm:mt-[70rem] sm:w-[37.5rem] sm:h-[193rem] lg:h-[80rem] lg:w-[82rem] lg:ml-[-4rem] lg:mt-[22rem] md:h-[78rem] md:ml-[-2rem] md:w-[48.4rem] md:mt-[12rem] lg:border-2 lg: bg-[#29A59D] sm:ml-[-1rem] sm:border-2 sm:bg-[#29A59D] md:border-2 md:bg-[#29A59D] 2xl:h-[80rem] 2xl:w-[98rem] 2xl:ml-[-4rem] 2xl:mt-[12rem]">
+              <div className="Poppins ptSerif lg:text-5xl lg:text-[#fff] lg:mt-[6rem] lg:ml-[27rem] md:text-5xl md:text-[#fff] md:mt-[4rem] md:ml-[11rem] sm:text-5xl sm:text-[#fff] sm:mt-[4rem] sm:ml-[5rem] 2xl:text-5xl 2xl:text-[#fff] 2xl:mt-[6rem] 2xl:ml-[37rem]">
                 Our Amazing Team
               </div>
 
-              <div className="lg:grid lg:grid-cols-3 lg:border lg:relative lg:h-[60rem] lg:mt-[5rem] lg:w-[70rem] lg:ml-[5rem] lg:bg-white md:grid md:grid-cols-2 md:border md:relative md:mt-[3rem] md:h-[64rem] md:w-[38rem] md:ml-[5.3rem] md:bg-white sm:grid sm:grid-cols-1 sm:border sm:relative sm:mt-[3rem] sm:w-[26rem] sm:h-[175rem] sm:ml-[5.5rem] sm:bg-white ">
+              <div className="lg:grid lg:grid-cols-3 lg:border lg:relative lg:h-[60rem] lg:mt-[5rem] lg:w-[70rem] lg:ml-[7rem] lg:bg-white md:grid md:grid-cols-2 md:border md:relative md:mt-[3rem] md:h-[64rem] md:w-[38rem] md:ml-[5.3rem] md:bg-white sm:grid sm:grid-cols-1 sm:border sm:relative sm:mt-[3rem] sm:w-[26rem] sm:h-[175rem] sm:ml-[5.5rem] sm:bg-white 2xl:border 2xl:relative 2xl:h-[60rem] 2xl:mt-[5rem] 2xl:w-[70rem] 2xl:ml-[14rem] 2xl:bg-white">
                 <div>
                   <div>
                     <img
@@ -374,8 +374,8 @@ const Nav = () => {
         </div>
       </div>
 
-      <section id="services" className="lg:mx-auto sm:mx-auto md:mx-auto">
-        <div className="lg:mt-[155rem] sm:mt-[280rem] md:mt-[175rem]">
+      <section id="services" className="">
+        <div className="lg:mt-[155rem] sm:mt-[280rem] md:mt-[132rem] 2xl:ml-[8rem]">
           <div className="Poppins ptSerif lg:ml-[32rem] lg:text-4xl sm:ml-[13rem] sm:text-4xl md:ml-[17rem] md:text-4xl">
             <h1>What We Do</h1>
           </div>
@@ -481,7 +481,7 @@ const Nav = () => {
           backgroundImage: `url(${Img6})`,
         }}
       >
-        <div className="lg:flex lg:ml-[9rem] sm:flex">
+        <div className="lg:flex lg:ml-[9rem] sm:flex 2xl:ml-[16.5rem]">
           <div className="lg:border lg:w-[26rem] lg:mt-[33rem] lg:h-[30rem] lg:bg-[#ffffff] md:border-none md:w-[34rem] md:mt-[50rem] md:h-[34rem] sm:border-none sm:w-[29rem] sm:mt-[42rem] sm:h-[30rem] sm:ml-[4rem] sm:bg-[#ffffff]">
             <div className="lg:ml-[2.6rem] lg:mt-[4rem] md:ml-[3.2rem] md:mt-[4rem] sm:ml-[2.6rem] sm:mt-[4rem]">
               <div className="lg:flex lg:items-center md:flex md:items-center">
