@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { FaTimes } from "react-icons/fa";
@@ -25,7 +25,6 @@ import { LuClock3 } from "react-icons/lu";
 import { FaInstagram } from "react-icons/fa";
 import { FaSnapchat } from "react-icons/fa";
 
-
 const Nav = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
@@ -41,13 +40,22 @@ const Nav = () => {
     setMail("");
     setMessage("");
 
-    emailjs.sendForm('service_ydaxe79', 'template_ie3cd28', form.current, 'kWG-FqtA7uTl12qe2')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        "service_ydaxe79",
+        "template_ie3cd28",
+        form.current,
+        "kWG-FqtA7uTl12qe2"
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-          console.log("message sent")
-      }, (error) => {
+          console.log("message sent");
+        },
+        (error) => {
           console.log(error.text);
-      });
+        }
+      );
   };
 
   const content = (
@@ -84,7 +92,6 @@ const Nav = () => {
     </>
   );
   return (
-    
     <nav>
       <div className="z-30 flex justify-between px-10 py-3 text-white h-10vh items-center bg-[#010127]">
         <div className="flex items-center flex-1">
@@ -132,7 +139,7 @@ const Nav = () => {
         </button>
       </div>
       <div
-         className="lg:w-full lg:bg-cover lg:bg-no-repeat lg:h-[60rem] md:w-full md:bg-contain md:bg-no-repeat md:h-[46rem] sm:w-full sm:bg-contain sm:bg-no-repeat sm:h-[43rem]"
+        className="lg:w-full lg:bg-cover lg:bg-no-repeat lg:h-[60rem] md:w-full md:bg-contain md:bg-no-repeat md:h-[46rem] sm:w-full sm:bg-contain sm:bg-no-repeat sm:h-[43rem]"
         style={{
           backgroundImage: `url(${Img})`,
         }}
@@ -155,64 +162,33 @@ const Nav = () => {
               />
             </Link>
           </div>
-          
-          <section id="about" className="lg:relative sm:relative z-10 ">
-            <div className="lg:h-[30rem] lg:mx-auto sm:mx-auto md:mx-auto z-30 lg:ml-[-45px] relative lg:w-[26rem] lg:mt-[14rem] sm:h-[10rem] z-30 relative sm:w-[100%] sm:ml-[-2.2rem] sm:mt-[8rem] md:h-[80rem] z-30 relative md:w-[18rem] md:ml-[-2.5rem] md:mt-[11rem]">
-              <div className="lg:h-[30rem] z-30 relative lg:w-[26rem] lg:ml-[17.5rem] lg:mt-[6.2rem] sm:h-[10rem] z-30 relative sm:w-[16rem] sm:ml-[11rem] sm:mt-[4.5rem] md:h-[80rem] z-30 relative md:w-[18rem] md:ml-[15.5rem] md:mt-[8rem]">
-                <img
-                  src={Img2}
-                  className=" lg:h-[33rem] lg:w-[35rem] lg:rounded-[0.5rem] sm:h-[21rem] sm:w-[30rem] sm:rounded-[0.5rem] md:h-[23rem] md:w-[30rem] md:rounded-[0.5rem]"
-                  alt="pix"
-                />
-              </div>
-              <div className="lg:h-[31.5rem] lg:text-[#fff] lg:z-20 lg:w-[33rem] lg:bg-[#483C32] lg:absolute lg:left-[38.5rem] lg:top-[5rem] sm:h-[38.8rem] sm:z-20 sm:w-[22rem] sm:text-[#fff] sm:bg-[#483C32] sm:absolute sm:left-[8rem] sm:top-[33rem] md:h-[38.8rem] md:text-[#fff] md:z-20 md:w-[22rem] md:bg-[#483C32] md:absolute md:left-[13.2rem] md:top-[37.5rem]">
-                <div className="Poppins ptSerif lg:ml-[11rem] text-[#00A3BA] lg:mt-[3rem] lg:text-5xl sm:ml-[7rem] sm:mt-[1.5rem] sm:text-3xl md:ml-[7rem] md:mt-[1.5rem] md:text-3xl">
-                  About Us
-                </div>
-                <p className="lg:ml-[5.5rem] lg:w-[26rem] lg:m-[20px] ptSerif lg:text-[16px] sm:ml-[2.5rem] sm:w-[16rem] sm:m-[14px] ptSerif sm:text-[17px] md:ml-[2.5rem] md:w-[16rem] md:m-[14px] ptSerif md:text-[17px]">
-                  Hello, and welcome to{" "}
-                  <span className="lg:bg-gradient-to-r from-[#00A3BA] to-blue-500">
-                    TIMELINE ENTERTAINMENT!
-                  </span>{" "}
-                  We,re a small, passionate team of creatives who dedicated to
-                  bringing joy and excitement to people's lives through our
-                  work.
-                </p>
-                <p className="lg:ml-[5.5rem] lg:w-[26rem] lg:m-[20px] ptSerif lg:text-[16px] sm:ml-[2.5rem] sm:w-[16rem] sm:m-[20px] ptSerif sm:text-[16px] md:ml-[2.5rem] md:w-[16rem] md:m-[20px] ptSerif md:text-[16px]">
-                  Our Company was founded in 2007. We started out small, but our
-                  passion and hard work has helped us grow into the company we
-                  are today. We're proud to say that we've been able to bring
-                  smiles to the faces of people all over the world with our
-                  unique brand of entertainment.
-                </p>
-                <p className="lg:ml-[5.5rem] lg:w-[26rem] lg:m-[20px] ptSerif lg:text-[16px] sm:ml-[2.5rem] sm:w-[16rem] sm:m-[20px] ptSerif sm:text-[14px] md:ml-[2.5rem] md:w-[16rem] md:m-[20px] ptSerif md:text-[14px]">
-                  {" "}
-                  Our team is made up of individuals with a wide range of
-                  backgrounds and talents.
-                </p>
-                <Link to="/aboutDetails">
-                  <input
-                    type="button"
-                    value="LEARN MORE"
-                    className=" lg:ml-[7rem] lg:bg-[#00A3BA] lg:border-none lg:pl-[11px] lg:pt-[11px] lg:pb-[11px] lg:pr-[11px] lg:text-[14px] cursor-pointer lg:rounded-[7px] lg:hover:bg-cyan-500 lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 sm:ml-[7rem] sm:bg-[#00A3BA] sm:border-none sm:pl-[11px] sm:pt-[11px] sm:pb-[11px] sm:pr-[11px] sm:text-[14px] cursor-pointer sm:rounded-[7px] sm:hover:bg-cyan-500 sm:hover:text-[#000000] sm:transition sm:ease-out sm:duration-500 md:ml-[7rem] md:bg-[#00A3BA] md:border-none md:pl-[9px] md:pt-[9px] md:pb-[9px] md:pr-[9px] md:text-[14px] cursor-pointer md:rounded-[7px] md:hover:bg-cyan-500 md:hover:text-[#000000] md:transition md:ease-out md:duration-500"
-                  />
-                </Link>
-              </div>
 
-              <div>
-                <div className="lg:ml-[0.5rem] lg:text-[#000907] lg:absolute lg:top-[0.5rem] lg:left-[64rem] lg:h-[170px] lg:w-[170px] lg:bg-[#ce905e] lg:rounded-[50%] lg:transition lg:lg:ease-out lg:duration-500 lg:hover:bg-cyan-500 sm:ml-[2rem] sm:absolute sm:top-[30rem] sm:left-[24rem] sm:h-[110px] sm:w-[110px] sm:bg-[#ce905e] sm:rounded-[50%] sm:transition sm:lg:ease-out sm:duration-500 sm:hover:bg-cyan-500 md:ml-[2rem] md:absolute md:top-[34rem] md:left-[29rem] md:h-[140px] md:w-[140px] md:bg-[#ce905e] md:rounded-[50%] md:transition md:ease-out md:duration-500 md:hover:bg-cyan-500"></div>
-              </div>
-              <div>
-                <div className="lg:h-[21rem] lg:w-[16rem] lg:border-[0.7rem] lg:absolute lg:top-[16.3rem] lg:left-[7.5rem] lg:z-30 sm:h-[13rem] sm:w-[11rem] sm:border-[0.7rem] sm:absolute sm:top-[14.5rem] sm:left-[8.5rem] sm:z-30 md:h-[16rem] md:w-[11rem] md:border-[0.7rem] md:absolute md:top-[14.5rem] md:left-[13rem] md:z-30">
-                  <img
-                    src={Img3}
-                    alt="pix"
-                    className="lg:h-[19.7rem] lg:w-[15rem] sm:h-[11.7rem] sm:w-[11rem] md:h-[14.6rem] md:w-[11rem]"
-                  />
+          <section id="about" className="z-10 lg:w-[75rem] lg:mt-[15rem] lg:p-[6rem] sm:w-[29rem] sm:mt-[11rem] md:w-[15rem] md:mt-[15rem]">
+            <div className="">
+              <div className="lg:flex">
+                <div className="lg:text-[2.8rem] lg:text-xl lg:font-bold lg:ml-[3rem] md:text-[2.6rem] md:text-xl md:font-bold md:ml-[1.5rem] sm:text-[2.7rem] sm:text-xl sm:font-bold sm:ml-[14rem]">
+                  <h1 className="lg:text-[#00A3BA] sm:text-[#00A3BA] md:text-[#00A3BA]">About Us</h1>
                 </div>
-              </div>
-              <div>
-                <div className="lg:absolute lg:top-[31rem] lg:left-[2rem] lg:h-[170px] lg:w-[170px] lg:bg-[#ce905e] lg:rounded-[50%] lg:transition lg:ease-out lg:duration-500 lg:hover:bg-cyan-500 sm:ml-[1rem] sm:absolute sm:top-[23rem] sm:left-[5rem] sm:h-[110px] sm:w-[110px] sm:bg-[#ce905e] sm:rounded-[50%] sm:transition sm:ease-out sm:duration-500 sm:hover:bg-cyan-500 md:absolute md:top-[26rem] md:left-[8rem] md:h-[140px] md:w-[140px] md:bg-[#ce905e] md:rounded-[50%] md:transition md:ease-out md:duration-500 md:hover:bg-cyan-500"></div>
+
+                <div className="lg:ml-[6rem]">
+                  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5] md:font-medium md:text-[1.1rem] md:w-[42rem] md:p-[20px] md:text-[#B2BEB5] sm:font-medium sm:text-[1.1rem] sm:w-[34rem] sm:p-[20px] sm:text-[#B2BEB5]">
+                    Hello, and welcome to TIMELINE ENTERTAINMENT! We,re a small,
+                    passionate team of creatives who dedicated to bringing joy
+                    and excitement to people's lives through our work. Our
+                    Company was founded in 2007. We started out small, but our
+                    passion and hard work has helped us grow into the company we
+                    are today. We're proud to say that we've been able to bring
+                    smiles to the faces of people all over the world with our
+                    unique brand of entertainment.
+                  </p>
+                  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5] sm:font-medium sm:text-[1.1rem] sm:w-[34rem] sm:p-[20px] sm:text-[#B2BEB5] md:font-medium md:text-[1.1rem] md:text-[#B2BEB5]">
+                    Timeline Entertainment is a leading provider of innovative
+                    and engaging entertainment experiences. We are commited to
+                    pushing the boundaries of whats possible in entertainment
+                    and our work has been recognized with numerous awards and
+                    accolades.
+                  </p>
+                </div>
               </div>
             </div>
           </section>
@@ -500,7 +476,7 @@ const Nav = () => {
 
       <div
         id="contact"
-          className="lg:w-full lg:bg-cover lg:bg-no-repeat lg:h-[60rem] lg:mt-[15rem] md:w-full md:bg-contain md:bg-no-repeat md:mt-[17rem] md:h-[46rem] sm:w-full sm:bg-contain sm:bg-no-repeat sm:mt-[14rem] sm:h-[43rem]"
+        className="lg:w-full lg:bg-cover lg:bg-no-repeat lg:h-[60rem] lg:mt-[15rem] md:w-full md:bg-contain md:bg-no-repeat md:mt-[17rem] md:h-[46rem] sm:w-full sm:bg-contain sm:bg-no-repeat sm:mt-[14rem] sm:h-[43rem]"
         style={{
           backgroundImage: `url(${Img6})`,
         }}
@@ -556,14 +532,35 @@ const Nav = () => {
                 </p>
               </div>
               <div className="lg:ml-[50px] md:ml-[50px] sm:ml-[45px]">
-              <form ref={form} onSubmit={sendEmail}>
-                <input type="text" className="lg:w-[23rem] lg:p-[14px] lg:border text-sm sm:w-[23rem] sm:p-[14px] sm:border sm:text-sm md:w-[28rem] md:p-[14px] md:border md:text-sm" name="to_name" value={name} onChange={(e) => setName(e.target.value) }/>
-                
-                <input type="email" className="lg:mt-[26px] lg:w-[23rem] lg:p-[14px] lg:border lg:text-sm md:mt-[26px] md:w-[28rem] md:p-[14px] md:border md:text-sm sm:mt-[26px] sm:w-[23rem] sm:p-[14px] sm:border sm:text-sm" name="from_name" value={mail} onChange={(e) => setMail(e.target.value) }/>
-                
-                <textarea  name="message" className="lg:w-[23rem] lg:p-[29px] lg:border text-sm lg:mt-[26px] md:w-[28rem] md:p-[29px] md:border md:text-sm md:mt-[26px] sm:w-[23rem] sm:p-[29px] sm:border sm:text-sm sm:mt-[26px]" value={message} onChange={(e) => setMessage(e.target.value) }/>
-                <input type="submit" value="SUBMIT" className='lg:mt-[20px] lg:w-[23rem] lg:font-bold lg:ml-[4px] lg:bg-[#00A3BA] lg:border-none lg:pl-[10px] lg:pt-[10px] lg:pb-[10px] lg:pr-[10px] lg:text-[16px] cursor-pointer lg:rounded-[27px] lg:hover:bg-[#00A3BA] lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 sm:ml-[4px] sm:bg-[#00A3BA] sm:border-none sm:pl-[9.5rem] sm:mt-[20px] sm:text-[#fff] sm:pt-[10px] sm:pb-[10px] sm:pr-[9.5rem] sm:text-[16px] sm:rounded-[14px] sm:hover:bg-[#00A3BA] sm:hover:text-[#000000] sm:transition sm:ease-out sm:duration-500 md:mt-[25px] md:ml-[15px] md:bg-[#00A3BA] md:border-2 md:pl-[11rem] md:pt-[10px] md:pb-[10px] md:text-[#fff] md:pr-[11rem] md:text-[18px] md:rounded-[7px] md:hover:bg-[#00A3BA] md:hover:text-[#000000] md:transition md:ease-out md:duration-500'/>
-              </form>
+                <form ref={form} onSubmit={sendEmail}>
+                  <input
+                    type="text"
+                    className="lg:w-[23rem] lg:p-[14px] lg:border text-sm sm:w-[23rem] sm:p-[14px] sm:border sm:text-sm md:w-[28rem] md:p-[14px] md:border md:text-sm"
+                    name="to_name"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                  />
+
+                  <input
+                    type="email"
+                    className="lg:mt-[26px] lg:w-[23rem] lg:p-[14px] lg:border lg:text-sm md:mt-[26px] md:w-[28rem] md:p-[14px] md:border md:text-sm sm:mt-[26px] sm:w-[23rem] sm:p-[14px] sm:border sm:text-sm"
+                    name="from_name"
+                    value={mail}
+                    onChange={(e) => setMail(e.target.value)}
+                  />
+
+                  <textarea
+                    name="message"
+                    className="lg:w-[23rem] lg:p-[29px] lg:border text-sm lg:mt-[26px] md:w-[28rem] md:p-[29px] md:border md:text-sm md:mt-[26px] sm:w-[23rem] sm:p-[29px] sm:border sm:text-sm sm:mt-[26px]"
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
+                  />
+                  <input
+                    type="submit"
+                    value="SUBMIT"
+                    className="lg:mt-[20px] lg:w-[23rem] lg:font-bold lg:ml-[4px] lg:bg-[#00A3BA] lg:border-none lg:pl-[10px] lg:pt-[10px] lg:pb-[10px] lg:pr-[10px] lg:text-[16px] cursor-pointer lg:rounded-[27px] lg:hover:bg-[#00A3BA] lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 sm:ml-[4px] sm:bg-[#00A3BA] sm:border-none sm:pl-[9.5rem] sm:mt-[20px] sm:text-[#fff] sm:pt-[10px] sm:pb-[10px] sm:pr-[9.5rem] sm:text-[16px] sm:rounded-[14px] sm:hover:bg-[#00A3BA] sm:hover:text-[#000000] sm:transition sm:ease-out sm:duration-500 md:mt-[25px] md:ml-[15px] md:bg-[#00A3BA] md:border-2 md:pl-[11rem] md:pt-[10px] md:pb-[10px] md:text-[#fff] md:pr-[11rem] md:text-[18px] md:rounded-[7px] md:hover:bg-[#00A3BA] md:hover:text-[#000000] md:transition md:ease-out md:duration-500"
+                  />
+                </form>
               </div>
             </div>
           </div>
@@ -642,3 +639,88 @@ const Nav = () => {
 
 export default Nav;
 
+// <div className="lg:h-[30rem] z-30 lg:ml-[-45px] relative lg:w-[26rem] lg:mt-[14rem] sm:h-[10rem] z-30 relative sm:w-[100%] sm:ml-[-2.2rem] sm:mt-[8rem] md:h-[80rem] z-30 relative md:w-[18rem] md:ml-[-2.5rem] md:mt-[11rem]">
+//               <div className="lg:h-[30rem] z-30 relative lg:w-[26rem] lg:ml-[17.5rem] lg:mt-[6.2rem] sm:h-[10rem] z-30 relative sm:w-[16rem] sm:ml-[11rem] sm:mt-[4.5rem] md:h-[80rem] z-30 relative md:w-[18rem] md:ml-[15.5rem] md:mt-[8rem]">
+//                 <img
+//                   src={Img2}
+//                   className=" lg:h-[33rem] lg:w-[35rem] lg:rounded-[0.5rem] sm:h-[21rem] sm:w-[30rem] sm:rounded-[0.5rem] md:h-[23rem] md:w-[30rem] md:rounded-[0.5rem]"
+//                   alt="pix"
+//                 />
+//               </div>
+//               <div className="lg:h-[31.5rem] lg:text-[#fff] lg:z-20 lg:w-[33rem] lg:bg-[#483C32] lg:absolute lg:left-[38.5rem] lg:top-[5rem] sm:h-[38.8rem] sm:z-20 sm:w-[22rem] sm:text-[#fff] sm:bg-[#483C32] sm:absolute sm:left-[8rem] sm:top-[33rem] md:h-[38.8rem] md:text-[#fff] md:z-20 md:w-[22rem] md:bg-[#483C32] md:absolute md:left-[13.2rem] md:top-[37.5rem]">
+//                 <div className="Poppins ptSerif lg:ml-[11rem] text-[#00A3BA] lg:mt-[3rem] lg:text-5xl sm:ml-[7rem] sm:mt-[1.5rem] sm:text-3xl md:ml-[7rem] md:mt-[1.5rem] md:text-3xl">
+//                   About Us
+//                 </div>
+//                 <p className="lg:ml-[5.5rem] lg:w-[26rem] lg:m-[20px] ptSerif lg:text-[16px] sm:ml-[2.5rem] sm:w-[16rem] sm:m-[14px] ptSerif sm:text-[17px] md:ml-[2.5rem] md:w-[16rem] md:m-[14px] ptSerif md:text-[17px]">
+//                   Hello, and welcome to{" "}
+//                   <span className="lg:bg-gradient-to-r from-[#00A3BA] to-blue-500">
+//                     TIMELINE ENTERTAINMENT!
+//                   </span>{" "}
+//                   We,re a small, passionate team of creatives who dedicated to
+//                   bringing joy and excitement to people's lives through our
+//                   work.
+//                 </p>
+//                 <p className="lg:ml-[5.5rem] lg:w-[26rem] lg:m-[20px] ptSerif lg:text-[16px] sm:ml-[2.5rem] sm:w-[16rem] sm:m-[20px] ptSerif sm:text-[16px] md:ml-[2.5rem] md:w-[16rem] md:m-[20px] ptSerif md:text-[16px]">
+//                   Our Company was founded in 2007. We started out small, but our
+//                   passion and hard work has helped us grow into the company we
+//                   are today. We're proud to say that we've been able to bring
+//                   smiles to the faces of people all over the world with our
+//                   unique brand of entertainment.
+//                 </p>
+//                 <p className="lg:ml-[5.5rem] lg:w-[26rem] lg:m-[20px] ptSerif lg:text-[16px] sm:ml-[2.5rem] sm:w-[16rem] sm:m-[20px] ptSerif sm:text-[14px] md:ml-[2.5rem] md:w-[16rem] md:m-[20px] ptSerif md:text-[14px]">
+//                   {" "}
+//                   Our team is made up of individuals with a wide range of
+//                   backgrounds and talents.
+//                 </p>
+//                 <Link to="/aboutDetails">
+//                   <input
+//                     type="button"
+//                     value="LEARN MORE"
+//                     className=" lg:ml-[7rem] lg:bg-[#00A3BA] lg:border-none lg:pl-[11px] lg:pt-[11px] lg:pb-[11px] lg:pr-[11px] lg:text-[14px] cursor-pointer lg:rounded-[7px] lg:hover:bg-cyan-500 lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 sm:ml-[7rem] sm:bg-[#00A3BA] sm:border-none sm:pl-[11px] sm:pt-[11px] sm:pb-[11px] sm:pr-[11px] sm:text-[14px] cursor-pointer sm:rounded-[7px] sm:hover:bg-cyan-500 sm:hover:text-[#000000] sm:transition sm:ease-out sm:duration-500 md:ml-[7rem] md:bg-[#00A3BA] md:border-none md:pl-[9px] md:pt-[9px] md:pb-[9px] md:pr-[9px] md:text-[14px] cursor-pointer md:rounded-[7px] md:hover:bg-cyan-500 md:hover:text-[#000000] md:transition md:ease-out md:duration-500"
+//                   />
+//                 </Link>
+//               </div>
+
+//               <div>
+//                 <div className="lg:ml-[0.5rem] lg:text-[#000907] lg:absolute lg:top-[0.5rem] lg:left-[64rem] lg:h-[170px] lg:w-[170px] lg:bg-[#ce905e] lg:rounded-[50%] lg:transition lg:lg:ease-out lg:duration-500 lg:hover:bg-cyan-500 sm:ml-[2rem] sm:absolute sm:top-[30rem] sm:left-[24rem] sm:h-[110px] sm:w-[110px] sm:bg-[#ce905e] sm:rounded-[50%] sm:transition sm:lg:ease-out sm:duration-500 sm:hover:bg-cyan-500 md:ml-[2rem] md:absolute md:top-[34rem] md:left-[29rem] md:h-[140px] md:w-[140px] md:bg-[#ce905e] md:rounded-[50%] md:transition md:ease-out md:duration-500 md:hover:bg-cyan-500"></div>
+//               </div>
+//               <div>
+//                 <div className="lg:h-[21rem] lg:w-[16rem] lg:border-[0.7rem] lg:absolute lg:top-[16.3rem] lg:left-[7.5rem] lg:z-30 sm:h-[13rem] sm:w-[11rem] sm:border-[0.7rem] sm:absolute sm:top-[14.5rem] sm:left-[8.5rem] sm:z-30 md:h-[16rem] md:w-[11rem] md:border-[0.7rem] md:absolute md:top-[14.5rem] md:left-[13rem] md:z-30">
+//                   <img
+//                     src={Img3}
+//                     alt="pix"
+//                     className="lg:h-[19.7rem] lg:w-[15rem] sm:h-[11.7rem] sm:w-[11rem] md:h-[14.6rem] md:w-[11rem]"
+//                   />
+//                 </div>
+//               </div>
+//               <div>
+//                 <div className="lg:absolute lg:top-[31rem] lg:left-[2rem] lg:h-[170px] lg:w-[170px] lg:bg-[#ce905e] lg:rounded-[50%] lg:transition lg:ease-out lg:duration-500 lg:hover:bg-cyan-500 sm:ml-[1rem] sm:absolute sm:top-[23rem] sm:left-[5rem] sm:h-[110px] sm:w-[110px] sm:bg-[#ce905e] sm:rounded-[50%] sm:transition sm:ease-out sm:duration-500 sm:hover:bg-cyan-500 md:absolute md:top-[26rem] md:left-[8rem] md:h-[140px] md:w-[140px] md:bg-[#ce905e] md:rounded-[50%] md:transition md:ease-out md:duration-500 md:hover:bg-cyan-500"></div>
+//               </div>
+//             </div>
+
+{
+  /* <div>
+<div className="lg:w-[43rem] lg:mt-[4rem] lg:ml-[10em]">
+  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5]">
+    Hello, and welcome to TIMELINE ENTERTAINMENT! We,re a
+    small, passionate team of creatives who dedicated to
+    bringing joy and excitement to people's lives through
+    our work. Our Company was founded in 2007. We started
+    out small, but our passion and hard work has helped us
+    grow into the company we are today. We're proud to say
+    that we've been able to bring smiles to the faces of
+    people all over the world with our unique brand of
+    entertainment.
+  </p>
+</div>
+<div className=" lg:w-[43rem] lg:ml-[10em]">
+  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5]">
+    Timeline Entertainment is a leading provider of
+    innovative and engaging entertainment experiences. We
+    are commited to pushing the boundaries of whats possible
+    in entertainment and our work has been recognized with
+    numerous awards and accolades.
+  </p>
+</div>
+</div> */
+}
