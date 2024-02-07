@@ -380,11 +380,11 @@ const Nav = () => {
             <h1>What We Do</h1>
           </div>
           <div>
-            <p className="lg:ml-[16rem] lg:mt-[10px] lg:text-[20px] sm:ml-[2rem] sm:w-[320px] sm:mt-[10px] sm:text-[13.5px] md:ml-[2rem] md:mt-[10px] md:text-[18px]">
+            <p className="lg:ml-[16rem] lg:mt-[10px] lg:text-[20px] sm:ml-[2.3rem] sm:w-[375px] sm:mt-[10px] sm:text-[14px] md:ml-[2rem] md:mt-[10px] md:text-[18px]">
               Timeline Entertainment Company specializes in taking entertainment
               to the next level.
             </p>
-            <p className="lg:ml-[26rem] lg:text-[20px] sm:ml-[2rem] sm:mt-[3px] sm:text-[13.5px] md:ml-[12rem] md:text-[18px]">
+            <p className="lg:ml-[26rem] lg:text-[20px] sm:ml-[2.1rem] sm:mt-[3px] sm:text-[14px] md:ml-[12rem] md:text-[18px]">
               We offer swift and beautiful responses to us.
             </p>
           </div>
@@ -567,7 +567,7 @@ const Nav = () => {
         </div>
       </div>
 
-      <footer className="lg:mt-[12rem] lg:border lg:bg-[#00A3BA] lg:pr-[2rem] lg:pl-[2rem] lg:pt-[2rem] lg:pb-[1rem] lg:text-center lg:font-[0.9rem] md:mt-[48rem] md:border md:bg-[#00A3BA] md:pr-[2rem] md:pl-[2rem] md:pt-[2rem] md:pb-[1rem] md:text-center md:font-[0.9rem] sm:mt-[57rem] sm:border sm:bg-[#00A3BA] sm:pr-[2rem] sm:pl-[2rem] sm:pt-[2rem] lg:pb-[1rem] sm:text-center sm:font-[0.9rem]">
+      <footer className="lg:mt-[12rem] lg:border lg:bg-[#00A3BA] lg:pr-[2rem] lg:pl-[2rem] lg:pt-[2rem] lg:pb-[1rem] lg:text-center lg:font-[0.9rem] md:mt-[48rem] md:border md:bg-[#00A3BA] md:pr-[2rem] md:pl-[2rem] md:pt-[2rem] md:pb-[1rem] md:text-center md:font-[0.9rem] sm:mt-[50rem] sm:border sm:bg-[#00A3BA] sm:pr-[2rem] sm:pl-[2rem] sm:pt-[2rem] lg:pb-[1rem] sm:text-center sm:font-[0.9rem]">
         <a
           href="#"
           className="lg:font-bold md:font-bold sm:font-bold lg:text-4xl lg:text-[#1f1f38] sm:text-3xl"
