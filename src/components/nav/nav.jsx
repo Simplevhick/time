@@ -140,7 +140,7 @@ const Nav = () => {
           backgroundImage: `url(${Img})`,
         }}
       >
-        <div className="lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[39rem] lg:left-[2rem] sm:h-[11.7rem] sm:w-[12.4rem] sm:bg-black sm:bg-opacity-15 sm-border-none sm:absolute sm:top-[10rem] sm:left-[0.35rem] md:h-[17.5rem] md:w-[16.5rem] md:bg-black md:bg-opacity-20 md:border-none md:absolute md:top-[18rem] md:left-[1.6rem]">
+        <div className="lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[39rem] lg:left-[2rem] sm:h-[11.5rem] sm:w-[12.4rem] sm:bg-black sm:bg-opacity-15 sm-border-none sm:absolute sm:top-[10rem] sm:left-[0.35rem] md:h-[17.5rem] md:w-[16.5rem] md:bg-black md:bg-opacity-20 md:border-none md:absolute md:top-[18rem] md:left-[1.6rem]">
           <div>
             <h1 className="lg:text-6xl lg:ml-[21px] lg:mt-[25px] Poppins lg:text-[#00A3BA] sm:text-[22px] sm:mt-[5px] sm:ml-[14px] sm:leading-[20px] sm:text-[#00A3BA] md:text-[28px] md:leading-[29px] md:ml-[21px] md:mt-[19px] md:text-[#00A3BA]">
               We redefine entertainment.
@@ -154,7 +154,7 @@ const Nav = () => {
               <input
                 type="button"
                 value="READ MORE"
-                className="lg:mt-[30px] lg:ml-[28px] lg:bg-[#00A3BA] lg:text-[#fff] lg:border-none lg:pl-[12px] lg:pt-[12px] lg:pb-[12px] lg:pr-[12px] lg:text-[16px] cursor-pointer lg:rounded-[7px] lg:hover:bg-[#00A3BA] lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 sm:ml-[16px] sm:mt-[8px] sm:text-[#fff] sm:bg-[#00A3BA] sm:border-none sm:pl-[5px] sm:pt-[5px] sm:pb-[5px] sm:pr-[5px] sm:text-[10px] sm:rounded-[3px] sm:hover:bg-[#00A3BA] sm:hover:text-[#000000] sm:transition sm:ease-out sm:duration-500 md:mt-[12px] md:text-[#fff] lg:ml-[30px] md:bg-[#00A3BA] md:border-2 md:pl-[9px] md:pt-[9px] md:pb-[9px] md:pr-[9px] md:text-[12px] md:rounded-[7px] md:hover:bg-[#00A3BA] md:hover:text-[#000000] md:transition md:ease-out md:duration-500"
+                className="lg:mt-[30px] lg:ml-[28px] lg:bg-[#00A3BA] lg:text-[#fff] lg:border-none lg:pl-[12px] lg:pt-[12px] lg:pb-[12px] lg:pr-[12px] lg:text-[16px] cursor-pointer lg:rounded-[7px] lg:hover:bg-[#00A3BA] lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 sm:ml-[16px] sm:mt-[7px] sm:text-[#fff] sm:bg-[#00A3BA] sm:border-none sm:pl-[5px] sm:pt-[5px] sm:pb-[5px] sm:pr-[5px] sm:text-[10px] sm:rounded-[3px] sm:hover:bg-[#00A3BA] sm:hover:text-[#000000] sm:transition sm:ease-out sm:duration-500 md:mt-[12px] md:text-[#fff] lg:ml-[30px] md:bg-[#00A3BA] md:border-2 md:pl-[9px] md:pt-[9px] md:pb-[9px] md:pr-[9px] md:text-[12px] md:rounded-[7px] md:hover:bg-[#00A3BA] md:hover:text-[#000000] md:transition md:ease-out md:duration-500"
               />
             </Link>
           </div>
