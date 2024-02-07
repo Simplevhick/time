@@ -6,10 +6,6 @@ import { FaTimes } from "react-icons/fa";
 import { CiMenuFries } from "react-icons/ci";
 import Img from "./new.jpeg";
 import Img1 from "./logo.png";
-import Img2 from "./hmm2.jpg";
-import Img3 from "./pix.jpeg";
-import Img4 from "./pass 3.jpeg";
-import Img5 from "./pass 7.jpeg";
 import Img6 from "./bg.PNG";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -144,12 +140,12 @@ const Nav = () => {
           backgroundImage: `url(${Img})`,
         }}
       >
-        <div className="lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[39rem] lg:left-[2rem] sm:h-[12rem] sm:w-[16.5rem] sm:bg-black sm:bg-opacity-15 sm-border-none sm:absolute sm:top-[16.8rem] sm:left-[1rem] md:h-[17.5rem] md:w-[16.5rem] md:bg-black md:bg-opacity-20 md:border-none md:absolute md:top-[18rem] md:left-[1.6rem]">
+        <div className="lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[39rem] lg:left-[2rem] sm:h-[13rem] sm:w-[12.4rem] sm:bg-black sm:bg-opacity-15 sm-border-none sm:absolute sm:top-[9rem] sm:left-[0.35rem] md:h-[17.5rem] md:w-[16.5rem] md:bg-black md:bg-opacity-20 md:border-none md:absolute md:top-[18rem] md:left-[1.6rem]">
           <div>
-            <h1 className="lg:text-6xl lg:ml-[21px] lg:mt-[25px] Poppins lg:text-[#00A3BA] sm:text-[28px] sm:mt-[5px] sm:ml-[14px] sm:leading-[25px] sm:text-[#00A3BA] md:text-[28px] md:leading-[29px] md:ml-[21px] md:mt-[19px] md:text-[#00A3BA]">
+            <h1 className="lg:text-6xl lg:ml-[21px] lg:mt-[25px] Poppins lg:text-[#00A3BA] sm:text-[22px] sm:mt-[5px] sm:ml-[14px] sm:leading-[25px] sm:text-[#00A3BA] md:text-[28px] md:leading-[29px] md:ml-[21px] md:mt-[19px] md:text-[#00A3BA]">
               We redefine entertainment.
             </h1>
-            <p className="lg:mt-[1.3rem] lg:text-2xl lg:ml-[25px] lg:w-[29rem] lg:text-white sm:mt-[7px] sm:text-sm sm:ml-[14px] sm:w-[15.6rem] sm:leading-[18px] sm:text-white md:mt-[10px] md:leading-[28px] md:text-base md:ml-[19px] md:w-[15.6rem] md:text-white">
+            <p className="lg:mt-[1.3rem] lg:text-2xl lg:ml-[25px] lg:w-[29rem] lg:text-white sm:mt-[4px] sm:text-sm sm:ml-[14px] sm:w-[11rem] sm:leading-[18px] sm:text-white md:mt-[10px] md:leading-[28px] md:text-base md:ml-[19px] md:w-[15.6rem] md:text-white">
               Timeline Entertainment Limited was established by a team of
               professionals in music, audio-visuals, software managers, and
               media strategists in 2007.
@@ -158,7 +154,7 @@ const Nav = () => {
               <input
                 type="button"
                 value="READ MORE"
-                className="lg:mt-[30px] lg:ml-[28px] lg:bg-[#00A3BA] lg:text-[#fff] lg:border-none lg:pl-[12px] lg:pt-[12px] lg:pb-[12px] lg:pr-[12px] lg:text-[16px] cursor-pointer lg:rounded-[7px] lg:hover:bg-[#00A3BA] lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 sm:ml-[16px] sm:mt-[8.5px] sm:text-[#fff] sm:bg-[#00A3BA] sm:border-none sm:pl-[7px] sm:pt-[7px] sm:pb-[7px] sm:pr-[7px] sm:text-[12px] sm:rounded-[3px] sm:hover:bg-[#00A3BA] sm:hover:text-[#000000] sm:transition sm:ease-out sm:duration-500 md:mt-[12px] md:text-[#fff] lg:ml-[30px] md:bg-[#00A3BA] md:border-2 md:pl-[9px] md:pt-[9px] md:pb-[9px] md:pr-[9px] md:text-[12px] md:rounded-[7px] md:hover:bg-[#00A3BA] md:hover:text-[#000000] md:transition md:ease-out md:duration-500"
+                className="lg:mt-[30px] lg:ml-[28px] lg:bg-[#00A3BA] lg:text-[#fff] lg:border-none lg:pl-[12px] lg:pt-[12px] lg:pb-[12px] lg:pr-[12px] lg:text-[16px] cursor-pointer lg:rounded-[7px] lg:hover:bg-[#00A3BA] lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 sm:ml-[16px] sm:mt-[8px] sm:text-[#fff] sm:bg-[#00A3BA] sm:border-none sm:pl-[5px] sm:pt-[5px] sm:pb-[5px] sm:pr-[5px] sm:text-[10px] sm:rounded-[3px] sm:hover:bg-[#00A3BA] sm:hover:text-[#000000] sm:transition sm:ease-out sm:duration-500 md:mt-[12px] md:text-[#fff] lg:ml-[30px] md:bg-[#00A3BA] md:border-2 md:pl-[9px] md:pt-[9px] md:pb-[9px] md:pr-[9px] md:text-[12px] md:rounded-[7px] md:hover:bg-[#00A3BA] md:hover:text-[#000000] md:transition md:ease-out md:duration-500"
               />
             </Link>
           </div>
@@ -535,7 +531,7 @@ const Nav = () => {
                 <form ref={form} onSubmit={sendEmail}>
                   <input
                     type="text"
-                    className="lg:w-[23rem] lg:p-[14px] lg:border text-sm sm:w-[22rem] sm:ml-[2rem] sm:p-[14px] sm:border sm:text-sm md:w-[28rem] md:p-[14px] md:border md:text-sm"
+                    className="lg:w-[23rem] lg:p-[14px] lg:border text-sm sm:w-[22.3rem] sm:ml-[2rem] sm:p-[14px] sm:border sm:text-sm md:w-[28rem] md:p-[14px] md:border md:text-sm"
                     name="to_name"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
@@ -543,7 +539,7 @@ const Nav = () => {
 
                   <input
                     type="email"
-                    className="lg:mt-[26px] lg:w-[23rem] lg:p-[14px] lg:border lg:text-sm md:mt-[26px] md:w-[28rem] md:p-[14px] md:border md:text-sm sm:w-[22rem] sm:ml-[2rem] sm:mt-[22px] sm:p-[14px] sm:border sm:text-sm"
+                    className="lg:mt-[26px] lg:w-[23rem] lg:p-[14px] lg:border lg:text-sm md:mt-[26px] md:w-[28rem] md:p-[14px] md:border md:text-sm sm:w-[22.3rem] sm:ml-[2rem] sm:mt-[22px] sm:p-[14px] sm:border sm:text-sm"
                     name="from_name"
                     value={mail}
                     onChange={(e) => setMail(e.target.value)}
@@ -551,7 +547,7 @@ const Nav = () => {
 
                   <textarea
                     name="message"
-                    className="lg:w-[23rem] lg:p-[29px] lg:border text-sm lg:mt-[26px] md:w-[28rem] md:p-[29px] md:border md:text-sm md:mt-[26px] sm:w-[22rem] sm:ml-[2rem] sm:p-[17px] sm:border sm:text-sm sm:mt-[26px]"
+                    className="lg:w-[23rem] lg:p-[29px] lg:border text-sm lg:mt-[26px] md:w-[28rem] md:p-[29px] md:border md:text-sm md:mt-[26px] sm:w-[22.3rem] sm:ml-[2rem] sm:p-[17px] sm:border sm:text-sm sm:mt-[26px]"
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                   />
