@@ -7,6 +7,8 @@ import { CiMenuFries } from "react-icons/ci";
 import Img from "./new.jpeg";
 import Img1 from "./logo.png";
 import Img6 from "./bg.PNG";
+import Img4 from "./pass 3.jpeg"
+import Img5 from "./pass 7.jpeg"
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
@@ -189,22 +191,22 @@ const Nav = () => {
             </div>
           </section>
 
-          {/* <section id="team">
-            <div className="sm:mt-[70rem] sm:w-[37.5rem] sm:h-[193rem] lg:h-[80rem] lg:w-[82rem] lg:ml-[-4rem] lg:mt-[22rem] md:h-[78rem] md:ml-[-2rem] md:w-[48.4rem] md:mt-[12rem] lg:border-2 lg: bg-[#29A59D] sm:ml-[-8rem] sm:border-2 sm:bg-[#29A59D] md:border-2 md:bg-[#29A59D] 2xl:h-[80rem] 2xl:w-[108rem] 2xl:ml-[-4rem] 2xl:mt-[12rem]">
-              <div className="Poppins ptSerif lg:text-5xl lg:text-[#fff] lg:mt-[6rem] lg:ml-[27rem] md:text-5xl md:text-[#fff] md:mt-[4rem] md:ml-[11rem] sm:text-5xl sm:text-[#fff] sm:mt-[4rem] sm:ml-[5rem] 2xl:text-5xl 2xl:text-[#fff] 2xl:mt-[6rem] 2xl:ml-[43rem]">
+           <section id="team">
+            <div className="sm:mt-[12rem] sm:w-[33.9rem] sm:h-[193rem] lg:h-[80rem] lg:w-[82rem] lg:ml-[-4rem] lg:mt-[22rem] md:h-[78rem] md:ml-[-2rem] md:w-[48.4rem] md:mt-[12rem] lg:border-2 lg: bg-[#29A59D] sm:ml-[-8rem] sm:border-2 sm:bg-[#29A59D] md:border-2 md:bg-[#29A59D] 2xl:h-[80rem] 2xl:w-[108rem] 2xl:ml-[-4rem] 2xl:mt-[12rem]">
+              <div className="Poppins ptSerif lg:text-5xl lg:text-[#fff] lg:mt-[6rem] lg:ml-[27rem] md:text-5xl md:text-[#fff] md:mt-[4rem] md:ml-[11rem] sm:text-4xl sm:text-[#fff] sm:mt-[3rem] sm:ml-[10rem] 2xl:text-5xl 2xl:text-[#fff] 2xl:mt-[6rem] 2xl:ml-[43rem]">
                 Our Amazing Team
               </div>
 
-              <div className="lg:grid lg:grid-cols-3 lg:border lg:relative lg:h-[60rem] lg:mt-[5rem] lg:w-[70rem] lg:ml-[7rem] lg:bg-white md:grid md:grid-cols-2 md:border md:relative md:mt-[3rem] md:h-[64rem] md:w-[38rem] md:ml-[5.3rem] md:bg-white sm:grid sm:grid-cols-1 sm:border sm:relative sm:mt-[3rem] sm:w-[6rem] sm:h-[175rem] sm:ml-[5.5rem] sm:bg-white 2xl:border 2xl:relative 2xl:h-[60rem] 2xl:mt-[5rem] 2xl:w-[70rem] 2xl:ml-[19rem] 2xl:bg-white">
-                <div>
+              <div className="lg:grid lg:grid-cols-3 lg:border lg:relative lg:h-[60rem] lg:mt-[5rem] lg:w-[70rem] lg:ml-[7rem] lg:bg-white md:grid md:grid-cols-2 md:border md:relative md:mt-[3rem] md:h-[64rem] md:w-[38rem] md:ml-[5.3rem] md:bg-white sm:grid sm:grid-cols-1 sm:border sm:relative sm:mt-[3rem] sm:w-[23.2rem] sm:h-[175rem] sm:ml-[9rem] sm:bg-white 2xl:border 2xl:relative 2xl:h-[60rem] 2xl:mt-[5rem] 2xl:w-[70rem] 2xl:ml-[19rem] 2xl:bg-white">
+                <div className="">
                   <div>
                     <img
                       src={Img4}
                       alt="pix"
-                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[70px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[65px] md:mt-[2rem] sm:w-[16rem] sm:h-[20rem] sm:ml-[80px] sm:mt-[3rem]"
+                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[70px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[65px] md:mt-[2rem] sm:w-[16rem] sm:h-[20rem] sm:ml-[55px] sm:mt-[3rem]"
                     />
                   </div>
-                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[20rem] lg:left-[6.4rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[14.5rem] md:left-[5.1rem] md:bg-white sm:absolute sm:w-[12rem] sm:p-[10px] sm:top-[19rem] sm:left-[7rem] sm:bg-white">
+                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[20rem] lg:left-[6.4rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[14.5rem] md:left-[5.1rem] md:bg-white sm:absolute sm:w-[12rem] sm:p-[10px] sm:top-[19rem] sm:left-[5.4rem] sm:bg-white">
                     <p className="lg:text-[22px] lg:ml-[13px] lg:font-bold md:text-[19px] md:ml-[9px] md:font-bold sm:text-[19px] sm:ml-[25px] sm:font-bold tracking-wide">
                       MR MICHEAL
                     </p>
@@ -212,7 +214,7 @@ const Nav = () => {
                       Worldwide Partner
                     </p>
                   </div>
-                  <div className="lg:flex lg:mt-[32px] lg:ml-[9.4rem] sm:flex sm:mt-[15px] sm:ml-[9.7rem] md:flex md:mt-[30px] md:ml-[7rem]">
+                  <div className="lg:flex lg:mt-[32px] lg:ml-[9.4rem] sm:flex sm:mt-[15px] sm:ml-[8.5rem] md:flex md:mt-[30px] md:ml-[7rem]">
                     <p className="cursor-pointer">
                       <FaFacebookF />
                     </p>
@@ -229,10 +231,10 @@ const Nav = () => {
                     <img
                       src={Img5}
                       alt="pix"
-                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[55px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[40px] md:mt-[2rem] sm:w-[16rem] sm:h-[20rem] sm:ml-[80px] sm:mt-[3rem]"
+                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[55px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[40px] md:mt-[2rem] sm:w-[16rem] sm:h-[20rem] sm:ml-[55px] sm:mt-[3rem]"
                     />
                   </div>
-                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[20rem] lg:left-[29rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[14.3rem] md:left-[22.5rem] md:bg-white sm:absolute sm:w-[12rem] sm:p-[10px] sm:top-[48rem] sm:left-[7rem] sm:bg-white">
+                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[20rem] lg:left-[29rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[14.3rem] md:left-[22.5rem] md:bg-white sm:absolute sm:w-[12rem] sm:p-[10px] sm:top-[47rem] sm:left-[5.4rem] sm:bg-white">
                     <p className="lg:text-[22px] lg:ml-[21px] lg:font-bold md:text-[19px] md:ml-[9px] md:font-bold sm:text-[19px] sm:ml-[31px] sm:font-bold tracking-wide">
                       CHINONSO
                     </p>
@@ -240,7 +242,7 @@ const Nav = () => {
                       Worldwide Partner
                     </p>
                   </div>
-                  <div className="lg:flex lg:mt-[32px] lg:ml-[8.7rem] sm:flex sm:mt-[26px] sm:ml-[10rem] md:flex md:mt-[30px] md:ml-[5.9rem]">
+                  <div className="lg:flex lg:mt-[32px] lg:ml-[8.7rem] sm:flex sm:mt-[15px] sm:ml-[8.5rem] md:flex md:mt-[30px] md:ml-[5.9rem]">
                     <p className="cursor-pointer">
                       <FaFacebookF />
                     </p>
@@ -257,10 +259,10 @@ const Nav = () => {
                     <img
                       src={Img4}
                       alt="pix"
-                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[50px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[65px] md:mt-[2rem] sm:w-[16rem] sm:h-[20rem] sm:ml-[80px] sm:mt-[3rem]"
+                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[50px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[65px] md:mt-[2rem] sm:w-[16rem] sm:h-[20rem] sm:ml-[55px] sm:mt-[3rem]"
                     />
                   </div>
-                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[20rem] lg:left-[51.6rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[35.8rem] md:left-[5.1rem] md:bg-white sm:absolute sm:w-[12rem] sm:p-[10px] sm:top-[78rem] sm:left-[7rem] sm:bg-white">
+                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[20rem] lg:left-[51.6rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[35.8rem] md:left-[5.1rem] md:bg-white sm:absolute sm:w-[12rem] sm:p-[10px] sm:top-[76rem] sm:left-[5.4rem] sm:bg-white">
                     <p className="lg:text-[22px] lg:ml-[22px] lg:font-bold md:text-[19px] md:ml-[9px] md:font-bold sm:text-[19px] sm:ml-[28px] sm:font-bold tracking-wide">
                       YHEMOLEE
                     </p>
@@ -268,7 +270,7 @@ const Nav = () => {
                       Worldwide Partner
                     </p>
                   </div>
-                  <div className="lg:flex lg:mt-[32px] lg:ml-[8rem] sm:flex sm:mt-[53px] sm:ml-[10.1rem] md:flex md:mt-[30px] md:ml-[6.9rem]">
+                  <div className="lg:flex lg:mt-[32px] lg:ml-[8rem] sm:flex sm:mt-[23px] sm:ml-[8.5rem] md:flex md:mt-[30px] md:ml-[6.9rem]">
                     <p className="cursor-pointer">
                       <FaFacebookF />
                     </p>
@@ -285,10 +287,10 @@ const Nav = () => {
                     <img
                       src={Img5}
                       alt="pix"
-                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[73px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[40px] md:mt-[2rem] sm:w-[16rem] sm:h-[20rem] sm:ml-[80px] sm:mt-[3rem]"
+                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[73px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[40px] md:mt-[2rem] sm:w-[16rem] sm:h-[20rem] sm:ml-[55px] sm:mt-[3rem]"
                     />
                   </div>
-                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[49.9rem] lg:left-[6.7rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[35.8rem] md:left-[22.4rem] md:bg-white sm:absolute sm:w-[12rem] sm:p-[10px] sm:top-[107rem] sm:left-[7rem] sm:bg-white">
+                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[49.9rem] lg:left-[6.7rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[35.8rem] md:left-[22.4rem] md:bg-white sm:absolute sm:w-[12rem] sm:p-[10px] sm:top-[106rem] sm:left-[5.4rem] sm:bg-white">
                     <p className="lg:text-[22px] lg:ml-[19px] lg:font-bold md:text-[19px] md:ml-[9px] md:font-bold sm:text-[19px] sm:ml-[21px] sm:font-bold tracking-wide">
                       MR CAPTAIN
                     </p>
@@ -296,7 +298,7 @@ const Nav = () => {
                       Worldwide Partner
                     </p>
                   </div>
-                  <div className="lg:flex lg:mt-[32px] lg:ml-[10rem] sm:flex sm:mt-[30px] sm:ml-[10rem] md:flex md:mt-[30px] md:ml-[5.9rem]">
+                  <div className="lg:flex lg:mt-[32px] lg:ml-[10rem] sm:flex sm:mt-[40px] sm:ml-[8.5rem] md:flex md:mt-[30px] md:ml-[5.9rem]">
                     <p className="cursor-pointer">
                       <FaFacebookF />
                     </p>
@@ -313,10 +315,10 @@ const Nav = () => {
                     <img
                       src={Img4}
                       alt="pix"
-                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[56px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[65px] md:mt-[2rem] sm:w-[16rem] sm:h-[20rem] sm:ml-[80px] sm:mt-[3rem]"
+                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[56px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[65px] md:mt-[2rem] sm:w-[16rem] sm:h-[20rem] sm:ml-[55px] sm:mt-[3rem]"
                     />
                   </div>
-                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[49.9rem] lg:left-[28.9rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[57rem] md:left-[5rem] md:bg-white sm:absolute sm:w-[12rem] sm:p-[10px] sm:top-[136rem] sm:left-[7rem] sm:bg-white">
+                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[49.9rem] lg:left-[28.9rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[57rem] md:left-[5rem] md:bg-white sm:absolute sm:w-[12rem] sm:p-[10px] sm:top-[136rem] sm:left-[5.4rem] sm:bg-white">
                     <p className="lg:text-[22px] lg:ml-[22px] lg:font-bold md:text-[19px] md:ml-[11px] md:font-bold sm:text-[19px] sm:ml-[30px] sm:font-bold tracking-wide">
                       MR DAVIDO
                     </p>
@@ -324,7 +326,7 @@ const Nav = () => {
                       Worldwide Partner
                     </p>
                   </div>
-                  <div className="lg:flex lg:mt-[32px] lg:ml-[8.6rem] sm:flex sm:mt-[30px] sm:ml-[10rem] md:flex md:mt-[30px] md:ml-[6.9rem]">
+                  <div className="lg:flex lg:mt-[32px] lg:ml-[8.6rem] sm:flex sm:mt-[30px] sm:ml-[8.5rem] md:flex md:mt-[30px] md:ml-[6.9rem]">
                     <p className="cursor-pointer">
                       <FaFacebookF />
                     </p>
@@ -341,10 +343,10 @@ const Nav = () => {
                     <img
                       src={Img5}
                       alt="pix"
-                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[55.7px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[40px] md:mt-[2rem] sm:w-[16rem] sm:h-[20rem] sm:ml-[80px] sm:mt-[3rem]"
+                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[55.7px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[40px] md:mt-[2rem] sm:w-[16rem] sm:h-[20rem] sm:ml-[55px] sm:mt-[3rem]"
                     />
                   </div>
-                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[49.9rem] lg:left-[52.3rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[57rem] md:left-[22.5rem] md:bg-white sm:absolute sm:w-[12rem] sm:p-[10px] sm:top-[165rem] sm:left-[7rem] sm:bg-white">
+                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[49.9rem] lg:left-[52.3rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[57rem] md:left-[22.5rem] md:bg-white sm:absolute sm:w-[12rem] sm:p-[10px] sm:top-[165rem] sm:left-[5.4rem] sm:bg-white">
                     <p className="lg:text-[22px] lg:ml-[29px] lg:font-bold md:text-[19px] md:ml-[18px] md:font-bold sm:text-[22px] sm:ml-[33px] sm:font-bold tracking-wide">
                       MR AJAYI
                     </p>
@@ -352,7 +354,7 @@ const Nav = () => {
                       Worldwide Partner
                     </p>
                   </div>
-                  <div className="lg:flex lg:mt-[32px] lg:ml-[8.6rem] sm:flex sm:mt-[40px] sm:ml-[10rem] md:flex md:mt-[30px] md:ml-[5.9rem]">
+                  <div className="lg:flex lg:mt-[32px] lg:ml-[8.6rem] sm:flex sm:mt-[15px] sm:ml-[8.5rem] md:flex md:mt-[30px] md:ml-[5.9rem]">
                     <p className="cursor-pointer">
                       <FaFacebookF />
                     </p>
@@ -366,12 +368,12 @@ const Nav = () => {
                 </div>
               </div>
             </div>
-          </section> */}
+          </section>
         </div>
       </div>
 
       <section id="services" className="">
-        <div className="lg:mt-[155rem] sm:mt-[280rem] md:mt-[132rem] 2xl:ml-[15rem] 2xl:mt-[170rem]">
+        <div className="lg:mt-[155rem] sm:mt-[225rem] md:mt-[132rem] 2xl:ml-[15rem] 2xl:mt-[170rem]">
           <div className="Poppins ptSerif lg:ml-[32rem] lg:text-4xl sm:ml-[6rem] sm:text-4xl md:ml-[17rem] md:text-4xl">
             <h1>What We Do</h1>
           </div>
@@ -533,6 +535,7 @@ const Nav = () => {
                     type="text"
                     className="lg:w-[23rem] lg:p-[14px] lg:border text-sm sm:w-[22.3rem] sm:ml-[2rem] sm:p-[14px] sm:border sm:text-sm md:w-[28rem] md:p-[14px] md:border md:text-sm"
                     name="to_name"
+                    placeholder="name"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                   />
@@ -541,6 +544,7 @@ const Nav = () => {
                     type="email"
                     className="lg:mt-[26px] lg:w-[23rem] lg:p-[14px] lg:border lg:text-sm md:mt-[26px] md:w-[28rem] md:p-[14px] md:border md:text-sm sm:w-[22.3rem] sm:ml-[2rem] sm:mt-[22px] sm:p-[14px] sm:border sm:text-sm"
                     name="from_name"
+                    placeholder="enter your email"
                     value={mail}
                     onChange={(e) => setMail(e.target.value)}
                   />
@@ -548,6 +552,7 @@ const Nav = () => {
                   <textarea
                     name="message"
                     className="lg:w-[23rem] lg:p-[29px] lg:border text-sm lg:mt-[26px] md:w-[28rem] md:p-[29px] md:border md:text-sm md:mt-[26px] sm:w-[22.3rem] sm:ml-[2rem] sm:p-[17px] sm:border sm:text-sm sm:mt-[26px]"
+                    placeholder="text"
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                   />
