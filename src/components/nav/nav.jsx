@@ -159,10 +159,10 @@ const Nav = () => {
             </Link>
           </div>
 
-          <section id="about" className="z-10 lg:w-[75rem] lg:mt-[15rem] lg:p-[6rem] sm:border sm:p-[14px] sm:w-[25rem] sm:mt-[11rem] md:w-[15rem] md:mt-[15rem] xl:w-[75rem] xl:mt-[15rem] xl:p-[6rem] 2xl:w-[75rem] 2xl:mt-[13rem] 2xl:p-[6rem] 2xl:ml-[10.5rem]">
+          <section id="about" className="z-10 lg:w-[75rem] lg:mt-[15rem] lg:p-[6rem] sm:p-[14px] sm:w-[25rem] sm:mt-[9rem] md:w-[15rem] md:mt-[15rem] xl:w-[75rem] xl:mt-[15rem] xl:p-[6rem] 2xl:w-[75rem] 2xl:mt-[13rem] 2xl:p-[6rem] 2xl:ml-[10.5rem]">
             <div className="">
               <div className="lg:flex">
-                <div className="lg:text-[2.8rem] lg:text-xl lg:font-bold lg:ml-[3rem] md:text-[2.6rem] md:text-xl md:font-bold md:ml-[1.5rem] sm:text-[2.4rem] sm:text-xl sm:font-bold sm:ml-[1rem] xl:text-[2.8rem] xl:text-xl xl:font-bold xl:ml-[3rem] 2xl:text-[2.8rem] 2xl:text-xl 2xl:font-bold 2xl:ml-[6rem]">
+                <div className="lg:text-[2.8rem] lg:text-xl lg:font-bold lg:ml-[3rem] md:text-[2.6rem] md:text-xl md:font-bold md:ml-[1.5rem] sm:text-[2.4rem] sm:text-xl sm:font-bold sm:ml-[0.25rem] xl:text-[2.8rem] xl:text-xl xl:font-bold xl:ml-[3rem] 2xl:text-[2.8rem] 2xl:text-xl 2xl:font-bold 2xl:ml-[6rem]">
                   <h1 className="lg:text-[#00A3BA] sm:text-[#00A3BA] md:text-[#00A3BA] xl:text-[#00A3BA]">About Us</h1>
                 </div>
 
