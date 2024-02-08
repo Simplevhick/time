@@ -159,15 +159,15 @@ const Nav = () => {
             </Link>
           </div>
 
-          <section id="about" className="z-10 lg:w-[75rem] lg:mt-[15rem] lg:p-[6rem] sm:w-[3rem] sm:mt-[11rem] md:w-[15rem] md:mt-[15rem] xl:w-[75rem] xl:mt-[15rem] xl:p-[6rem] 2xl:w-[75rem] 2xl:mt-[13rem] 2xl:p-[6rem] 2xl:ml-[10.5rem]">
+          <section id="about" className="z-10 lg:w-[75rem] lg:mt-[15rem] lg:p-[6rem] sm:border sm:p-[14px] sm:w-[25rem] sm:mt-[11rem] md:w-[15rem] md:mt-[15rem] xl:w-[75rem] xl:mt-[15rem] xl:p-[6rem] 2xl:w-[75rem] 2xl:mt-[13rem] 2xl:p-[6rem] 2xl:ml-[10.5rem]">
             <div className="">
               <div className="lg:flex">
-                <div className="lg:text-[2.8rem] lg:text-xl lg:font-bold lg:ml-[3rem] md:text-[2.6rem] md:text-xl md:font-bold md:ml-[1.5rem] sm:text-[2.7rem] sm:text-xl sm:font-bold sm:ml-[4rem] xl:text-[2.8rem] xl:text-xl xl:font-bold xl:ml-[3rem] 2xl:text-[2.8rem] 2xl:text-xl 2xl:font-bold 2xl:ml-[6rem]">
+                <div className="lg:text-[2.8rem] lg:text-xl lg:font-bold lg:ml-[3rem] md:text-[2.6rem] md:text-xl md:font-bold md:ml-[1.5rem] sm:text-[2.4rem] sm:text-xl sm:font-bold sm:ml-[1rem] xl:text-[2.8rem] xl:text-xl xl:font-bold xl:ml-[3rem] 2xl:text-[2.8rem] 2xl:text-xl 2xl:font-bold 2xl:ml-[6rem]">
                   <h1 className="lg:text-[#00A3BA] sm:text-[#00A3BA] md:text-[#00A3BA] xl:text-[#00A3BA]">About Us</h1>
                 </div>
 
                 <div className="lg:ml-[6rem] xl:ml-[6rem]">
-                  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5] md:font-medium md:text-[1.1rem] md:w-[42rem] md:p-[20px] md:text-[#B2BEB5] sm:font-medium sm:text-[1.1rem] sm:w-[11rem] sm:text-[#B2BEB5] xl:font-medium xl:text-[1.1rem] xl:w-[42rem] xl:p-[20px] xl:text-[#B2BEB5] 2xl:font-medium 2xl:text-[1.5rem] 2xl:w-[42rem] 2xl:p-[20px] 2xl:text-[#B2BEB5]">
+                  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5] md:font-medium md:text-[1.1rem] md:w-[42rem] md:p-[20px] md:text-[#B2BEB5] sm:font-medium sm:text-[0.90rem] sm:w-[23rem] sm:mt-[15px] sm:text-[#B2BEB5] xl:font-medium xl:text-[1.1rem] xl:w-[42rem] xl:p-[20px] xl:text-[#B2BEB5] 2xl:font-medium 2xl:text-[1.5rem] 2xl:w-[42rem] 2xl:p-[20px] 2xl:text-[#B2BEB5]">
                     Hello, and welcome to TIMELINE ENTERTAINMENT! We,re a small,
                     passionate team of creatives who dedicated to bringing joy
                     and excitement to people's lives through our work. Our
@@ -177,7 +177,7 @@ const Nav = () => {
                     smiles to the faces of people all over the world with our
                     unique brand of entertainment.
                   </p>
-                  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5] sm:font-medium sm:text-[1.1rem] sm:w-[11rem] sm:text-[#B2BEB5] md:font-medium md:text-[1.1rem] md:text-[#B2BEB5] xl:font-medium xl:text-[1.1rem] xl:w-[42rem] xl:p-[20px] xl:text-[#B2BEB5] 2xl:font-medium 2xl:text-[1.5rem] 2xl:w-[42rem] 2xl:p-[20px] 2xl:text-[#B2BEB5]">
+                  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5] sm:font-medium sm:text-[0.90rem] sm:mt-[15px] sm:w-[23rem] sm:text-[#B2BEB5] md:font-medium md:text-[1.1rem] md:text-[#B2BEB5] xl:font-medium xl:text-[1.1rem] xl:w-[42rem] xl:p-[20px] xl:text-[#B2BEB5] 2xl:font-medium 2xl:text-[1.5rem] 2xl:w-[42rem] 2xl:p-[20px] 2xl:text-[#B2BEB5]">
                     Timeline Entertainment is a leading provider of innovative
                     and engaging entertainment experiences. We are commited to
                     pushing the boundaries of whats possible in entertainment
@@ -481,40 +481,40 @@ const Nav = () => {
           <div className="lg:border lg:w-[26rem] lg:mt-[33rem] lg:h-[30rem] lg:bg-[#ffffff] md:border-none md:w-[34rem] md:mt-[50rem] md:h-[34rem] sm:border-none sm:w-[29rem] sm:mt-[42rem] sm:h-[30rem] sm:bg-[#ffffff]">
             <div className="lg:ml-[2.6rem] lg:mt-[4rem] md:ml-[3.2rem] md:mt-[4rem] sm:ml-[1rem] sm:mt-[4rem]">
               <div className="lg:flex lg:items-center md:flex md:items-center">
-                <IoCallOutline className="lg:w-[1.5rem] lg:h-[1.5rem] lg:text-[#00A3BA] sm:w-[2.2rem] sm:h-[2.5rem] sm:text-[#00A3BA] md:w-[2.5rem] md:h-[2.5rem] md:text-[#00A3BA]" />
-                <p className="lg:font-bold lg:text-[17px] lg:ml-[10px] sm:font-bold sm:mt-[10px] sm:text-[22px] sm:ml-[10px] md:font-bold md:text-[24px] md:ml-[20px]">
+                <IoCallOutline className="lg:w-[1.5rem] lg:h-[1.5rem] lg:text-[#00A3BA] sm:w-[2rem] sm:h-[2.5rem] sm:text-[#00A3BA] md:w-[2.5rem] md:h-[2.5rem] md:text-[#00A3BA]" />
+                <p className="lg:font-bold lg:text-[17px] lg:ml-[10px] sm:font-bold sm:mt-[10px] sm:text-[20px] sm:ml-[10px] md:font-bold md:text-[24px] md:ml-[20px]">
                   CALL US
                 </p>
               </div>
-              <p className="lg:text-[17px] lg:mt-[18px] lg:ml-[10px] md:text-[24px] md:mt-[18px] md:ml-[10px] sm:text-[21px] sm:mt-[18px] sm:ml-[10px]">
+              <p className="lg:text-[17px] lg:mt-[18px] lg:ml-[10px] md:text-[24px] md:mt-[18px] md:ml-[10px] sm:text-[20px] sm:mt-[18px] sm:ml-[10px]">
                 1 (234) 567-891, 1 (234) 987-654
               </p>
             </div>
             <div className="lg:ml-[2.6rem] lg:mt-[3rem] sm:ml-[1rem] sm:mt-[3rem] md:ml-[3.2rem] md:mt-[3rem]">
               <div className="lg:flex md:flex ">
-                <MdLocationOn className="lg:w-[1.5rem] lg:h-[1.5rem] lg:text-[#00A3BA] sm:w-[2.2rem] sm:h-[2.5rem] sm:text-[#00A3BA] md:w-[2.5rem] md:h-[2.5rem] md:text-[#00A3BA]" />
-                <p className="lg:font-bold lg:text-[17px] lg:ml-[10px] sm:font-bold sm:mt-[10px] sm:text-[22px] sm:ml-[10px] md:font-bold md:text-[24px] md:ml-[20px]">
+                <MdLocationOn className="lg:w-[1.5rem] lg:h-[1.5rem] lg:text-[#00A3BA] sm:w-[2rem] sm:h-[2.5rem] sm:text-[#00A3BA] md:w-[2.5rem] md:h-[2.5rem] md:text-[#00A3BA]" />
+                <p className="lg:font-bold lg:text-[17px] lg:ml-[10px] sm:font-bold sm:mt-[10px] sm:text-[20px] sm:ml-[10px] md:font-bold md:text-[24px] md:ml-[20px]">
                   LOCATION
                 </p>
               </div>
-              <p className="lg:text-[17px] lg:mt-[18px] lg:ml-[10px] sm:text-[21px] sm:mt-[18px] sm:ml-[10px] md:text-[24px] md:mt-[18px] md:ml-[10px]">
+              <p className="lg:text-[17px] lg:mt-[18px] lg:ml-[10px] sm:text-[20px] sm:mt-[18px] sm:ml-[10px] md:text-[24px] md:mt-[18px] md:ml-[10px]">
                 3, Ogunshina Street, Anthony, Lagos state.
               </p>
-              <p className="lg:text-[17px] lg:mt-[5px] lg:ml-[10px] sm:text-[23px] sm:mt-[5px] sm:ml-[10px] md:text-[22px] md:mt-[5px] md:ml-[10px]">
+              <p className="lg:text-[17px] lg:mt-[5px] lg:ml-[10px] sm:text-[20px] sm:mt-[5px] sm:ml-[10px] md:text-[22px] md:mt-[5px] md:ml-[10px]">
                 92103-9000
               </p>
             </div>
             <div className="lg:ml-[2.6rem] lg:mt-[3rem] sm:ml-[1rem] sm:mt-[3rem] md:ml-[3.2rem] md:mt-[3rem]">
               <div className="lg:flex md:flex">
-                <LuClock3 className="lg:w-[1.5rem] lg:h-[1.5rem] lg:text-[#00A3BA] sm:w-[2.2rem] sm:h-[2.5rem] sm:text-[#00A3BA] md:w-[2.5rem] md:h-[2.5rem] md:text-[#00A3BA]" />
-                <p className="lg:font-bold lg:text-[17px] lg:ml-[10px] md:font-bold md:text-[24px] md:ml-[20px] sm:font-bold sm:mt-[10px] sm:text-[22px] sm:ml-[10px]">
+                <LuClock3 className="lg:w-[1.5rem] lg:h-[1.5rem] lg:text-[#00A3BA] sm:w-[2rem] sm:h-[2.5rem] sm:text-[#00A3BA] md:w-[2.5rem] md:h-[2.5rem] md:text-[#00A3BA]" />
+                <p className="lg:font-bold lg:text-[17px] lg:ml-[10px] md:font-bold md:text-[24px] md:ml-[20px] sm:font-bold sm:mt-[10px] sm:text-[20px] sm:ml-[10px]">
                   BUSINESS HOURS
                 </p>
               </div>
-              <p className="lg:text-[17px] lg:mt-[18px] lg:ml-[10px] sm:text-[21px] sm:mt-[18px] sm:ml-[10px] md:text-[24px] md:mt-[18px] md:ml-[10px]">
+              <p className="lg:text-[17px] lg:mt-[18px] lg:ml-[10px] sm:text-[20px] sm:mt-[18px] sm:ml-[10px] md:text-[24px] md:mt-[18px] md:ml-[10px]">
                 Mon-Fri …… 9 am-5 pm, Sat, Sun ....…
               </p>
-              <p className="lg:text-[17px] lg:mt-[5px] lg:ml-[10px] sm:text-[21px] sm:mt-[5px] sm:ml-[10px] md:text-[24px] md:mt-[5px] md:ml-[10px]">
+              <p className="lg:text-[17px] lg:mt-[5px] lg:ml-[10px] sm:text-[20px] sm:mt-[5px] sm:ml-[10px] md:text-[24px] md:mt-[5px] md:ml-[10px]">
                 Closed
               </p>
             </div>
