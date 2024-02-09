@@ -374,19 +374,19 @@ const Nav = () => {
 
       <section id="services" className="">
         <div className="lg:mt-[155rem] sm:mt-[217rem] md:mt-[132rem] 2xl:ml-[15rem] 2xl:mt-[170rem]">
-          <div className="Poppins ptSerif lg:ml-[32rem] lg:text-4xl sm:ml-[6rem] sm:text-4xl md:ml-[17rem] md:text-4xl">
+          <div className="Poppins ptSerif lg:ml-[32rem] lg:text-4xl sm:ml-[6.5rem] sm:text-4xl md:ml-[17rem] md:text-4xl">
             <h1>What We Do</h1>
           </div>
           <div>
-            <p className="lg:ml-[16rem] lg:mt-[10px] lg:text-[20px] sm:ml-[4rem] sm:w-[300px] sm:mt-[10px] sm:text-[14px] md:ml-[2rem] md:mt-[10px] md:text-[18px]">
+            {/* <p className="lg:ml-[16rem] lg:mt-[10px] lg:text-[20px] sm:ml-[2rem] sm:w-[250px] sm:mt-[10px] sm:text-[14px] md:ml-[2rem] md:mt-[10px] md:text-[18px]">
               Timeline Entertainment Company specializes in taking entertainment
               to the next level.
-            </p>
-            <p className="lg:ml-[26rem] lg:text-[20px] sm:ml-[3.5rem] sm:mt-[3px] sm:text-[14px] md:ml-[12rem] md:text-[18px]">
+            </p> */}
+            <p className="lg:ml-[26rem] lg:text-[20px] sm:ml-[3.5rem] sm:mt-[6px] sm:text-[14px] md:ml-[12rem] md:text-[18px]">
               We offer swift and beautiful responses to us.
             </p>
           </div>
-          <div className="lg:flex lg:items-center lg:ml-[31rem] lg:mt-[3rem] lg:text-[20px] lg:transition lg:ease-in-and-out lg:duration-500 lg:font-bold lg:hover:text-cyan-500 sm:flex sm:items-center sm:ml-[5rem] sm:mt-[1.5rem] sm:text-[20px] sm:transition sm:ease-in-and-out sm:duration-500 sm:font-bold sm:hover:text-cyan-500 md:flex md:items-center md:ml-[16rem] md:mt-[3rem] md:text-[20px] md:transition md:ease-in-and-out md:duration-500 md:font-bold md:hover:text-cyan-500">
+          <div className="lg:flex lg:items-center lg:ml-[31rem] lg:mt-[3rem] lg:text-[20px] lg:transition lg:ease-in-and-out lg:duration-500 lg:font-bold lg:hover:text-cyan-500 sm:flex sm:items-center sm:ml-[5rem] sm:mt-[1.8rem] sm:text-[20px] sm:transition sm:ease-in-and-out sm:duration-500 sm:font-bold sm:hover:text-cyan-500 md:flex md:items-center md:ml-[16rem] md:mt-[3rem] md:text-[20px] md:transition md:ease-in-and-out md:duration-500 md:font-bold md:hover:text-cyan-500">
             <p className="">More About Our Services</p>
             <p className="">
               {" "}
@@ -483,40 +483,40 @@ const Nav = () => {
           <div className="lg:border lg:w-[26rem] lg:mt-[33rem] lg:h-[30rem] lg:bg-[#ffffff] md:border-none md:w-[34rem] md:mt-[50rem] md:h-[34rem] sm:border-none sm:w-[29rem] sm:mt-[42rem] sm:h-[30rem] sm:bg-[#ffffff]">
             <div className="lg:ml-[2.6rem] lg:mt-[4rem] md:ml-[3.2rem] md:mt-[4rem] sm:ml-[1rem] sm:mt-[4rem]">
               <div className="lg:flex lg:items-center md:flex md:items-center">
-                <IoCallOutline className="lg:w-[1.5rem] lg:h-[1.5rem] lg:text-[#00A3BA] sm:w-[2rem] sm:h-[2.5rem] sm:text-[#00A3BA] md:w-[2.5rem] md:h-[2.5rem] md:text-[#00A3BA]" />
-                <p className="lg:font-bold lg:text-[17px] lg:ml-[10px] sm:font-bold sm:mt-[10px] sm:text-[20px] sm:ml-[10px] md:font-bold md:text-[24px] md:ml-[20px]">
+                <IoCallOutline className="lg:w-[1.5rem] lg:h-[1.5rem] lg:text-[#00A3BA] sm:w-[1.8rem] sm:h-[2.5rem] sm:text-[#00A3BA] md:w-[2.5rem] md:h-[2.5rem] md:text-[#00A3BA]" />
+                <p className="lg:font-bold lg:text-[17px] lg:ml-[10px] sm:font-bold sm:mt-[10px] sm:text-[19px] sm:ml-[10px] md:font-bold md:text-[24px] md:ml-[20px]">
                   CALL US
                 </p>
               </div>
-              <p className="lg:text-[17px] lg:mt-[18px] lg:ml-[10px] md:text-[24px] md:mt-[18px] md:ml-[10px] sm:text-[20px] sm:mt-[18px] sm:ml-[10px]">
+              <p className="lg:text-[17px] lg:mt-[18px] lg:ml-[10px] md:text-[24px] md:mt-[18px] md:ml-[10px] sm:text-[19px] sm:mt-[18px] sm:ml-[10px]">
                 1 (234) 567-891, 1 (234) 987-654
               </p>
             </div>
             <div className="lg:ml-[2.6rem] lg:mt-[3rem] sm:ml-[1rem] sm:mt-[3rem] md:ml-[3.2rem] md:mt-[3rem]">
               <div className="lg:flex md:flex ">
-                <MdLocationOn className="lg:w-[1.5rem] lg:h-[1.5rem] lg:text-[#00A3BA] sm:w-[2rem] sm:h-[2.5rem] sm:text-[#00A3BA] md:w-[2.5rem] md:h-[2.5rem] md:text-[#00A3BA]" />
-                <p className="lg:font-bold lg:text-[17px] lg:ml-[10px] sm:font-bold sm:mt-[10px] sm:text-[20px] sm:ml-[10px] md:font-bold md:text-[24px] md:ml-[20px]">
+                <MdLocationOn className="lg:w-[1.5rem] lg:h-[1.5rem] lg:text-[#00A3BA] sm:w-[1.8rem] sm:h-[2.5rem] sm:text-[#00A3BA] md:w-[2.5rem] md:h-[2.5rem] md:text-[#00A3BA]" />
+                <p className="lg:font-bold lg:text-[17px] lg:ml-[10px] sm:font-bold sm:mt-[10px] sm:text-[19px] sm:ml-[10px] md:font-bold md:text-[24px] md:ml-[20px]">
                   LOCATION
                 </p>
               </div>
-              <p className="lg:text-[17px] lg:mt-[18px] lg:ml-[10px] sm:text-[20px] sm:mt-[18px] sm:ml-[10px] md:text-[24px] md:mt-[18px] md:ml-[10px]">
+              <p className="lg:text-[17px] lg:mt-[18px] lg:ml-[10px] sm:text-[19px] sm:mt-[18px] sm:ml-[10px] md:text-[24px] md:mt-[18px] md:ml-[10px]">
                 3, Ogunshina Street, Anthony, Lagos state.
               </p>
-              <p className="lg:text-[17px] lg:mt-[5px] lg:ml-[10px] sm:text-[20px] sm:mt-[5px] sm:ml-[10px] md:text-[22px] md:mt-[5px] md:ml-[10px]">
+              <p className="lg:text-[17px] lg:mt-[5px] lg:ml-[10px] sm:text-[19px] sm:mt-[5px] sm:ml-[10px] md:text-[22px] md:mt-[5px] md:ml-[10px]">
                 92103-9000
               </p>
             </div>
             <div className="lg:ml-[2.6rem] lg:mt-[3rem] sm:ml-[1rem] sm:mt-[3rem] md:ml-[3.2rem] md:mt-[3rem]">
               <div className="lg:flex md:flex">
-                <LuClock3 className="lg:w-[1.5rem] lg:h-[1.5rem] lg:text-[#00A3BA] sm:w-[2rem] sm:h-[2.5rem] sm:text-[#00A3BA] md:w-[2.5rem] md:h-[2.5rem] md:text-[#00A3BA]" />
-                <p className="lg:font-bold lg:text-[17px] lg:ml-[10px] md:font-bold md:text-[24px] md:ml-[20px] sm:font-bold sm:mt-[10px] sm:text-[20px] sm:ml-[10px]">
+                <LuClock3 className="lg:w-[1.5rem] lg:h-[1.5rem] lg:text-[#00A3BA] sm:w-[1.8rem] sm:h-[2.5rem] sm:text-[#00A3BA] md:w-[2.5rem] md:h-[2.5rem] md:text-[#00A3BA]" />
+                <p className="lg:font-bold lg:text-[17px] lg:ml-[10px] md:font-bold md:text-[24px] md:ml-[20px] sm:font-bold sm:mt-[10px] sm:text-[19px] sm:ml-[10px]">
                   BUSINESS HOURS
                 </p>
               </div>
-              <p className="lg:text-[17px] lg:mt-[18px] lg:ml-[10px] sm:text-[20px] sm:mt-[18px] sm:ml-[10px] md:text-[24px] md:mt-[18px] md:ml-[10px]">
+              <p className="lg:text-[17px] lg:mt-[18px] lg:ml-[10px] sm:text-[19px] sm:mt-[18px] sm:ml-[10px] md:text-[24px] md:mt-[18px] md:ml-[10px]">
                 Mon-Fri …… 9 am-5 pm, Sat, Sun ....…
               </p>
-              <p className="lg:text-[17px] lg:mt-[5px] lg:ml-[10px] sm:text-[20px] sm:mt-[5px] sm:ml-[10px] md:text-[24px] md:mt-[5px] md:ml-[10px]">
+              <p className="lg:text-[17px] lg:mt-[5px] lg:ml-[10px] sm:text-[19px] sm:mt-[5px] sm:ml-[10px] md:text-[24px] md:mt-[5px] md:ml-[10px]">
                 Closed
               </p>
             </div>
