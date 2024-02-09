@@ -378,11 +378,11 @@ const Nav = () => {
             <h1>What We Do</h1>
           </div>
           <div>
-            <p className="lg:ml-[16rem] lg:mt-[10px] lg:text-[20px] sm:ml-[1.8rem] sm:w-[230px] sm:border-2 sm:mt-[10px] sm:text-[14px] md:ml-[2rem] md:mt-[10px] md:text-[18px]">
+            <p className="lg:ml-[16rem] lg:mt-[10px] lg:text-[20px] sm:ml-[4rem] sm:w-[300px] sm:mt-[10px] sm:text-[14px] md:ml-[2rem] md:mt-[10px] md:text-[18px]">
               Timeline Entertainment Company specializes in taking entertainment
               to the next level.
             </p>
-            <p className="lg:ml-[26rem] lg:text-[20px] sm:ml-[2.1rem] sm:mt-[3px] sm:text-[14px] md:ml-[12rem] md:text-[18px]">
+            <p className="lg:ml-[26rem] lg:text-[20px] sm:ml-[3.5rem] sm:mt-[3px] sm:text-[14px] md:ml-[12rem] md:text-[18px]">
               We offer swift and beautiful responses to us.
             </p>
           </div>
@@ -533,33 +533,33 @@ const Nav = () => {
                 <form ref={form} onSubmit={sendEmail}>
                   <input
                     type="text"
-                    className="lg:w-[23rem] lg:p-[14px] lg:border text-sm sm:w-[22.3rem] sm:ml-[2rem] sm:p-[14px] sm:border sm:text-sm md:w-[28rem] md:p-[14px] md:border md:text-sm"
+                    className="lg:w-[23rem] lg:p-[14px] outline-none lg:border text-sm sm:w-[22.3rem] sm:ml-[2rem] sm:p-[14px] sm:border sm:text-sm md:w-[28rem] md:p-[14px] md:border md:text-sm"
                     name="to_name"
-                    placeholder="name"
+                    placeholder="Enter Your Name"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                   />
 
                   <input
                     type="email"
-                    className="lg:mt-[26px] lg:w-[23rem] lg:p-[14px] lg:border lg:text-sm md:mt-[26px] md:w-[28rem] md:p-[14px] md:border md:text-sm sm:w-[22.3rem] sm:ml-[2rem] sm:mt-[22px] sm:p-[14px] sm:border sm:text-sm"
+                    className="lg:mt-[26px] lg:w-[23rem] outline-none lg:p-[14px] lg:border lg:text-sm md:mt-[26px] md:w-[28rem] md:p-[14px] md:border md:text-sm sm:w-[22.3rem] sm:ml-[2rem] sm:mt-[22px] sm:p-[14px] sm:border sm:text-sm"
                     name="from_name"
-                    placeholder="enter your email"
+                    placeholder="Enter Your Email"
                     value={mail}
                     onChange={(e) => setMail(e.target.value)}
                   />
 
                   <textarea
                     name="message"
-                    className="lg:w-[23rem] lg:p-[29px] lg:border text-sm lg:mt-[26px] md:w-[28rem] md:p-[29px] md:border md:text-sm md:mt-[26px] sm:w-[22.3rem] sm:ml-[2rem] sm:p-[17px] sm:border sm:text-sm sm:mt-[26px]"
-                    placeholder="text"
+                    className="lg:w-[23rem] lg:p-[29px] outline-none lg:border text-sm lg:mt-[26px] md:w-[28rem] md:p-[29px] md:border md:text-sm md:mt-[26px] sm:w-[22.3rem] sm:ml-[2rem] sm:p-[17px] sm:border sm:text-sm sm:mt-[26px]"
+                    placeholder="Enter Your Message"
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                   />
                   <input
                     type="submit"
                     value="SUBMIT"
-                    className="lg:mt-[20px] lg:w-[23rem] lg:font-bold lg:ml-[4px] lg:bg-[#00A3BA] lg:border-none lg:pl-[10px] lg:pt-[10px] lg:pb-[10px] lg:pr-[10px] lg:text-[16px] cursor-pointer lg:rounded-[27px] lg:hover:bg-[#00A3BA] lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 sm:ml-[3.5rem] sm:bg-[#00A3BA] sm:border-none sm:pl-[8rem] sm:mt-[20px] sm:text-[#fff] sm:pt-[10px] sm:pb-[10px] sm:pr-[8rem] sm:text-[16px] sm:rounded-[14px] sm:hover:bg-[#00A3BA] sm:hover:text-[#000000] sm:transition sm:ease-out sm:duration-500 md:mt-[25px] md:ml-[15px] md:bg-[#00A3BA] md:border-2 md:pl-[11rem] md:pt-[10px] md:pb-[10px] md:text-[#fff] md:pr-[11rem] md:text-[18px] md:rounded-[7px] md:hover:bg-[#00A3BA] md:hover:text-[#000000] md:transition md:ease-out md:duration-500"
+                    className="lg:mt-[20px] lg:w-[23rem] outline-none lg:font-bold lg:ml-[4px] lg:bg-[#00A3BA] lg:border-none lg:pl-[10px] lg:pt-[10px] lg:pb-[10px] lg:pr-[10px] lg:text-[16px] cursor-pointer lg:rounded-[27px] lg:hover:bg-[#00A3BA] lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 sm:ml-[3.5rem] sm:bg-[#00A3BA] sm:border-none sm:pl-[8rem] sm:mt-[20px] sm:text-[#fff] sm:pt-[10px] sm:pb-[10px] sm:pr-[8rem] sm:text-[16px] sm:rounded-[14px] sm:hover:bg-[#00A3BA] sm:hover:text-[#000000] sm:transition sm:ease-out sm:duration-500 md:mt-[25px] md:ml-[15px] md:bg-[#00A3BA] md:border-2 md:pl-[11rem] md:pt-[10px] md:pb-[10px] md:text-[#fff] md:pr-[11rem] md:text-[18px] md:rounded-[7px] md:hover:bg-[#00A3BA] md:hover:text-[#000000] md:transition md:ease-out md:duration-500"
                   />
                 </form>
               </div>
