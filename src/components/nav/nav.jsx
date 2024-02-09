@@ -161,15 +161,15 @@ const Nav = () => {
             </Link>
           </div>
 
-          <section id="about" className="z-10 lg:w-[75rem] lg:mt-[15rem] lg:p-[6rem] sm:p-[12px] sm:w-[25rem] sm:mt-[7rem] md:w-[15rem] md:mt-[15rem] xl:w-[75rem] xl:mt-[15rem] xl:p-[6rem] 2xl:w-[75rem] 2xl:mt-[13rem] 2xl:p-[6rem] 2xl:ml-[10.5rem]">
+          <section id="about" className="z-10 lg:w-[75rem] lg:mt-[15rem] lg:p-[6rem] sm:p-[10px] sm:w-[25rem] sm:mt-[7rem] md:w-[15rem] md:mt-[15rem] xl:w-[75rem] xl:mt-[15rem] xl:p-[6rem] 2xl:w-[75rem] 2xl:mt-[13rem] 2xl:p-[6rem] 2xl:ml-[10.5rem]">
             <div className="">
               <div className="lg:flex">
-                <div className="lg:text-[2.8rem] lg:text-xl lg:font-bold lg:ml-[3rem] md:text-[2.6rem] md:text-xl md:font-bold md:ml-[1.5rem] sm:text-[2.4rem] sm:text-xl sm:font-bold sm:ml-[0.25rem] xl:text-[2.8rem] xl:text-xl xl:font-bold xl:ml-[3rem] 2xl:text-[2.8rem] 2xl:text-xl 2xl:font-bold 2xl:ml-[6rem]">
+                <div className="lg:text-[2.8rem] lg:text-xl lg:font-bold lg:ml-[3rem] md:text-[2.6rem] md:text-xl md:font-bold md:ml-[1.5rem] sm:text-[2.4rem] sm:text-xl sm:font-bold sm:ml-[0.23rem] xl:text-[2.8rem] xl:text-xl xl:font-bold xl:ml-[3rem] 2xl:text-[2.8rem] 2xl:text-xl 2xl:font-bold 2xl:ml-[6rem]">
                   <h1 className="lg:text-[#00A3BA] sm:text-[#00A3BA] md:text-[#00A3BA] xl:text-[#00A3BA]">ABOUT US</h1>
                 </div>
 
                 <div className="lg:ml-[6rem] xl:ml-[6rem]">
-                  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5] md:font-medium md:text-[1.1rem] md:w-[42rem] md:p-[20px] md:text-[#B2BEB5] sm:font-medium sm:text-[0.90rem] sm:w-[23rem] sm:mt-[15px] sm:text-[#B2BEB5] xl:font-medium xl:text-[1.1rem] xl:w-[42rem] xl:p-[20px] xl:text-[#B2BEB5] 2xl:font-medium 2xl:text-[1.5rem] 2xl:w-[42rem] 2xl:p-[20px] 2xl:text-[#B2BEB5]">
+                  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5] md:font-medium md:text-[1.1rem] md:w-[42rem] md:p-[20px] md:text-[#B2BEB5] sm:font-medium sm:text-[0.90rem] sm:w-[22rem] sm:mt-[15px] sm:text-[#B2BEB5] xl:font-medium xl:text-[1.1rem] xl:w-[42rem] xl:p-[20px] xl:text-[#B2BEB5] 2xl:font-medium 2xl:text-[1.5rem] 2xl:w-[42rem] 2xl:p-[20px] 2xl:text-[#B2BEB5]">
                     Hello, and welcome to TIMELINE ENTERTAINMENT! We,re a small,
                     passionate team of creatives who dedicated to bringing joy
                     and excitement to people's lives through our work. Our
@@ -179,7 +179,7 @@ const Nav = () => {
                     smiles to the faces of people all over the world with our
                     unique brand of entertainment.
                   </p>
-                  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5] sm:font-medium sm:text-[0.90rem] sm:mt-[15px] sm:w-[23rem] sm:text-[#B2BEB5] md:font-medium md:text-[1.1rem] md:text-[#B2BEB5] xl:font-medium xl:text-[1.1rem] xl:w-[42rem] xl:p-[20px] xl:text-[#B2BEB5] 2xl:font-medium 2xl:text-[1.5rem] 2xl:w-[42rem] 2xl:p-[20px] 2xl:text-[#B2BEB5]">
+                  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5] sm:font-medium sm:text-[0.90rem] sm:mt-[15px] sm:w-[22rem] sm:text-[#B2BEB5] md:font-medium md:text-[1.1rem] md:text-[#B2BEB5] xl:font-medium xl:text-[1.1rem] xl:w-[42rem] xl:p-[20px] xl:text-[#B2BEB5] 2xl:font-medium 2xl:text-[1.5rem] 2xl:w-[42rem] 2xl:p-[20px] 2xl:text-[#B2BEB5]">
                     Timeline Entertainment is a leading provider of innovative
                     and engaging entertainment experiences. We are commited to
                     pushing the boundaries of whats possible in entertainment
@@ -378,7 +378,7 @@ const Nav = () => {
             <h1>What We Do</h1>
           </div>
           <div>
-            <p className="lg:ml-[16rem] lg:mt-[10px] lg:text-[20px] sm:ml-[2.3rem] sm:w-[375px] sm:mt-[10px] sm:text-[14px] md:ml-[2rem] md:mt-[10px] md:text-[18px]">
+            <p className="lg:ml-[16rem] lg:mt-[10px] lg:text-[20px] sm:ml-[1.8rem] sm:w-[230px] sm:border-2 sm:mt-[10px] sm:text-[14px] md:ml-[2rem] md:mt-[10px] md:text-[18px]">
               Timeline Entertainment Company specializes in taking entertainment
               to the next level.
             </p>
