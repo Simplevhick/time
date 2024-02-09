@@ -161,11 +161,11 @@ const Nav = () => {
             </Link>
           </div>
 
-          <section id="about" className="z-10 lg:w-[75rem] lg:mt-[15rem] lg:p-[6rem] sm:p-[14px] sm:w-[25rem] sm:mt-[9rem] md:w-[15rem] md:mt-[15rem] xl:w-[75rem] xl:mt-[15rem] xl:p-[6rem] 2xl:w-[75rem] 2xl:mt-[13rem] 2xl:p-[6rem] 2xl:ml-[10.5rem]">
+          <section id="about" className="z-10 lg:w-[75rem] lg:mt-[15rem] lg:p-[6rem] sm:p-[12px] sm:w-[25rem] sm:mt-[7rem] md:w-[15rem] md:mt-[15rem] xl:w-[75rem] xl:mt-[15rem] xl:p-[6rem] 2xl:w-[75rem] 2xl:mt-[13rem] 2xl:p-[6rem] 2xl:ml-[10.5rem]">
             <div className="">
               <div className="lg:flex">
                 <div className="lg:text-[2.8rem] lg:text-xl lg:font-bold lg:ml-[3rem] md:text-[2.6rem] md:text-xl md:font-bold md:ml-[1.5rem] sm:text-[2.4rem] sm:text-xl sm:font-bold sm:ml-[0.25rem] xl:text-[2.8rem] xl:text-xl xl:font-bold xl:ml-[3rem] 2xl:text-[2.8rem] 2xl:text-xl 2xl:font-bold 2xl:ml-[6rem]">
-                  <h1 className="lg:text-[#00A3BA] sm:text-[#00A3BA] md:text-[#00A3BA] xl:text-[#00A3BA]">About Us</h1>
+                  <h1 className="lg:text-[#00A3BA] sm:text-[#00A3BA] md:text-[#00A3BA] xl:text-[#00A3BA]">ABOUT US</h1>
                 </div>
 
                 <div className="lg:ml-[6rem] xl:ml-[6rem]">
@@ -192,7 +192,7 @@ const Nav = () => {
           </section>
 
            <section id="team">
-            <div className="sm:mt-[12rem] sm:w-[33.9rem] sm:h-[193rem] lg:h-[80rem] lg:w-[82rem] lg:ml-[-4rem] lg:mt-[22rem] md:h-[78rem] md:ml-[-2rem] md:w-[48.4rem] md:mt-[12rem] lg:border-2 lg: bg-[#29A59D] sm:ml-[-8rem] sm:border-2 sm:bg-[#29A59D] md:border-2 md:bg-[#29A59D] 2xl:h-[80rem] 2xl:w-[108rem] 2xl:ml-[-4rem] 2xl:mt-[12rem]">
+            <div className="sm:mt-[7rem] sm:border-2 sm:w-[33.8rem] sm:h-[193rem] lg:h-[80rem] lg:w-[82rem] lg:ml-[-4rem] lg:mt-[22rem] md:h-[78rem] md:ml-[-2rem] md:w-[48.4rem] md:mt-[12rem] lg:border-2 lg: bg-[#29A59D] sm:ml-[-8rem] sm:border-2 sm:bg-[#29A59D] md:border-2 md:bg-[#29A59D] 2xl:h-[80rem] 2xl:w-[108rem] 2xl:ml-[-4rem] 2xl:mt-[12rem]">
               <div className="Poppins ptSerif lg:text-5xl lg:text-[#fff] lg:mt-[6rem] lg:ml-[27rem] md:text-5xl md:text-[#fff] md:mt-[4rem] md:ml-[11rem] sm:text-4xl sm:text-[#fff] sm:mt-[3rem] sm:ml-[10rem] 2xl:text-5xl 2xl:text-[#fff] 2xl:mt-[6rem] 2xl:ml-[43rem]">
                 Our Amazing Team
               </div>
@@ -373,7 +373,7 @@ const Nav = () => {
       </div>
 
       <section id="services" className="">
-        <div className="lg:mt-[155rem] sm:mt-[225rem] md:mt-[132rem] 2xl:ml-[15rem] 2xl:mt-[170rem]">
+        <div className="lg:mt-[155rem] sm:mt-[217rem] md:mt-[132rem] 2xl:ml-[15rem] 2xl:mt-[170rem]">
           <div className="Poppins ptSerif lg:ml-[32rem] lg:text-4xl sm:ml-[6rem] sm:text-4xl md:ml-[17rem] md:text-4xl">
             <h1>What We Do</h1>
           </div>
@@ -474,7 +474,7 @@ const Nav = () => {
 
       <div
         id="contact"
-        className="lg:w-full lg:bg-cover lg:bg-no-repeat lg:h-[60rem] lg:mt-[15rem] md:w-full md:bg-contain md:bg-no-repeat md:mt-[17rem] md:h-[46rem] sm:w-full sm:bg-contain sm:bg-no-repeat sm:mt-[14rem] sm:h-[43rem]"
+        className="lg:w-full lg:bg-cover lg:bg-no-repeat lg:h-[60rem] lg:mt-[15rem] md:w-full md:bg-contain md:bg-no-repeat md:mt-[17rem] md:h-[46rem] sm:w-full sm:bg-contain sm:bg-no-repeat sm:mt-[10rem] sm:h-[43rem]"
         style={{
           backgroundImage: `url(${Img6})`,
         }}
@@ -568,7 +568,7 @@ const Nav = () => {
         </div>
       </div>
 
-      <footer className="lg:mt-[12rem] lg:border lg:bg-[#00A3BA] lg:pr-[2rem] lg:pl-[2rem] lg:pt-[2rem] lg:pb-[1rem] lg:text-center lg:font-[0.9rem] md:mt-[48rem] md:border md:bg-[#00A3BA] md:pr-[2rem] md:pl-[2rem] md:pt-[2rem] md:pb-[1rem] md:text-center md:font-[0.9rem] sm:mt-[50rem] sm:border sm:bg-[#00A3BA] sm:pr-[2rem] sm:pl-[2rem] sm:pt-[2rem] lg:pb-[1rem] sm:text-center sm:font-[0.9rem]">
+      <footer className="lg:mt-[12rem] lg:border lg:bg-[#00A3BA] lg:pr-[2rem] lg:pl-[2rem] lg:pt-[2rem] lg:pb-[1rem] lg:text-center lg:font-[0.9rem] md:mt-[48rem] md:border md:bg-[#00A3BA] md:pr-[2rem] md:pl-[2rem] md:pt-[2rem] md:pb-[1rem] md:text-center md:font-[0.9rem] sm:mt-[46rem] sm:border sm:bg-[#00A3BA] sm:pr-[2rem] sm:pl-[2rem] sm:pt-[2rem] lg:pb-[1rem] sm:text-center sm:font-[0.9rem]">
         <a
           href="#"
           className="lg:font-bold md:font-bold sm:font-bold lg:text-4xl lg:text-[#1f1f38] sm:text-3xl"
