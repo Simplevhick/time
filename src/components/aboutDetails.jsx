@@ -107,32 +107,32 @@ const AboutDetails = () => {
       
     <div>
       <div>
-        <div className="lg:ml-[17.5em] lg:text-[30px] lg:mt-[50px] md:ml-[16em] md:text-[20px] md:mt-[50px] sm:ml-[12.5em] sm:text-[20px] sm:mt-[50px]">
+        <div className="lg:ml-[17.5em] lg:text-[30px] lg:mt-[50px] md:ml-[16em] md:text-[20px] md:mt-[50px] sm:ml-[7em] sm:text-[20px] sm:mt-[50px]">
           <h1 className="font-bold">Who Are We ?</h1>
         </div>
         <div className="">
-          <p className="lg:w-[49rem] lg:text-[17px] lg:mt-[10px] lg:ml-[15rem] sm:w-[49rem] sm:text-[13px] sm:mt-[10px] sm:ml-[1.3rem] md:w-[49rem] md:text-[15px] md:mt-[10px] md:ml-[2.7rem] ">
+          <p className="lg:w-[49rem] lg:text-[17px] lg:mt-[10px] lg:ml-[15rem] sm:w-[24rem] sm:text-[13px] sm:mt-[10px] sm:ml-[1rem] md:w-[49rem] md:text-[15px] md:mt-[10px] md:ml-[2.7rem] ">
             Timeline Entertainment is a leading provider of innovative and
             engaging entertainment experiences.
           </p>
-          <p className="lg:w-[49rem] lg:text-[17px] lg:mt-[2px] lg:ml-[18rem] sm:w-[49rem] sm:text-[13px] sm:mt-[2px] sm:ml-[3rem] md:w-[49rem] md:text-[15px] md:mt-[2px] md:ml-[4.7rem]">
+          <p className="lg:w-[49rem] lg:text-[17px] lg:mt-[2px] lg:ml-[18rem] sm:w-[24rem] sm:text-[13px] sm:mt-[2px] sm:ml-[1rem] md:w-[49rem] md:text-[15px] md:mt-[2px] md:ml-[4.7rem]">
             {" "}
             We are commited to pushing the boundaries of whats possible in
-            entertainment and our{" "}
+            entertainment and our work,{" "}
           </p>
-          <p className="lg:w-[49rem] lg:text-[17px lg:mt-[2px] lg:ml-[23rem] sm:w-[49rem] sm:text-[13px] sm:mt-[2px] sm:ml-[7rem] md:w-[49rem] md:text-[15px] md:mt-[4px] md:ml-[9.5rem]">
+          <p className="lg:w-[49rem] lg:text-[17px lg:mt-[2px] lg:ml-[23rem] sm:w-[20rem] sm:text-[13px] sm:mt-[2px] sm:ml-[1rem] md:w-[49rem] md:text-[15px] md:mt-[4px] md:ml-[9.5rem]">
             {" "}
-            work has been recognized with numerous awards and accolades.{" "}
+            has been recognized with numerous awards and accolades.{" "}
           </p>
         </div>
       </div>
 
       <div>
-        <div className="lg:ml-[17.5em] lg:text-[30px] lg:mt-[50px] sm:ml-[12.5em] sm:text-[20px] sm:mt-[50px] md:ml-[16em] md:text-[20px] md:mt-[50px]">
+        <div className="lg:ml-[17.5em] lg:text-[30px] lg:mt-[50px] sm:ml-[7em] sm:text-[20px] sm:mt-[50px] md:ml-[16em] md:text-[20px] md:mt-[50px]">
           <h1 className="font-bold">What We Do ?</h1>
         </div>
         <div>
-          <div className="lg:flex lg:max-w-5xl lg:ml-[5rem] lg:mt-[2rem] lg:gap-8 group sm:max-w-5xl sm:ml-[11rem] sm:mt-[2rem] sm:gap-8 sm:group md:max-w-5xl md:ml-[5rem] md:grid md:grid-cols-2 md:mt-[4rem] md:gap-8 group">
+          <div className="lg:flex lg:max-w-5xl lg:ml-[5rem] lg:mt-[2rem] lg:gap-8 group sm:max-w-5xl sm:ml-[4.5rem] sm:mt-[2rem] sm:gap-8 sm:group md:max-w-5xl md:ml-[5rem] md:grid md:grid-cols-2 md:mt-[4rem] md:gap-8 group">
             <div className="lg:bg-[#abd9d9] lg:duration-500 lg:group-hover:blur-sm lg:hover:!blur-none lg:group-hover:scale-[0.85] lg:hover:!scale-100 lg:cursor-pointer lg:p-8 lg:rounded-xl sm:bg-[#abd9d9] sm:duration-500 sm:group-hover:blur-sm sm:hover:!blur-none sm:group-hover:scale-[0.85] sm:hover:!scale-100 sm:mt-[1rem] sm:w-[17rem] sm:cursor-pointer sm:p-8 sm:rounded-xl md:bg-[#abd9d9] md:duration-500 md:group-hover:blur-sm md:hover:!blur-none md:group-hover:scale-[0.85] md:hover:!scale-100 md:cursor-pointer md:p-8 md:rounded-xl">
               <h4 className="lg:uppercase lg:text-xl lg:font-bold lg:ml-[14px] sm:uppercase sm:text-[17px] sm:font-bold sm:ml-[36px] md:uppercase md:mt-[10px] md:text-xl md:font-bold md:ml-[34px]">
                 Audio/Visual
