@@ -67,7 +67,7 @@ const Nav = () => {
           </Link>
           <Link spy={true} smooth={true} to="About">
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
-              About
+              <a href="#about">About </a>
             </li>
           </Link>
           <Link spy={true} smooth={true} to="Services">
@@ -142,12 +142,12 @@ const Nav = () => {
           backgroundImage: `url(${Img})`,
         }}
       >
-        <div className="lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[39rem] lg:left-[2rem] sm:h-[11.5rem] sm:w-[12.4rem] sm:bg-black sm:bg-opacity-15 sm-border-none sm:absolute sm:top-[10rem] sm:left-[0.35rem] md:h-[17.5rem] md:w-[16.5rem] md:bg-black md:bg-opacity-20 md:border-none md:absolute md:top-[18rem] md:left-[1.6rem]">
+        <div className="lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[39rem] lg:left-[2rem] sm:h-[11.5rem] sm:w-[15rem] sm:bg-black sm:bg-opacity-15 sm-border-none sm:absolute sm:top-[19rem] sm:left-[1rem] md:h-[17.5rem] md:w-[16.5rem] md:bg-black md:bg-opacity-20 md:border-none md:absolute md:top-[18rem] md:left-[1.6rem]">
           <div>
-            <h1 className="lg:text-6xl lg:ml-[21px] lg:mt-[25px] Poppins lg:text-[#00A3BA] sm:text-[22px] sm:mt-[5px] sm:ml-[14px] sm:leading-[20px] sm:text-[#00A3BA] md:text-[28px] md:leading-[29px] md:ml-[21px] md:mt-[19px] md:text-[#00A3BA]">
+            <h1 className="lg:text-6xl lg:ml-[21px] lg:mt-[25px] Poppins lg:text-[#00A3BA] sm:text-[28px] sm:mt-[10px] sm:ml-[14px] sm:leading-[23px] sm:text-[#00A3BA] md:text-[28px] md:leading-[29px] md:ml-[21px] md:mt-[19px] md:text-[#00A3BA]">
               We redefine entertainment.
             </h1>
-            <p className="lg:mt-[1.3rem] lg:text-2xl lg:ml-[25px] lg:w-[29rem] lg:text-white sm:mt-[4px] sm:text-sm sm:ml-[14px] sm:w-[11rem] sm:leading-[17px] sm:text-white md:mt-[10px] md:leading-[28px] md:text-base md:ml-[19px] md:w-[15.6rem] md:text-white">
+            <p className="lg:mt-[1.3rem] lg:text-2xl lg:ml-[25px] lg:w-[29rem] lg:text-white sm:mt-[8px] sm:text-sm sm:ml-[14px] sm:w-[14rem] sm:leading-[17px] sm:text-white md:mt-[10px] md:leading-[28px] md:text-base md:ml-[19px] md:w-[15.6rem] md:text-white">
               Timeline Entertainment Limited was established by a team of
               professionals in music, audio-visuals, software managers, and
               media strategists in 2007.
@@ -156,12 +156,12 @@ const Nav = () => {
               <input
                 type="button"
                 value="READ MORE"
-                className="lg:mt-[30px] lg:ml-[28px] lg:bg-[#00A3BA] lg:text-[#fff] lg:border-none lg:pl-[12px] lg:pt-[12px] lg:pb-[12px] lg:pr-[12px] lg:text-[16px] cursor-pointer lg:rounded-[7px] lg:hover:bg-[#00A3BA] lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 sm:ml-[16px] sm:mt-[7px] sm:text-[#fff] sm:bg-[#00A3BA] sm:border-none sm:pl-[5px] sm:pt-[5px] sm:pb-[5px] sm:pr-[5px] sm:text-[10px] sm:rounded-[3px] sm:hover:bg-[#00A3BA] sm:hover:text-[#000000] sm:transition sm:ease-out sm:duration-500 md:mt-[12px] md:text-[#fff] lg:ml-[30px] md:bg-[#00A3BA] md:border-2 md:pl-[9px] md:pt-[9px] md:pb-[9px] md:pr-[9px] md:text-[12px] md:rounded-[7px] md:hover:bg-[#00A3BA] md:hover:text-[#000000] md:transition md:ease-out md:duration-500"
+                className="lg:mt-[30px] lg:ml-[28px] lg:bg-[#00A3BA] lg:text-[#fff] lg:border-none lg:pl-[12px] lg:pt-[12px] lg:pb-[12px] lg:pr-[12px] lg:text-[16px] cursor-pointer lg:rounded-[7px] lg:hover:bg-[#00A3BA] lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 sm:ml-[16px] sm:mt-[9px] sm:text-[#fff] sm:bg-[#00A3BA] sm:border-none sm:pl-[5px] sm:pt-[5px] sm:pb-[5px] sm:pr-[5px] sm:text-[10px] sm:rounded-[3px] sm:hover:bg-[#00A3BA] sm:hover:text-[#000000] sm:transition sm:ease-out sm:duration-500 md:mt-[12px] md:text-[#fff] lg:ml-[30px] md:bg-[#00A3BA] md:border-2 md:pl-[9px] md:pt-[9px] md:pb-[9px] md:pr-[9px] md:text-[12px] md:rounded-[7px] md:hover:bg-[#00A3BA] md:hover:text-[#000000] md:transition md:ease-out md:duration-500"
               />
             </Link>
           </div>
 
-          <section id="about" className="z-10 lg:w-[75rem] lg:mt-[15rem] lg:p-[6rem] sm:p-[5px] sm:w-[25rem] sm:mt-[7rem] md:w-[15rem] md:mt-[15rem] xl:w-[75rem] xl:mt-[15rem] xl:p-[6rem] 2xl:w-[75rem] 2xl:mt-[13rem] 2xl:p-[6rem] 2xl:ml-[10.5rem]">
+          <section id="about" className="z-10 lg:w-[75rem] lg:mt-[4rem] lg:p-[6rem] sm:p-[5px] sm:w-[34rem] sm:ml-[13px] sm:mt-[8rem] md:w-[15rem] md:mt-[15rem] xl:w-[75rem] xl:mt-[15rem] xl:p-[6rem] 2xl:w-[75rem] 2xl:mt-[13rem] 2xl:p-[6rem] 2xl:ml-[10.5rem]">
             <div className="">
               <div className="lg:flex">
                 <div className="lg:text-[2.8rem] lg:text-xl lg:font-bold lg:ml-[3rem] md:text-[2.6rem] md:text-xl md:font-bold md:ml-[1.5rem] sm:text-[2.4rem] sm:text-xl sm:font-bold sm:ml-[0.23rem] xl:text-[2.8rem] xl:text-xl xl:font-bold xl:ml-[3rem] 2xl:text-[2.8rem] 2xl:text-xl 2xl:font-bold 2xl:ml-[6rem]">
@@ -169,7 +169,7 @@ const Nav = () => {
                 </div>
 
                 <div className="lg:ml-[6rem] xl:ml-[6rem]">
-                  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5] md:font-medium md:text-[1.1rem] md:w-[42rem] md:p-[20px] md:text-[#B2BEB5] sm:font-medium sm:text-[0.90rem] sm:w-[22rem] sm:mt-[15px] sm:text-[#B2BEB5] xl:font-medium xl:text-[1.1rem] xl:w-[42rem] xl:p-[20px] xl:text-[#B2BEB5] 2xl:font-medium 2xl:text-[1.5rem] 2xl:w-[42rem] 2xl:p-[20px] 2xl:text-[#B2BEB5]">
+                  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5] md:font-medium md:text-[1.1rem] md:w-[42rem] md:p-[20px] md:text-[#B2BEB5] sm:font-medium sm:text-[1rem] sm:w-[34rem] sm:mt-[10px] sm:text-[#B2BEB5] xl:font-medium xl:text-[1.1rem] xl:w-[42rem] xl:p-[20px] xl:text-[#B2BEB5] 2xl:font-medium 2xl:text-[1.5rem] 2xl:w-[42rem] 2xl:p-[20px] 2xl:text-[#B2BEB5]">
                     Hello, and welcome to TIMELINE ENTERTAINMENT! We,re a small,
                     passionate team of creatives who dedicated to bringing joy
                     and excitement to people's lives through our work. Our
@@ -179,7 +179,7 @@ const Nav = () => {
                     smiles to the faces of people all over the world with our
                     unique brand of entertainment.
                   </p>
-                  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5] sm:font-medium sm:text-[0.90rem] sm:mt-[15px] sm:w-[20rem] sm:text-[#B2BEB5] md:font-medium md:text-[1.1rem] md:text-[#B2BEB5] xl:font-medium xl:text-[1.1rem] xl:w-[42rem] xl:p-[20px] xl:text-[#B2BEB5] 2xl:font-medium 2xl:text-[1.5rem] 2xl:w-[42rem] 2xl:p-[20px] 2xl:text-[#B2BEB5]">
+                  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5] sm:font-medium sm:text-[1rem] sm:mt-[15px] sm:w-[34rem] sm:text-[#B2BEB5] md:font-medium md:text-[1.1rem] md:text-[#B2BEB5] xl:font-medium xl:text-[1.1rem] xl:w-[42rem] xl:p-[20px] xl:text-[#B2BEB5] 2xl:font-medium 2xl:text-[1.5rem] 2xl:w-[42rem] 2xl:p-[20px] 2xl:text-[#B2BEB5]">
                     Timeline Entertainment is a leading provider of innovative
                     and engaging entertainment experiences. We are commited to
                     pushing the boundaries of whats possible in entertainment
@@ -192,29 +192,29 @@ const Nav = () => {
           </section>
 
            <section id="team">
-            <div className="sm:mt-[7rem] sm:border-2 sm:w-[25.5rem] sm:h-[193rem] lg:h-[80rem] lg:w-[82rem] lg:ml-[-4rem] lg:mt-[22rem] md:h-[78rem] md:ml-[-2rem] md:w-[48.4rem] md:mt-[12rem] lg:border-2 lg: bg-[#29A59D]  sm:border-2 sm:bg-[#29A59D] md:border-2 md:bg-[#29A59D] 2xl:h-[80rem] 2xl:w-[108rem] 2xl:ml-[-4rem] 2xl:mt-[12rem]">
-              <div className="Poppins ptSerif lg:text-5xl lg:text-[#fff] lg:mt-[6rem] lg:ml-[27rem] md:text-5xl md:text-[#fff] md:mt-[4rem] md:ml-[11rem] sm:text-4xl sm:text-[#fff] sm:mt-[3rem] sm:ml-[3rem] 2xl:text-5xl 2xl:text-[#fff] 2xl:mt-[6rem] 2xl:ml-[43rem]">
+            <div className="sm:mt-[7rem] sm:border-2 sm:w-[38rem] sm:h-[215rem] lg:h-[80rem] lg:w-[82rem] lg:ml-[-4rem] lg:mt-[8rem] md:h-[78rem] md:ml-[-2rem] md:w-[48.4rem] md:mt-[12rem] lg:border-2 lg: bg-[#29A59D] sm:border-2 sm:bg-[#29A59D] md:border-2 md:bg-[#29A59D] 2xl:h-[80rem] 2xl:w-[108rem] 2xl:ml-[-4rem] 2xl:mt-[12rem]">
+              <div className="Poppins ptSerif lg:text-5xl lg:text-[#fff] lg:mt-[6rem] lg:ml-[27rem] md:text-5xl md:text-[#fff] md:mt-[4rem] md:ml-[11rem] sm:text-5xl sm:text-[#fff] sm:mt-[3rem] sm:ml-[6rem] 2xl:text-5xl 2xl:text-[#fff] 2xl:mt-[6rem] 2xl:ml-[43rem]">
                 Our Amazing Team
               </div>
 
-              <div className="lg:grid lg:grid-cols-3 lg:border lg:relative lg:h-[60rem] lg:mt-[5rem] lg:w-[70rem] lg:ml-[7rem] lg:bg-white md:grid md:grid-cols-2 md:border md:relative md:mt-[3rem] md:h-[64rem] md:w-[38rem] md:ml-[5.3rem] md:bg-white sm:grid sm:grid-cols-1 sm:border sm:relative sm:mt-[3rem] sm:w-[23.2rem] sm:h-[175rem] sm:ml-[1rem] sm:bg-white 2xl:border 2xl:relative 2xl:h-[60rem] 2xl:mt-[5rem] 2xl:w-[70rem] 2xl:ml-[19rem] 2xl:bg-white">
+              <div className="lg:grid lg:grid-cols-3 lg:border lg:relative lg:h-[60rem] lg:mt-[5rem] lg:w-[70rem] lg:ml-[7rem] lg:bg-white md:grid md:grid-cols-2 md:border md:relative md:mt-[3rem] md:h-[64rem] md:w-[38rem] md:ml-[5.3rem] md:bg-white sm:grid sm:grid-cols-1 sm:border sm:relative sm:mt-[3rem] sm:w-[29.6rem] sm:h-[199rem] sm:ml-[4rem] sm:bg-white 2xl:border 2xl:relative 2xl:h-[60rem] 2xl:mt-[5rem] 2xl:w-[70rem] 2xl:ml-[19rem] 2xl:bg-white">
                 <div className="">
                   <div>
                     <img
                       src={Img4}
                       alt="pix"
-                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[70px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[65px] md:mt-[2rem] sm:w-[16rem] sm:h-[20rem] sm:ml-[55px] sm:mt-[3rem]"
+                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[70px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[65px] md:mt-[2rem] sm:w-[21rem] sm:h-[26rem] sm:ml-[67px] sm:mt-[3rem]"
                     />
                   </div>
-                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[20rem] lg:left-[6.4rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[14.5rem] md:left-[5.1rem] md:bg-white sm:absolute sm:w-[12rem] sm:p-[10px] sm:top-[19rem] sm:left-[5.4rem] sm:bg-white">
-                    <p className="lg:text-[22px] lg:ml-[13px] lg:font-bold md:text-[19px] md:ml-[9px] md:font-bold sm:text-[19px] sm:ml-[25px] sm:font-bold tracking-wide">
+                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[20rem] lg:left-[6.4rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[14.5rem] md:left-[5.1rem] md:bg-white sm:absolute sm:w-[13.5rem] sm:p-[10px] sm:top-[24rem] sm:left-[8rem] sm:bg-white">
+                    <p className="lg:text-[22px] lg:ml-[13px] lg:font-bold md:text-[19px] md:ml-[9px] md:font-bold sm:text-[22px] sm:ml-[25px] sm:font-bold tracking-wide">
                       MR MICHEAL
                     </p>
-                    <p className="tracking-widest lg:text-[16px] lg:ml-[3px] lg:mt-[2px] sm:text-[16px] sm:ml-[3px] sm:mt-[2px] md:text-[13px] md:ml-[3px] md:mt-[2px]">
+                    <p className="tracking-widest lg:text-[16px] lg:ml-[3px] lg:mt-[2px] sm:text-[17px] sm:ml-[10.5px] sm:mt-[2px] md:text-[13px] md:ml-[3px] md:mt-[2px]">
                       Worldwide Partner
                     </p>
                   </div>
-                  <div className="lg:flex lg:mt-[32px] lg:ml-[9.4rem] sm:flex sm:mt-[15px] sm:ml-[8.5rem] md:flex md:mt-[30px] md:ml-[7rem]">
+                  <div className="lg:flex lg:mt-[32px] lg:ml-[9.4rem] sm:flex sm:mt-[15px] sm:ml-[11.5rem] md:flex md:mt-[30px] md:ml-[7rem]">
                     <p className="cursor-pointer">
                       <FaFacebookF />
                     </p>
@@ -231,18 +231,18 @@ const Nav = () => {
                     <img
                       src={Img5}
                       alt="pix"
-                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[55px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[40px] md:mt-[2rem] sm:w-[16rem] sm:h-[20rem] sm:ml-[55px] sm:mt-[3rem]"
+                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[55px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[40px] md:mt-[2rem] sm:w-[21rem] sm:h-[26rem] sm:ml-[67px] sm:mt-[3rem]"
                     />
                   </div>
-                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[20rem] lg:left-[29rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[14.3rem] md:left-[22.5rem] md:bg-white sm:absolute sm:w-[12rem] sm:p-[10px] sm:top-[47rem] sm:left-[5.4rem] sm:bg-white">
-                    <p className="lg:text-[22px] lg:ml-[21px] lg:font-bold md:text-[19px] md:ml-[9px] md:font-bold sm:text-[19px] sm:ml-[31px] sm:font-bold tracking-wide">
+                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[20rem] lg:left-[29rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[14.3rem] md:left-[22.5rem] md:bg-white sm:absolute sm:w-[13.5rem] sm:p-[10px] sm:top-[56.7rem] sm:left-[8.2rem] sm:bg-white">
+                    <p className="lg:text-[22px] lg:ml-[21px] lg:font-bold md:text-[19px] md:ml-[9px] md:font-bold sm:text-[22px] sm:ml-[31px] sm:font-bold tracking-wide">
                       CHINONSO
                     </p>
-                    <p className="tracking-widest lg:text-[16px] lg:ml-[3px] lg:mt-[2px] sm:text-[16px] sm:ml-[3px] sm:mt-[2px] md:text-[13px] md:ml-[3px] md:mt-[2px]">
+                    <p className="tracking-widest lg:text-[16px] lg:ml-[3px] lg:mt-[2px] sm:text-[17px] sm:ml-[12px] sm:mt-[2px] md:text-[13px] md:ml-[3px] md:mt-[2px]">
                       Worldwide Partner
                     </p>
                   </div>
-                  <div className="lg:flex lg:mt-[32px] lg:ml-[8.7rem] sm:flex sm:mt-[15px] sm:ml-[8.5rem] md:flex md:mt-[30px] md:ml-[5.9rem]">
+                  <div className="lg:flex lg:mt-[32px] lg:ml-[8.7rem] sm:flex sm:mt-[15px] sm:ml-[11.9rem] md:flex md:mt-[30px] md:ml-[5.9rem]">
                     <p className="cursor-pointer">
                       <FaFacebookF />
                     </p>
@@ -254,23 +254,23 @@ const Nav = () => {
                     </p>
                   </div>
                 </div>
-                <div>
+                <div className="sm:mt-[1.4rem]">
                   <div>
                     <img
                       src={Img4}
                       alt="pix"
-                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[50px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[65px] md:mt-[2rem] sm:w-[16rem] sm:h-[20rem] sm:ml-[55px] sm:mt-[3rem]"
+                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[50px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[65px] md:mt-[2rem] sm:w-[21rem] sm:h-[26rem] sm:ml-[67px] sm:mt-[3rem]"
                     />
                   </div>
-                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[20rem] lg:left-[51.6rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[35.8rem] md:left-[5.1rem] md:bg-white sm:absolute sm:w-[12rem] sm:p-[10px] sm:top-[76rem] sm:left-[5.4rem] sm:bg-white">
-                    <p className="lg:text-[22px] lg:ml-[22px] lg:font-bold md:text-[19px] md:ml-[9px] md:font-bold sm:text-[19px] sm:ml-[28px] sm:font-bold tracking-wide">
+                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[20rem] lg:left-[51.6rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[35.8rem] md:left-[5.1rem] md:bg-white sm:absolute sm:w-[13.5rem] sm:p-[10px] sm:top-[90.7rem] sm:left-[8.2rem] sm:bg-white">
+                    <p className="lg:text-[22px] lg:ml-[22px] lg:font-bold md:text-[19px] md:ml-[9px] md:font-bold sm:text-[22px] sm:ml-[31px] sm:font-bold tracking-wide">
                       YHEMOLEE
                     </p>
-                    <p className="tracking-widest lg:text-[16px] lg:ml-[3px] lg:mt-[2px] md:text-[13px] md:ml-[3px] md:mt-[2px] sm:text-[16px] sm:ml-[3px] sm:mt-[2px]">
+                    <p className="tracking-widest lg:text-[16px] lg:ml-[3px] lg:mt-[2px] md:text-[13px] md:ml-[3px] md:mt-[2px] sm:text-[17px] sm:ml-[10px] sm:mt-[2px]">
                       Worldwide Partner
                     </p>
                   </div>
-                  <div className="lg:flex lg:mt-[32px] lg:ml-[8rem] sm:flex sm:mt-[23px] sm:ml-[8.5rem] md:flex md:mt-[30px] md:ml-[6.9rem]">
+                  <div className="lg:flex lg:mt-[32px] lg:ml-[8rem] sm:flex sm:mt-[17px] sm:ml-[12rem] md:flex md:mt-[30px] md:ml-[6.9rem]">
                     <p className="cursor-pointer">
                       <FaFacebookF />
                     </p>
@@ -282,23 +282,23 @@ const Nav = () => {
                     </p>
                   </div>
                 </div>
-                <div>
+                <div className="sm:mt-[10px]">
                   <div>
                     <img
                       src={Img5}
                       alt="pix"
-                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[73px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[40px] md:mt-[2rem] sm:w-[16rem] sm:h-[20rem] sm:ml-[55px] sm:mt-[3rem]"
+                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[73px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[40px] md:mt-[2rem] sm:w-[21rem] sm:h-[26rem] sm:ml-[67px] sm:mt-[3rem]"
                     />
                   </div>
-                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[49.9rem] lg:left-[6.7rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[35.8rem] md:left-[22.4rem] md:bg-white sm:absolute sm:w-[12rem] sm:p-[10px] sm:top-[106rem] sm:left-[5.4rem] sm:bg-white">
-                    <p className="lg:text-[22px] lg:ml-[19px] lg:font-bold md:text-[19px] md:ml-[9px] md:font-bold sm:text-[19px] sm:ml-[21px] sm:font-bold tracking-wide">
+                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[49.9rem] lg:left-[6.7rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[35.8rem] md:left-[22.4rem] md:bg-white sm:absolute sm:w-[13.5rem] sm:p-[10px] sm:top-[124rem] sm:left-[8.2rem] sm:bg-white">
+                    <p className="lg:text-[22px] lg:ml-[19px] lg:font-bold md:text-[19px] md:ml-[9px] md:font-bold sm:text-[22px] sm:ml-[27px] sm:font-bold tracking-wide">
                       MR CAPTAIN
                     </p>
-                    <p className="tracking-widest lg:text-[16px] lg:ml-[3px] lg:mt-[2px] md:text-[13px] md:ml-[3px] md:mt-[2px] sm:text-[16px] sm:ml-[3px] sm:mt-[2px]">
+                    <p className="tracking-widest lg:text-[16px] lg:ml-[3px] lg:mt-[2px] md:text-[13px] md:ml-[3px] md:mt-[2px] sm:text-[17px] sm:ml-[10px] sm:mt-[2px]">
                       Worldwide Partner
                     </p>
                   </div>
-                  <div className="lg:flex lg:mt-[32px] lg:ml-[10rem] sm:flex sm:mt-[40px] sm:ml-[8.5rem] md:flex md:mt-[30px] md:ml-[5.9rem]">
+                  <div className="lg:flex lg:mt-[32px] lg:ml-[10rem] sm:flex sm:mt-[15px] sm:ml-[12rem] md:flex md:mt-[30px] md:ml-[5.9rem]">
                     <p className="cursor-pointer">
                       <FaFacebookF />
                     </p>
@@ -310,23 +310,23 @@ const Nav = () => {
                     </p>
                   </div>
                 </div>
-                <div>
+                <div className="sm:mt-[10px]">
                   <div>
                     <img
                       src={Img4}
                       alt="pix"
-                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[56px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[65px] md:mt-[2rem] sm:w-[16rem] sm:h-[20rem] sm:ml-[55px] sm:mt-[3rem]"
+                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[56px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[65px] md:mt-[2rem] sm:w-[21rem] sm:h-[26rem] sm:ml-[67px] sm:mt-[3rem]"
                     />
                   </div>
-                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[49.9rem] lg:left-[28.9rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[57rem] md:left-[5rem] md:bg-white sm:absolute sm:w-[12rem] sm:p-[10px] sm:top-[136rem] sm:left-[5.4rem] sm:bg-white">
-                    <p className="lg:text-[22px] lg:ml-[22px] lg:font-bold md:text-[19px] md:ml-[11px] md:font-bold sm:text-[19px] sm:ml-[30px] sm:font-bold tracking-wide">
+                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[49.9rem] lg:left-[28.9rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[57rem] md:left-[5rem] md:bg-white sm:absolute sm:w-[13.5rem] sm:p-[10px] sm:top-[157.4rem] sm:left-[8.2rem] sm:bg-white">
+                    <p className="lg:text-[22px] lg:ml-[22px] lg:font-bold md:text-[19px] md:ml-[11px] md:font-bold sm:text-[22px] sm:ml-[30px] sm:font-bold tracking-wide">
                       MR DAVIDO
                     </p>
-                    <p className="tracking-widest lg:text-[16px] lg:ml-[3px] lg:mt-[2px] md:text-[13px] md:ml-[3px] md:mt-[2px] sm:text-[16px] sm:ml-[3px] sm:mt-[2px]">
+                    <p className="tracking-widest lg:text-[16px] lg:ml-[3px] lg:mt-[2px] md:text-[13px] md:ml-[3px] md:mt-[2px] sm:text-[17px] sm:ml-[10px] sm:mt-[2px]">
                       Worldwide Partner
                     </p>
                   </div>
-                  <div className="lg:flex lg:mt-[32px] lg:ml-[8.6rem] sm:flex sm:mt-[30px] sm:ml-[8.5rem] md:flex md:mt-[30px] md:ml-[6.9rem]">
+                  <div className="lg:flex lg:mt-[32px] lg:ml-[8.6rem] sm:flex sm:mt-[21px] sm:ml-[12rem] md:flex md:mt-[30px] md:ml-[6.9rem]">
                     <p className="cursor-pointer">
                       <FaFacebookF />
                     </p>
@@ -343,18 +343,18 @@ const Nav = () => {
                     <img
                       src={Img5}
                       alt="pix"
-                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[55.7px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[40px] md:mt-[2rem] sm:w-[16rem] sm:h-[20rem] sm:ml-[55px] sm:mt-[3rem]"
+                      className="lg:w-[16rem] lg:h-[20rem] lg:ml-[55.7px] lg:mt-[3rem] md:w-[12rem] md:h-[15rem] md:ml-[40px] md:mt-[2rem] sm:w-[21rem] sm:h-[26rem] sm:ml-[67px] sm:mt-[3rem]"
                     />
                   </div>
-                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[49.9rem] lg:left-[52.3rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[57rem] md:left-[22.5rem] md:bg-white sm:absolute sm:w-[12rem] sm:p-[10px] sm:top-[165rem] sm:left-[5.4rem] sm:bg-white">
-                    <p className="lg:text-[22px] lg:ml-[29px] lg:font-bold md:text-[19px] md:ml-[18px] md:font-bold sm:text-[22px] sm:ml-[33px] sm:font-bold tracking-wide">
+                  <div className="lg:absolute lg:w-[12rem] lg:p-[10px] lg:top-[49.9rem] lg:left-[52.3rem] lg:bg-white md:absolute md:w-[10rem] md:p-[10px] md:top-[57rem] md:left-[22.5rem] md:bg-white sm:absolute sm:w-[13.5rem] sm:p-[10px] sm:top-[190.3rem] sm:left-[8.1rem] sm:bg-white">
+                    <p className="lg:text-[22px] lg:ml-[29px] lg:font-bold md:text-[19px] md:ml-[18px] md:font-bold sm:text-[22px] sm:ml-[42px] sm:font-bold tracking-wide">
                       MR AJAYI
                     </p>
-                    <p className="tracking-widest lg:text-[16px] lg:ml-[3px] lg:mt-[2px] md:text-[13px] md:ml-[3px] md:mt-[2px] sm:text-[16px] sm:ml-[5px] sm:mt-[2px]">
+                    <p className="tracking-widest lg:text-[16px] lg:ml-[3px] lg:mt-[2px] md:text-[13px] md:ml-[3px] md:mt-[2px] sm:text-[17px] sm:ml-[12px] sm:mt-[2px]">
                       Worldwide Partner
                     </p>
                   </div>
-                  <div className="lg:flex lg:mt-[32px] lg:ml-[8.6rem] sm:flex sm:mt-[15px] sm:ml-[8.5rem] md:flex md:mt-[30px] md:ml-[5.9rem]">
+                  <div className="lg:flex lg:mt-[32px] lg:ml-[8.6rem] sm:flex sm:mt-[15px] sm:ml-[12rem] md:flex md:mt-[30px] md:ml-[5.9rem]">
                     <p className="cursor-pointer">
                       <FaFacebookF />
                     </p>
@@ -373,27 +373,23 @@ const Nav = () => {
       </div>
 
       <section id="services" className="">
-        <div className="lg:mt-[155rem] sm:mt-[217rem] md:mt-[132rem] 2xl:ml-[15rem] 2xl:mt-[170rem]">
-          <div className="Poppins ptSerif lg:ml-[32rem] lg:text-4xl sm:ml-[6.5rem] sm:text-4xl md:ml-[17rem] md:text-4xl">
+        <div className="lg:mt-[153rem] sm:mt-[246rem] md:mt-[132rem] 2xl:ml-[15rem] 2xl:mt-[170rem]">
+          <div className="Poppins ptSerif lg:ml-[32rem] lg:text-4xl sm:ml-[12.5rem] sm:text-4xl md:ml-[17rem] md:text-4xl">
             <h1>What We Do</h1>
           </div>
           <div>
-            {/* <p className="lg:ml-[16rem] lg:mt-[10px] lg:text-[20px] sm:ml-[2rem] sm:w-[250px] sm:mt-[10px] sm:text-[14px] md:ml-[2rem] md:mt-[10px] md:text-[18px]">
-              Timeline Entertainment Company specializes in taking entertainment
-              to the next level.
-            </p> */}
-            <p className="lg:ml-[26rem] lg:text-[20px] sm:ml-[3.5rem] sm:mt-[6px] sm:text-[14px] md:ml-[12rem] md:text-[18px]">
+            <p className="lg:ml-[26rem] lg:text-[20px] sm:ml-[7.9rem] sm:mt-[6px] sm:text-[17.5px] md:ml-[12rem] md:text-[18px]">
               We offer swift and beautiful responses to us.
             </p>
           </div>
-          <div className="lg:flex lg:items-center lg:ml-[31rem] lg:mt-[3rem] lg:text-[20px] lg:transition lg:ease-in-and-out lg:duration-500 lg:font-bold lg:hover:text-cyan-500 sm:flex sm:items-center sm:ml-[5rem] sm:mt-[1.8rem] sm:text-[20px] sm:transition sm:ease-in-and-out sm:duration-500 sm:font-bold sm:hover:text-cyan-500 md:flex md:items-center md:ml-[16rem] md:mt-[3rem] md:text-[20px] md:transition md:ease-in-and-out md:duration-500 md:font-bold md:hover:text-cyan-500">
+          <div className="lg:flex lg:items-center lg:ml-[31rem] lg:mt-[3rem] lg:text-[20px] lg:transition lg:ease-in-and-out lg:duration-500 lg:font-bold lg:hover:text-cyan-500 sm:flex sm:items-center sm:ml-[10rem] sm:mt-[1.8rem] sm:text-[24px] sm:transition sm:ease-in-and-out sm:duration-500 sm:font-bold sm:hover:text-cyan-500 md:flex md:items-center md:ml-[16rem] md:mt-[3rem] md:text-[20px] md:transition md:ease-in-and-out md:duration-500 md:font-bold md:hover:text-cyan-500">
             <p className="">More About Our Services</p>
             <p className="">
               {" "}
               <MdOutlineNextPlan className="sm:ml-[1px]"/>{" "}
             </p>
           </div>
-          <div className="lg:flex lg:max-w-5xl lg:ml-[5rem] lg:mt-[4rem] lg:gap-8 group sm:max-w-5xl sm:ml-[4.5rem] sm:mt-[2rem] sm:gap-8 sm:group md:max-w-5xl md:ml-[5rem] md:grid md:grid-cols-2 md:mt-[4rem] md:gap-8 group">
+          <div className="lg:flex lg:max-w-5xl lg:ml-[5rem] lg:mt-[4rem] lg:gap-8 group sm:max-w-5xl sm:ml-[11rem] sm:mt-[2rem] sm:gap-8 sm:group md:max-w-5xl md:ml-[5rem] md:grid md:grid-cols-2 md:mt-[4rem] md:gap-8 group">
             <div className="lg:bg-[#abd9d9] lg:duration-500 lg:group-hover:blur-sm lg:hover:!blur-none lg:group-hover:scale-[0.85] lg:hover:!scale-100 lg:cursor-pointer lg:p-8 lg:rounded-xl sm:bg-[#abd9d9] sm:duration-500 sm:group-hover:blur-sm sm:hover:!blur-none sm:group-hover:scale-[0.85] sm:hover:!scale-100 sm:mt-[1rem] sm:w-[17rem] sm:cursor-pointer sm:p-8 sm:rounded-xl md:bg-[#abd9d9] md:duration-500 md:group-hover:blur-sm md:hover:!blur-none md:group-hover:scale-[0.85] md:hover:!scale-100 md:cursor-pointer md:p-8 md:rounded-xl">
               <p>
                 <LiaFileAudio className="lg:h-20 lg:mx-auto lg:w-[9rem] sm:h-[7rem] sm:ml-[3.7rem] sm:w-[5rem] md:h-20 md:mx-auto md:w-[9rem]" />
@@ -428,9 +424,11 @@ const Nav = () => {
                 We help our client make a stand via our international relations
                 network.
               </p>
+              <Link to="/aboutDetails">
               <button className="lg:bg-[#00A3BA] lg:text-[#fff] lg:py-2 lg:px-6 lg:cursor-pointer lg:rounded-full lg:transition lg:ease-in-and-out lg:duration-500 lg:font-bold lg:hover:text-[#000000] lg:ml-[35px] md:bg-[#00A3BA] sm:text-[#fff] md:py-2 md:px-6 md:cursor-pointer md:rounded-full md:transition md:ease-in-and-out md:duration-500 md:font-bold md:hover:text-[#000000] md:ml-[40px] sm:bg-[#00A3BA] sm:text-[#fff] sm:py-2 sm:px-6 sm:cursor-pointer sm:rounded-full sm:transition sm:ease-in-and-out sm:duration-500 sm:font-bold sm:hover:text-[#000000] sm:ml-[40px]">
                 More Info
               </button>
+              </Link>
             </div>
             <div className="lg:bg-[#abd9d9] lg:duration-500 lg:group-hover:blur-sm lg:hover:!blur-none lg:group-hover:scale-[0.85] lg:hover:!scale-100 lg:cursor-pointer lg:p-8 lg:rounded-xl sm:bg-[#abd9d9] sm:duration-500 sm:group-hover:blur-sm sm:hover:!blur-none sm:group-hover:scale-[0.85] sm:hover:!scale-100 sm:mt-[1rem] sm:w-[17rem] sm:cursor-pointer sm:p-8 lg:rounded-xl md:bg-[#abd9d9] md:duration-500 md:group-hover:blur-sm md:hover:!blur-none md:group-hover:scale-[0.85] md:hover:!scale-100 md:cursor-pointer md:p-8 md:rounded-xl">
               <p>
@@ -446,9 +444,11 @@ const Nav = () => {
                 We are sure of giving you the most granded voice over solutions
                 for your business.
               </p>
+              <Link to="/aboutDetails">
               <button className="lg:bg-[#00A3BA] lg:text-[#fff] lg:py-2 lg:px-6 lg:cursor-pointer lg:rounded-full lg:transition lg:ease-in-and-out lg:duration-500 lg:font-bold lg:hover:text-[#000000] lg:ml-[35px] md:bg-[#00A3BA] sm:text-[#fff] md:py-2 md:px-6 md:cursor-pointer md:rounded-full md:transition md:ease-in-and-out md:duration-500 md:font-bold md:hover:text-[#000000] md:ml-[40px] sm:bg-[#00A3BA] sm:text-[#fff] sm:py-2 sm:px-6 sm:cursor-pointer sm:rounded-full sm:transition sm:ease-in-and-out sm:duration-500 sm:font-bold sm:hover:text-[#000000] sm:ml-[40px]">
                 More Info
               </button>
+              </Link>
             </div>
             <div className="lg:bg-[#abd9d9] lg:duration-500 lg:group-hover:blur-sm lg:hover:!blur-none lg:group-hover:scale-[0.85] lg:hover:!scale-100 lg:cursor-pointer lg:p-8 lg:rounded-xl sm:bg-[#abd9d9] sm:duration-500 sm:group-hover:blur-sm sm:hover:!blur-none sm:group-hover:scale-[0.85] sm:hover:!scale-100 sm:mt-[1rem] sm:w-[17rem] sm:cursor-pointer sm:p-8 lg:rounded-xl md:bg-[#abd9d9] md:duration-500 md:group-hover:blur-sm md:hover:!blur-none md:group-hover:scale-[0.85] md:hover:!scale-100 md:cursor-pointer md:p-8 md:rounded-xl">
               <p>
@@ -464,9 +464,11 @@ const Nav = () => {
                 We also design and develop high end websites for clients and
                 comfort demands.
               </p>
+              <Link to="/aboutDetails">
               <button className="lg:bg-[#00A3BA] lg:text-[#fff] lg:py-2 lg:px-6 lg:cursor-pointer lg:rounded-full lg:transition lg:ease-in-and-out lg:duration-500 lg:font-bold lg:hover:text-[#000000] lg:ml-[35px] md:font-bold md:bg-[#00A3BA] sm:text-[#fff] md:py-2 md:px-6 md:cursor-pointer md:rounded-full md:transition md:ease-in-and-out md:duration-500 md:font-bold md:hover:text-[#000000] md:ml-[40px] sm:bg-[#00A3BA] sm:text-[#fff] sm:py-2 sm:px-6 sm:cursor-pointer sm:rounded-full sm:transition sm:ease-in-and-out sm:duration-500 sm:font-bold sm:hover:text-[#000000] sm:ml-[40px]">
                 More Info
               </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -474,62 +476,62 @@ const Nav = () => {
 
       <div
         id="contact"
-        className="lg:w-full lg:bg-cover lg:bg-no-repeat lg:h-[60rem] lg:mt-[15rem] md:w-full md:bg-contain md:bg-no-repeat md:mt-[17rem] md:h-[46rem] sm:w-full sm:bg-contain sm:bg-no-repeat sm:mt-[10rem] sm:h-[43rem]"
+        className="lg:w-full lg:bg-cover lg:bg-no-repeat lg:h-[60rem] lg:mt-[13rem] md:w-full md:bg-contain md:bg-no-repeat md:mt-[17rem] md:h-[46rem] sm:w-full sm:bg-contain sm:bg-no-repeat sm:mt-[10rem] sm:h-[43rem]"
         style={{
           backgroundImage: `url(${Img6})`,
         }}
       >
-        <div className="lg:flex lg:ml-[9rem] sm:flex 2xl:ml-[23rem]">
+        <div className="lg:flex lg:ml-[12rem] sm:ml-[55px] sm:flex 2xl:ml-[23rem]">
           <div className="lg:border lg:w-[26rem] lg:mt-[33rem] lg:h-[30rem] lg:bg-[#ffffff] md:border-none md:w-[34rem] md:mt-[50rem] md:h-[34rem] sm:border-none sm:w-[29rem] sm:mt-[42rem] sm:h-[30rem] sm:bg-[#ffffff]">
             <div className="lg:ml-[2.6rem] lg:mt-[4rem] md:ml-[3.2rem] md:mt-[4rem] sm:ml-[1rem] sm:mt-[4rem]">
               <div className="lg:flex lg:items-center md:flex md:items-center">
-                <IoCallOutline className="lg:w-[1.5rem] lg:h-[1.5rem] lg:text-[#00A3BA] sm:w-[1.8rem] sm:h-[2.5rem] sm:text-[#00A3BA] md:w-[2.5rem] md:h-[2.5rem] md:text-[#00A3BA]" />
-                <p className="lg:font-bold lg:text-[17px] lg:ml-[10px] sm:font-bold sm:mt-[10px] sm:text-[19px] sm:ml-[10px] md:font-bold md:text-[24px] md:ml-[20px]">
+                <IoCallOutline className="lg:w-[1.5rem] lg:h-[1.5rem] lg:text-[#00A3BA] sm:w-[2.2rem] sm:h-[2.5rem] sm:text-[#00A3BA] md:w-[2.5rem] md:h-[2.5rem] md:text-[#00A3BA]" />
+                <p className="lg:font-bold lg:text-[17px] lg:ml-[10px] sm:font-bold sm:mt-[10px] sm:text-[21px] sm:ml-[10px] md:font-bold md:text-[24px] md:ml-[20px]">
                   CALL US
                 </p>
               </div>
-              <p className="lg:text-[17px] lg:mt-[18px] lg:ml-[10px] md:text-[24px] md:mt-[18px] md:ml-[10px] sm:text-[19px] sm:mt-[18px] sm:ml-[10px]">
+              <p className="lg:text-[17px] lg:mt-[18px] lg:ml-[10px] md:text-[24px] md:mt-[18px] md:ml-[10px] sm:text-[21px] sm:mt-[18px] sm:ml-[10px]">
                 1 (234) 567-891, 1 (234) 987-654
               </p>
             </div>
             <div className="lg:ml-[2.6rem] lg:mt-[3rem] sm:ml-[1rem] sm:mt-[3rem] md:ml-[3.2rem] md:mt-[3rem]">
               <div className="lg:flex md:flex ">
-                <MdLocationOn className="lg:w-[1.5rem] lg:h-[1.5rem] lg:text-[#00A3BA] sm:w-[1.8rem] sm:h-[2.5rem] sm:text-[#00A3BA] md:w-[2.5rem] md:h-[2.5rem] md:text-[#00A3BA]" />
-                <p className="lg:font-bold lg:text-[17px] lg:ml-[10px] sm:font-bold sm:mt-[10px] sm:text-[19px] sm:ml-[10px] md:font-bold md:text-[24px] md:ml-[20px]">
+                <MdLocationOn className="lg:w-[1.5rem] lg:h-[1.5rem] lg:text-[#00A3BA] sm:w-[2.2rem] sm:h-[2.5rem] sm:text-[#00A3BA] md:w-[2.5rem] md:h-[2.5rem] md:text-[#00A3BA]" />
+                <p className="lg:font-bold lg:text-[17px] lg:ml-[10px] sm:font-bold sm:mt-[10px] sm:text-[21px] sm:ml-[10px] md:font-bold md:text-[24px] md:ml-[20px]">
                   LOCATION
                 </p>
               </div>
-              <p className="lg:text-[17px] lg:mt-[18px] lg:ml-[10px] sm:text-[19px] sm:mt-[18px] sm:ml-[10px] md:text-[24px] md:mt-[18px] md:ml-[10px]">
+              <p className="lg:text-[17px] lg:mt-[18px] lg:ml-[10px] sm:text-[21px] sm:mt-[18px] sm:ml-[10px] md:text-[24px] md:mt-[18px] md:ml-[10px]">
                 3, Ogunshina Street, Anthony, Lagos state.
               </p>
-              <p className="lg:text-[17px] lg:mt-[5px] lg:ml-[10px] sm:text-[19px] sm:mt-[5px] sm:ml-[10px] md:text-[22px] md:mt-[5px] md:ml-[10px]">
+              <p className="lg:text-[17px] lg:mt-[5px] lg:ml-[10px] sm:text-[21px] sm:mt-[5px] sm:ml-[10px] md:text-[22px] md:mt-[5px] md:ml-[10px]">
                 92103-9000
               </p>
             </div>
             <div className="lg:ml-[2.6rem] lg:mt-[3rem] sm:ml-[1rem] sm:mt-[3rem] md:ml-[3.2rem] md:mt-[3rem]">
               <div className="lg:flex md:flex">
-                <LuClock3 className="lg:w-[1.5rem] lg:h-[1.5rem] lg:text-[#00A3BA] sm:w-[1.8rem] sm:h-[2.5rem] sm:text-[#00A3BA] md:w-[2.5rem] md:h-[2.5rem] md:text-[#00A3BA]" />
-                <p className="lg:font-bold lg:text-[17px] lg:ml-[10px] md:font-bold md:text-[24px] md:ml-[20px] sm:font-bold sm:mt-[10px] sm:text-[19px] sm:ml-[10px]">
+                <LuClock3 className="lg:w-[1.5rem] lg:h-[1.5rem] lg:text-[#00A3BA] sm:w-[2.2rem] sm:h-[2.5rem] sm:text-[#00A3BA] md:w-[2.5rem] md:h-[2.5rem] md:text-[#00A3BA]" />
+                <p className="lg:font-bold lg:text-[17px] lg:ml-[10px] md:font-bold md:text-[24px] md:ml-[20px] sm:font-bold sm:mt-[10px] sm:text-[21px] sm:ml-[10px]">
                   BUSINESS HOURS
                 </p>
               </div>
-              <p className="lg:text-[17px] lg:mt-[18px] lg:ml-[10px] sm:text-[19px] sm:mt-[18px] sm:ml-[10px] md:text-[24px] md:mt-[18px] md:ml-[10px]">
+              <p className="lg:text-[17px] lg:mt-[18px] lg:ml-[10px] sm:text-[21px] sm:mt-[18px] sm:ml-[10px] md:text-[24px] md:mt-[18px] md:ml-[10px]">
                 Mon-Fri …… 9 am-5 pm, Sat, Sun ....…
               </p>
-              <p className="lg:text-[17px] lg:mt-[5px] lg:ml-[10px] sm:text-[19px] sm:mt-[5px] sm:ml-[10px] md:text-[24px] md:mt-[5px] md:ml-[10px]">
+              <p className="lg:text-[17px] lg:mt-[5px] lg:ml-[10px] sm:text-[21px] sm:mt-[5px] sm:ml-[10px] md:text-[24px] md:mt-[5px] md:ml-[10px]">
                 Closed
               </p>
             </div>
           </div>
 
           <div>
-            <div className="lg:border lg:ml-[0.2px] lg:w-[29rem] lg:mt-[33rem] lg:bg-[#e5e5e5] lg:h-[30rem] sm:border sm:w-[29rem] sm:mt-[12rem] sm:ml-[-28.8rem] sm:bg-[#e5e5e5] sm:h-[30rem] md:border md:w-[34rem] md:ml-[-31rem] md:mt-[15rem] md:bg-[#e5e5e5] md:h-[33rem]">
+            <div className="lg:border lg:ml-[-0.2px] lg:w-[29rem] lg:mt-[33rem] lg:bg-[#e5e5e5] lg:h-[30rem] sm:border sm:w-[29rem] sm:mt-[12rem] sm:ml-[-27.3rem] sm:bg-[#e5e5e5] sm:h-[30rem] md:border md:w-[34rem] md:ml-[-31rem] md:mt-[15rem] md:bg-[#e5e5e5] md:h-[33rem]">
               <div>
-                <p className="lg:font-bold lg:text-[28px] lg:p-[31px] lg:ml-[7rem] sm:font-bold sm:text-[32px] sm:p-[31px] sm:ml-[7rem] md:font-bold md:text-[42px] md:p-[31px] md:ml-[7rem]">
+                <p className="lg:font-bold lg:text-[28px] lg:p-[31px] lg:ml-[7rem] sm:font-bold sm:text-[32px] sm:p-[31px] sm:ml-[5.5rem] md:font-bold md:text-[42px] md:p-[31px] md:ml-[7rem]">
                   CONTACT US
                 </p>
               </div>
-              <div className="lg:ml-[50px] md:ml-[50px] sm:ml-[45px]">
+              <div className="lg:ml-[20px] md:ml-[50px] sm:ml-[20px]">
                 <form ref={form} onSubmit={sendEmail}>
                   <input
                     type="text"
@@ -559,7 +561,7 @@ const Nav = () => {
                   <input
                     type="submit"
                     value="SUBMIT"
-                    className="lg:mt-[20px] lg:w-[23rem] outline-none lg:font-bold lg:ml-[4px] lg:bg-[#00A3BA] lg:border-none lg:pl-[10px] lg:pt-[10px] lg:pb-[10px] lg:pr-[10px] lg:text-[16px] cursor-pointer lg:rounded-[27px] lg:hover:bg-[#00A3BA] lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 sm:ml-[3.5rem] sm:bg-[#00A3BA] sm:border-none sm:pl-[8rem] sm:mt-[20px] sm:text-[#fff] sm:pt-[10px] sm:pb-[10px] sm:pr-[8rem] sm:text-[16px] sm:rounded-[14px] sm:hover:bg-[#00A3BA] sm:hover:text-[#000000] sm:transition sm:ease-out sm:duration-500 md:mt-[25px] md:ml-[15px] md:bg-[#00A3BA] md:border-2 md:pl-[11rem] md:pt-[10px] md:pb-[10px] md:text-[#fff] md:pr-[11rem] md:text-[18px] md:rounded-[7px] md:hover:bg-[#00A3BA] md:hover:text-[#000000] md:transition md:ease-out md:duration-500"
+                    className="lg:mt-[20px] lg:w-[23rem] outline-none lg:font-bold lg:ml-[34px] lg:bg-[#00A3BA] lg:border-none lg:pl-[10px] lg:pt-[10px] lg:pb-[10px] lg:pr-[10px] lg:text-[16px] cursor-pointer lg:rounded-[27px] lg:hover:bg-[#00A3BA] lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 sm:ml-[3.5rem] sm:bg-[#00A3BA] sm:border-none sm:pl-[8rem] sm:mt-[20px] sm:text-[#fff] sm:pt-[10px] sm:pb-[10px] sm:pr-[8rem] sm:text-[16px] sm:rounded-[14px] sm:hover:bg-[#00A3BA] sm:hover:text-[#000000] sm:transition sm:ease-out sm:duration-500 md:mt-[25px] md:ml-[15px] md:bg-[#00A3BA] md:border-2 md:pl-[11rem] md:pt-[10px] md:pb-[10px] md:text-[#fff] md:pr-[11rem] md:text-[18px] md:rounded-[7px] md:hover:bg-[#00A3BA] md:hover:text-[#000000] md:transition md:ease-out md:duration-500"
                   />
                 </form>
               </div>
