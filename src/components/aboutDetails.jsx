@@ -188,76 +188,72 @@ const AboutDetails = () => {
       </div>
 
       <footer className="lg:mt-[12rem] lg:border lg:bg-gradient-to-r from-[#00A3BA] to-blue-500 lg:pr-[2rem] lg:pl-[2rem] lg:pt-[2rem] lg:pb-[1rem] lg:text-center lg:font-[0.9rem] md:mt-[10rem] md:border md:bg-[#4db5ff] md:pr-[2rem] md:pl-[2rem] md:pt-[2rem] md:pb-[1rem] md:text-center md:font-[0.9rem] sm:mt-[13rem] sm:border sm:bg-[#4db5ff] sm:pr-[2rem] sm:pl-[2rem] sm:pt-[2rem] lg:pb-[1rem] sm:text-center sm:font-[0.9rem]">
-        <a
-          href="#"
+        <Link
+          to="#"
           className="lg:font-bold md:font-bold sm:font-bold lg:text-4xl lg:text-[#1f1f38] sm:text-3xl"
         >
           TIMELINE
-        </a>
+        </Link>
 
         <ul className="lg:flex lg:flex-wrap lg:justify-center lg:gap-4 lg:ml-[0rem] lg:mr-auto lg:mt-[1rem] lg:mb-[0.5rem] md:flex-none md:flex-wrap md:justify-center md:gap-4 md:ml-[0rem] md:mr-auto md:mt-[1rem] md:mb-[1rem] sm:flex-none sm:ml-[0rem] sm:mr-auto sm:mt-[1rem] sm:mb-[1rem]">
           <Link to="/">
           <li className="lg:mt-[0.5rem] sm:text-[1.2rem] lg:text-[1rem]">
-            <a href="#" className="lg:text-[#1f1f38]">
+            <Link href="#" className="lg:text-[#1f1f38]">
               Home
-            </a>
+            </Link>
           </li>
           </Link>
 
-          <Link to="/">
           <li className="sm:mt-[0.5rem] sm:text-[1.2rem] lg:text-[1rem]">
             <a href="#about" className="lg:text-[#1f1f38]">
               About
             </a>
           </li>
-          </Link>
+         
 
-          <Link to="/">
+         
           <li className="sm:mt-[0.5rem] sm:text-[1.2rem lg:text-[1rem]]">
-            <a href="#team" className="lg:text-[#1f1f38]">
+            <Link to="#team" className="lg:text-[#1f1f38]">
               Team
-            </a>
+            </Link>
           </li>
-          </Link>
-          <Link to="/">
+          
           <li className="sm:mt-[0.5rem] sm:text-[1.2rem] lg:text-[1rem]">
-            <a href="#services" className="lg:text-[#1f1f38]">
+            <Link to="#services" className="lg:text-[#1f1f38]">
               Services
-            </a>
+            </Link>
           </li>
-          </Link>
+      
 
-          <Link to="/">
+          
               <li className="sm:mt-[0.5rem] sm:text-[1.2rem] lg:text-[1rem]">
-            <a href="#contact" className="lg:text-[#1f1f38]">
+            <Link href="#contact" className="lg:text-[#1f1f38]">
               Contact
-            </a>
+            </Link>
           </li>
-          </Link>
+          
 
         </ul>
 
         <div className="lg:flex lg:justify-center lg:gap-3 lg:mb-[0.5rem] sm:flex sm:justify-center sm:gap-3 sm:mb-[2rem] md:flex md:justify-center md:gap-3 md:mb-[2rem]">
-          <a
+          <Link
             className="lg:text-[#fff] lg:bg-[#1f1f38] lg:p-[0.8rem] lg:rounded-[0.7rem] lg:flex lg:hover:text-[#00A3BA] md:text-[#fff] md:bg-[#1f1f38] md:p-[0.8rem] md:rounded-[0.7rem] md:flex md:hover:text-[#00A3BA] sm:text-[#fff] sm:bg-[#1f1f38] sm:p-[1rem] sm:rounded-[0.7rem] sm:flex sm:hover:text-[#00A3BA]"
-            href="_blank"
+            to="_blank"
           >
             <FaSnapchat />
-          </a>
-          <a
+          </Link>
+          <Link
             className="lg:text-[#fff] lg:bg-[#1f1f38] lg:p-[0.8rem] lg:rounded-[0.7rem] lg:flex lg:hover:text-[#00A3BA] md:text-[#fff] md:bg-[#1f1f38] md:p-[0.8rem] md:rounded-[0.7rem] md:flex md:hover:text-[#00A3BA] sm:text-[#fff] sm:bg-[#1f1f38] sm:p-[1rem] sm:rounded-[0.7rem] sm:flex sm:hover:text-[#00A3BA]"
-            href="https://www.instagram.com/simplevhick_"
-            target="_blank"
+            to="https://www.instagram.com/simplevhick_"
           >
             <FaInstagram />
-          </a>
-          <a
+          </Link>
+          <Link
             className="lg:text-[#fff] lg:bg-[#1f1f38] lg:p-[0.8rem] lg:rounded-[0.7rem] lg:flex lg:hover:text-[#00A3BA] md:text-[#fff] md:bg-[#1f1f38] md:p-[0.8rem] md:rounded-[0.7rem] md:flex md:hover:text-[#00A3BA] sm:text-[#fff] sm:bg-[#1f1f38] sm:p-[1rem] sm:rounded-[0.7rem] sm:flex sm:hover:text-[#00A3BA]"
-            href="https://twitter.com/simplevhick"
-            target="_blank"
+            to="https://twitter.com/simplevhick"
           >
             <FaTwitter />
-          </a>
+          </Link>
         </div>
 
         <div className="text-[1.2rem]">
