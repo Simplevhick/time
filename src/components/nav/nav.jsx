@@ -161,15 +161,15 @@ const Nav = () => {
             </Link>
           </div>
 
-          <section id="about" className="z-10 lg:w-[75rem] lg:mt-[4rem] lg:p-[6rem] p-[5px] w-[34rem] ml-[13px] mt-[8rem] w-[15rem] md:mt-[15rem] xl:w-[75rem] xl:mt-[15rem] xl:p-[6rem] 2xl:w-[75rem] 2xl:mt-[13rem] 2xl:p-[6rem] 2xl:ml-[10.5rem]">
+          <section id="about" className="z-10 lg:w-[75rem] lg:mt-[4rem] lg:p-[6rem] sm:p-[5px] sm:w-[34rem] sm:ml-[13px] sm:mt-[8rem] md:w-[15rem] md:mt-[15rem] xl:w-[75rem] xl:mt-[15rem] xl:p-[6rem] 2xl:w-[75rem] 2xl:mt-[13rem] 2xl:p-[6rem] 2xl:ml-[10.5rem]">
             <div className="">
               <div className="lg:flex">
-                <div className="lg:text-[2.8rem] lg:text-xl lg:font-bold lg:ml-[3rem] md:text-[2.6rem] md:text-xl md:font-bold md:ml-[1.5rem] text-[2.4rem] text-xl font-bold ml-[0.23rem] xl:text-[2.8rem] xl:text-xl xl:font-bold xl:ml-[3rem] 2xl:text-[2.8rem] 2xl:text-xl 2xl:font-bold 2xl:ml-[6rem]">
-                  <h1 className="lg:text-[#00A3BA] text-[#00A3BA] md:text-[#00A3BA] xl:text-[#00A3BA]">ABOUT US</h1>
+                <div className="lg:text-[2.8rem] lg:text-xl lg:font-bold lg:ml-[3rem] md:text-[2.6rem] md:text-xl md:font-bold md:ml-[1.5rem] sm:text-[2.4rem] sm:text-xl sm:font-bold sm:ml-[0.23rem] xl:text-[2.8rem] xl:text-xl xl:font-bold xl:ml-[3rem] 2xl:text-[2.8rem] 2xl:text-xl 2xl:font-bold 2xl:ml-[6rem]">
+                  <h1 className="lg:text-[#00A3BA] sm:text-[#00A3BA] md:text-[#00A3BA] xl:text-[#00A3BA]">ABOUT US</h1>
                 </div>
 
                 <div className="lg:ml-[6rem] xl:ml-[6rem]">
-                  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5] md:font-medium md:text-[1.1rem] md:w-[42rem] md:p-[20px] md:text-[#B2BEB5] font-medium text-[1rem] w-[34rem] mt-[10px] text-[#B2BEB5] xl:font-medium xl:text-[1.1rem] xl:w-[42rem] xl:p-[20px] xl:text-[#B2BEB5] 2xl:font-medium 2xl:text-[1.5rem] 2xl:w-[42rem] 2xl:p-[20px] 2xl:text-[#B2BEB5]">
+                  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5] md:font-medium md:text-[1.1rem] md:w-[42rem] md:p-[20px] md:text-[#B2BEB5] sm:font-medium sm:text-[1rem] sm:w-[34rem] sm:mt-[10px] sm:text-[#B2BEB5] xl:font-medium xl:text-[1.1rem] xl:w-[42rem] xl:p-[20px] xl:text-[#B2BEB5] 2xl:font-medium 2xl:text-[1.5rem] 2xl:w-[42rem] 2xl:p-[20px] 2xl:text-[#B2BEB5]">
                     Hello, and welcome to TIMELINE ENTERTAINMENT! We,re a small,
                     passionate team of creatives who dedicated to bringing joy
                     and excitement to people's lives through our work. Our
@@ -179,7 +179,7 @@ const Nav = () => {
                     smiles to the faces of people all over the world with our
                     unique brand of entertainment.
                   </p>
-                  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5] font-medium text-[1rem] mt-[15px] w-[34rem] text-[#B2BEB5] md:font-medium md:text-[1.1rem] md:text-[#B2BEB5] xl:font-medium xl:text-[1.1rem] xl:w-[42rem] xl:p-[20px] xl:text-[#B2BEB5] 2xl:font-medium 2xl:text-[1.5rem] 2xl:w-[42rem] 2xl:p-[20px] 2xl:text-[#B2BEB5]">
+                  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5] sm:font-medium sm:text-[1rem] sm:mt-[15px] sm:w-[34rem] sm:text-[#B2BEB5] md:font-medium md:text-[1.1rem] md:text-[#B2BEB5] xl:font-medium xl:text-[1.1rem] xl:w-[42rem] xl:p-[20px] xl:text-[#B2BEB5] 2xl:font-medium 2xl:text-[1.5rem] 2xl:w-[42rem] 2xl:p-[20px] 2xl:text-[#B2BEB5]">
                     Timeline Entertainment is a leading provider of innovative
                     and engaging entertainment experiences. We are commited to
                     pushing the boundaries of whats possible in entertainment
@@ -375,28 +375,28 @@ const Nav = () => {
       </div>
 
       <section id="services" className="">
-        <div className="lg:mt-[153rem] sm:mt-[246rem] md:mt-[132rem] 2xl:ml-[15rem] 2xl:mt-[170rem]">
-          <div className="Poppins ptSerif lg:ml-[32rem] lg:text-4xl sm:ml-[12.5rem] sm:text-4xl md:ml-[17rem] md:text-4xl">
+        <div className="lg:mt-[153rem] mt-[246rem] md:mt-[132rem] 2xl:ml-[15rem] 2xl:mt-[170rem]">
+          <div className="Poppins ptSerif lg:ml-[32rem] lg:text-4xl ml-[12.5rem] text-4xl md:ml-[17rem] md:text-4xl">
             <h1>What We Do</h1>
           </div>
           <div>
-            <p className="lg:ml-[26rem] lg:text-[20px] sm:ml-[7.9rem] sm:mt-[6px] sm:text-[17.5px] md:ml-[12rem] md:text-[18px]">
+            <p className="lg:ml-[26rem] lg:text-[20px] ml-[7.9rem] mt-[6px] text-[17.5px] md:ml-[12rem] md:text-[18px]">
               We offer swift and beautiful responses to us.
             </p>
           </div>
-          <div className="lg:flex lg:items-center lg:ml-[31rem] lg:mt-[3rem] lg:text-[20px] lg:transition lg:ease-in-and-out lg:duration-500 lg:font-bold lg:hover:text-cyan-500 sm:flex sm:items-center sm:ml-[10rem] sm:mt-[1.8rem] sm:text-[24px] sm:transition sm:ease-in-and-out sm:duration-500 sm:font-bold sm:hover:text-cyan-500 md:flex md:items-center md:ml-[16rem] md:mt-[3rem] md:text-[20px] md:transition md:ease-in-and-out md:duration-500 md:font-bold md:hover:text-cyan-500">
+          <div className="lg:flex lg:items-center lg:ml-[31rem] lg:mt-[3rem] lg:text-[20px] lg:transition lg:ease-in-and-out lg:duration-500 lg:font-bold lg:hover:text-cyan-500 flex items-center ml-[10rem] mt-[1.8rem] text-[24px] transition ease-in-and-out duration-500 font-bold hover:text-cyan-500 md:flex md:items-center md:ml-[16rem] md:mt-[3rem] md:text-[20px] md:transition md:ease-in-and-out md:duration-500 md:font-bold md:hover:text-cyan-500">
             <p className="">More About Our Services</p>
             <p className="">
               {" "}
               <MdOutlineNextPlan className="sm:ml-[1px]"/>{" "}
             </p>
           </div>
-          <div className="lg:flex lg:max-w-5xl lg:ml-[5rem] lg:mt-[4rem] lg:gap-8 group sm:max-w-5xl sm:ml-[11rem] sm:mt-[2rem] sm:gap-8 sm:group md:max-w-5xl md:ml-[5rem] md:grid md:grid-cols-2 md:mt-[4rem] md:gap-8 group">
+          <div className="lg:flex lg:max-w-5xl lg:ml-[5rem] lg:mt-[4rem] lg:gap-8 group max-w-5xl ml-[11rem] mt-[2rem] gap-8 group md:max-w-5xl md:ml-[5rem] md:grid md:grid-cols-2 md:mt-[4rem] md:gap-8 group">
             <div className="lg:bg-[#abd9d9] lg:duration-500 lg:group-hover:blur-sm lg:hover:!blur-none lg:group-hover:scale-[0.85] lg:hover:!scale-100 lg:cursor-pointer lg:p-8 lg:rounded-xl sm:bg-[#abd9d9] sm:duration-500 sm:group-hover:blur-sm sm:hover:!blur-none sm:group-hover:scale-[0.85] sm:hover:!scale-100 sm:mt-[1rem] sm:w-[17rem] sm:cursor-pointer sm:p-8 sm:rounded-xl md:bg-[#abd9d9] md:duration-500 md:group-hover:blur-sm md:hover:!blur-none md:group-hover:scale-[0.85] md:hover:!scale-100 md:cursor-pointer md:p-8 md:rounded-xl">
               <p>
                 <LiaFileAudio className="lg:h-20 lg:mx-auto lg:w-[9rem] sm:h-[7rem] sm:ml-[3.7rem] sm:w-[5rem] md:h-20 md:mx-auto md:w-[9rem]" />
               </p>
-              <h4 className="lg:uppercase lg:text-xl lg:font-bold lg:ml-[14px] sm:uppercase sm:text-[17px] sm:font-bold sm:ml-[36px] md:uppercase md:mt-[10px] md:text-xl md:font-bold md:ml-[34px]">
+              <h4 className="lg:uppercase lg:text-xl lg:font-bold lg:ml-[14px] uppercase text-[17px] font-bold ml-[36px] md:uppercase md:mt-[10px] md:text-xl md:font-bold md:ml-[34px]">
                 Audio/Visual
               </h4>
               <h4 className="lg:uppercase lg:text-xl lg:font-bold lg:ml-[18px] md:uppercase md:text-xl md:font-bold md:ml-[38px] sm:uppercase sm:text-[17px] sm:font-bold sm:ml-[38px]">
