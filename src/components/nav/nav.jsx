@@ -388,86 +388,86 @@ const Nav = () => {
             <p className="">More About Our Services</p>
             <p className="">
               {" "}
-              <MdOutlineNextPlan className="sm:ml-[1px]"/>{" "}
+              <MdOutlineNextPlan className="ml-[1px]"/>{" "}
             </p>
           </div>
           <div className="lg:flex lg:max-w-5xl lg:ml-[5rem] lg:mt-[4rem] lg:gap-8 group max-w-5xl ml-[11rem] mt-[2rem] gap-8 group md:max-w-5xl md:ml-[5rem] md:grid md:grid-cols-2 md:mt-[4rem] md:gap-8 group">
-            <div className="lg:bg-[#abd9d9] lg:duration-500 lg:group-hover:blur-sm lg:hover:!blur-none lg:group-hover:scale-[0.85] lg:hover:!scale-100 lg:cursor-pointer lg:p-8 lg:rounded-xl sm:bg-[#abd9d9] sm:duration-500 sm:group-hover:blur-sm sm:hover:!blur-none sm:group-hover:scale-[0.85] sm:hover:!scale-100 sm:mt-[1rem] sm:w-[17rem] sm:cursor-pointer sm:p-8 sm:rounded-xl md:bg-[#abd9d9] md:duration-500 md:group-hover:blur-sm md:hover:!blur-none md:group-hover:scale-[0.85] md:hover:!scale-100 md:cursor-pointer md:p-8 md:rounded-xl">
+            <div className="lg:bg-[#abd9d9] lg:duration-500 lg:group-hover:blur-sm lg:hover:!blur-none lg:group-hover:scale-[0.85] lg:hover:!scale-100 lg:cursor-pointer lg:p-8 lg:rounded-xl bg-[#abd9d9] duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 mt-[1rem] w-[17rem] cursor-pointer p-8 rounded-xl md:bg-[#abd9d9] md:duration-500 md:group-hover:blur-sm md:hover:!blur-none md:group-hover:scale-[0.85] md:hover:!scale-100 md:cursor-pointer md:p-8 md:rounded-xl">
               <p>
-                <LiaFileAudio className="lg:h-20 lg:mx-auto lg:w-[9rem] sm:h-[7rem] sm:ml-[3.7rem] sm:w-[5rem] md:h-20 md:mx-auto md:w-[9rem]" />
+                <LiaFileAudio className="lg:h-20 lg:mx-auto lg:w-[9rem] h-[7rem] ml-[3.7rem] w-[5rem] md:h-20 md:mx-auto md:w-[9rem]" />
               </p>
               <h4 className="lg:uppercase lg:text-xl lg:font-bold lg:ml-[14px] uppercase text-[17px] font-bold ml-[36px] md:uppercase md:mt-[10px] md:text-xl md:font-bold md:ml-[34px]">
                 Audio/Visual
               </h4>
-              <h4 className="lg:uppercase lg:text-xl lg:font-bold lg:ml-[18px] md:uppercase md:text-xl md:font-bold md:ml-[38px] sm:uppercase sm:text-[17px] sm:font-bold sm:ml-[38px]">
+              <h4 className="lg:uppercase lg:text-xl lg:font-bold lg:ml-[18px] md:uppercase md:text-xl md:font-bold md:ml-[38px] uppercase text-[17px] font-bold ml-[38px]">
                 Production.
               </h4>
-              <p className="lg:text-sm lg:leading-7 lg:my-3 lg:font-light lg:opacity-50 sm:text-sm sm:leading-7 sm:my-3 sm:w-[12rem] sm:font-light sm:opacity-50 md:text-sm md:leading-7 md:my-3 md:font-light md:opacity-50">
+              <p className="lg:text-sm lg:leading-7 lg:my-3 lg:font-light lg:opacity-50 text-sm leading-7 my-3 w-[12rem] font-light opacity-50 md:text-sm md:leading-7 md:my-3 md:font-light md:opacity-50">
                 We deliver state of the arts audio-visual production from short
                 films, music videos.
               </p>
               <Link to="/aboutDetails">
-                <button className="lg:bg-[#00A3BA] lg:text-[#fff] lg:py-2 lg:px-6 lg:cursor-pointer lg:rounded-full lg:transition lg:ease-in-and-out lg:duration-500 lg:font-bold lg:hover:text-[#000000] lg:ml-[35px] md:bg-[#00A3BA] md:py-2 md:px-6 md:cursor-pointer md:rounded-full md:transition md:ease-in-and-out md:duration-500 md:font-bold md:hover:text-[#000000] md:ml-[40px] sm:bg-[#00A3BA] sm:text-[#fff] sm:py-2 sm:px-6 sm:cursor-pointer sm:rounded-full sm:transition sm:ease-in-and-out sm:duration-500 sm:font-bold sm:hover:text-[#000000] sm:ml-[40px]">
+                <button className="lg:bg-[#00A3BA] lg:text-[#fff] lg:py-2 lg:px-6 lg:cursor-pointer lg:rounded-full lg:transition lg:ease-in-and-out lg:duration-500 lg:font-bold lg:hover:text-[#000000] lg:ml-[35px] md:bg-[#00A3BA] md:py-2 md:px-6 md:cursor-pointer md:rounded-full md:transition md:ease-in-and-out md:duration-500 md:font-bold md:hover:text-[#000000] md:ml-[40px] bg-[#00A3BA] text-[#fff] py-2 px-6 cursor-pointer rounded-full transition  ease-in-and-out duration-500 font-bold hover:text-[#000000] ml-[40px]">
                   More Info
                 </button>
               </Link>
             </div>
-            <div className="lg:bg-[#abd9d9] lg:duration-500 lg:group-hover:blur-sm lg:hover:!blur-none lg:group-hover:scale-[0.85] lg:hover:!scale-100 lg:cursor-pointer lg:p-8 lg:rounded-xl sm:bg-[#abd9d9] sm:duration-500 sm:group-hover:blur-sm sm:hover:!blur-none sm:group-hover:scale-[0.85] sm:hover:!scale-100 sm:mt-[1rem] sm:w-[17rem] sm:cursor-pointer sm:p-8 sm:rounded-xl md:bg-[#abd9d9] md:duration-500 md:group-hover:blur-sm md:hover:!blur-none md:group-hover:scale-[0.85] md:hover:!scale-100 md:cursor-pointer md:p-8 md:rounded-xl">
+            <div className="lg:bg-[#abd9d9] lg:duration-500 lg:group-hover:blur-sm lg:hover:!blur-none lg:group-hover:scale-[0.85] lg:hover:!scale-100 lg:cursor-pointer lg:p-8 lg:rounded-xl bg-[#abd9d9] duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 mt-[1rem] w-[17rem] cursor-pointer p-8 rounded-xl md:bg-[#abd9d9] md:duration-500 md:group-hover:blur-sm md:hover:!blur-none md:group-hover:scale-[0.85] md:hover:!scale-100 md:cursor-pointer md:p-8 md:rounded-xl">
               <p>
-                <PiVinylRecordFill className="lg:h-20 lg:mx-auto lg:w-[9rem] sm:h-[7rem] sm:ml-[3.7rem] sm:w-[5rem] md:h-20 md:mx-auto md:w-[9rem]" />
+                <PiVinylRecordFill className="lg:h-20 lg:mx-auto lg:w-[9rem] h-[7rem] ml-[3.7rem] w-[5rem] md:h-20 md:mx-auto md:w-[9rem]" />
               </p>
-              <h4 className="lg:uppercase lg:text-xl lg:font-bold lg:ml-[49px] sm:uppercase sm:text-[17px] sm:font-bold sm:ml-[60px] md:uppercase md:text-xl md:mt-[10px] md:font-bold md:ml-[60px]">
+              <h4 className="lg:uppercase lg:text-xl lg:font-bold lg:ml-[49px] uppercase text-[17px] font-bold ml-[60px] md:uppercase md:text-xl md:mt-[10px] md:font-bold md:ml-[60px]">
                 Record
               </h4>
-              <h4 className="lg:uppercase lg:text-xl lg:font-bold lg:ml-[53px] md:uppercase md:text-xl md:font-bold md:ml-[61px] sm:uppercase sm:text-[17px] sm:font-bold sm:ml-[61.5px]">
+              <h4 className="lg:uppercase lg:text-xl lg:font-bold lg:ml-[53px] md:uppercase md:text-xl md:font-bold md:ml-[61px] uppercase text-[17px] font-bold ml-[61.5px]">
                 Labels
               </h4>
-              <p className="lg:text-sm lg:leading-7 lg:my-3 lg:font-light lg:opacity-50 sm:text-sm sm:leading-7 sm:my-3 sm:w-[12rem] sm:font-light sm:opacity-50 md:text-sm md:leading-7 md:my-3 md:font-light md:opacity-50">
+              <p className="lg:text-sm lg:leading-7 lg:my-3 lg:font-light lg:opacity-50 text-sm leading-7 my-3 w-[12rem] font-light opacity-50 md:text-sm md:leading-7 md:my-3 md:font-light md:opacity-50">
                 We help our client make a stand via our international relations
                 network.
               </p>
               <Link to="/aboutDetails">
-              <button className="lg:bg-[#00A3BA] lg:text-[#fff] lg:py-2 lg:px-6 lg:cursor-pointer lg:rounded-full lg:transition lg:ease-in-and-out lg:duration-500 lg:font-bold lg:hover:text-[#000000] lg:ml-[35px] md:bg-[#00A3BA] sm:text-[#fff] md:py-2 md:px-6 md:cursor-pointer md:rounded-full md:transition md:ease-in-and-out md:duration-500 md:font-bold md:hover:text-[#000000] md:ml-[40px] sm:bg-[#00A3BA] sm:text-[#fff] sm:py-2 sm:px-6 sm:cursor-pointer sm:rounded-full sm:transition sm:ease-in-and-out sm:duration-500 sm:font-bold sm:hover:text-[#000000] sm:ml-[40px]">
+              <button className="lg:bg-[#00A3BA] lg:text-[#fff] lg:py-2 lg:px-6 lg:cursor-pointer lg:rounded-full lg:transition lg:ease-in-and-out lg:duration-500 lg:font-bold lg:hover:text-[#000000] lg:ml-[35px] md:bg-[#00A3BA] text-[#fff] md:py-2 md:px-6 md:cursor-pointer md:rounded-full md:transition md:ease-in-and-out md:duration-500 md:font-bold md:hover:text-[#000000] md:ml-[40px] bg-[#00A3BA] text-[#fff] py-2 px-6 cursor-pointer rounded-full transition ease-in-and-out duration-500 font-bold hover:text-[#000000] ml-[40px]">
                 More Info
               </button>
               </Link>
             </div>
-            <div className="lg:bg-[#abd9d9] lg:duration-500 lg:group-hover:blur-sm lg:hover:!blur-none lg:group-hover:scale-[0.85] lg:hover:!scale-100 lg:cursor-pointer lg:p-8 lg:rounded-xl sm:bg-[#abd9d9] sm:duration-500 sm:group-hover:blur-sm sm:hover:!blur-none sm:group-hover:scale-[0.85] sm:hover:!scale-100 sm:mt-[1rem] sm:w-[17rem] sm:cursor-pointer sm:p-8 lg:rounded-xl md:bg-[#abd9d9] md:duration-500 md:group-hover:blur-sm md:hover:!blur-none md:group-hover:scale-[0.85] md:hover:!scale-100 md:cursor-pointer md:p-8 md:rounded-xl">
+            <div className="lg:bg-[#abd9d9] lg:duration-500 lg:group-hover:blur-sm lg:hover:!blur-none lg:group-hover:scale-[0.85] lg:hover:!scale-100 lg:cursor-pointer lg:p-8 lg:rounded-xl bg-[#abd9d9] duration-500 group-hover:blur-sm hover:!blur-none  group-hover:scale-[0.85] hover:!scale-100 mt-[1rem] w-[17rem] sm:cursor-pointer p-8 lg:rounded-xl md:bg-[#abd9d9] md:duration-500 md:group-hover:blur-sm md:hover:!blur-none md:group-hover:scale-[0.85] md:hover:!scale-100 md:cursor-pointer md:p-8 md:rounded-xl">
               <p>
-                <MdOutlineRecordVoiceOver className="lg:h-20 lg:mx-auto lg:w-[9rem] sm:h-[7rem] sm:ml-[3.7rem] sm:w-[5rem] md:h-20 md:mx-auto md:w-[9rem]" />
+                <MdOutlineRecordVoiceOver className="lg:h-20 lg:mx-auto lg:w-[9rem] h-[7rem] ml-[3.7rem] w-[5rem] md:h-20 md:mx-auto md:w-[9rem]" />
               </p>
-              <h4 className="lg:uppercase lg:text-xl lg:font-bold lg:ml-[34px] sm:uppercase sm:text-[17px] sm:font-bold sm:ml-[43px] md:uppercase md:text-xl md:mt-[10px] md:font-bold md:ml-[40px]">
+              <h4 className="lg:uppercase lg:text-xl lg:font-bold lg:ml-[34px] uppercase text-[17px] font-bold ml-[43px] md:uppercase md:text-xl md:mt-[10px] md:font-bold md:ml-[40px]">
                 Off-Stage
               </h4>
-              <h4 className="lg:uppercase lg:text-xl lg:font-bold lg:ml-[22px] md:uppercase md:text-xl md:font-bold md:ml-[28px] sm:uppercase sm:text-[17px] sm:font-bold sm:ml-[38px]">
+              <h4 className="lg:uppercase lg:text-xl lg:font-bold lg:ml-[22px] md:uppercase md:text-xl md:font-bold md:ml-[28px] uppercase text-[17px] font-bold ml-[38px]">
                 Commentary
               </h4>
-              <p className="lg:text-sm lg:leading-7 lg:my-3 lg:font-light lg:opacity-50 sm:text-sm sm:leading-7 sm:my-3 sm:w-[12rem] sm:font-light sm:opacity-50 md:text-sm md:leading-7 md:my-3 md:font-light md:opacity-50">
+              <p className="lg:text-sm lg:leading-7 lg:my-3 lg:font-light lg:opacity-50 text-sm leading-7 my-3 w-[12rem] font-light opacity-50 md:text-sm md:leading-7 md:my-3 md:font-light md:opacity-50">
                 We are sure of giving you the most granded voice over solutions
                 for your business.
               </p>
               <Link to="/aboutDetails">
-              <button className="lg:bg-[#00A3BA] lg:text-[#fff] lg:py-2 lg:px-6 lg:cursor-pointer lg:rounded-full lg:transition lg:ease-in-and-out lg:duration-500 lg:font-bold lg:hover:text-[#000000] lg:ml-[35px] md:bg-[#00A3BA] sm:text-[#fff] md:py-2 md:px-6 md:cursor-pointer md:rounded-full md:transition md:ease-in-and-out md:duration-500 md:font-bold md:hover:text-[#000000] md:ml-[40px] sm:bg-[#00A3BA] sm:text-[#fff] sm:py-2 sm:px-6 sm:cursor-pointer sm:rounded-full sm:transition sm:ease-in-and-out sm:duration-500 sm:font-bold sm:hover:text-[#000000] sm:ml-[40px]">
+              <button className="lg:bg-[#00A3BA] lg:text-[#fff] lg:py-2 lg:px-6 lg:cursor-pointer lg:rounded-full lg:transition lg:ease-in-and-out lg:duration-500 lg:font-bold lg:hover:text-[#000000] lg:ml-[35px] md:bg-[#00A3BA] text-[#fff] md:py-2 md:px-6 md:cursor-pointer md:rounded-full md:transition md:ease-in-and-out md:duration-500 md:font-bold md:hover:text-[#000000] md:ml-[40px] bg-[#00A3BA] text-[#fff] py-2 px-6 cursor-pointer rounded-full transition ease-in-and-out duration-500 font-bold hover:text-[#000000] ml-[40px]">
                 More Info
               </button>
               </Link>
             </div>
-            <div className="lg:bg-[#abd9d9] lg:duration-500 lg:group-hover:blur-sm lg:hover:!blur-none lg:group-hover:scale-[0.85] lg:hover:!scale-100 lg:cursor-pointer lg:p-8 lg:rounded-xl sm:bg-[#abd9d9] sm:duration-500 sm:group-hover:blur-sm sm:hover:!blur-none sm:group-hover:scale-[0.85] sm:hover:!scale-100 sm:mt-[1rem] sm:w-[17rem] sm:cursor-pointer sm:p-8 lg:rounded-xl md:bg-[#abd9d9] md:duration-500 md:group-hover:blur-sm md:hover:!blur-none md:group-hover:scale-[0.85] md:hover:!scale-100 md:cursor-pointer md:p-8 md:rounded-xl">
+            <div className="lg:bg-[#abd9d9] lg:duration-500 lg:group-hover:blur-sm lg:hover:!blur-none lg:group-hover:scale-[0.85] lg:hover:!scale-100 lg:cursor-pointer lg:p-8 lg:rounded-xl bg-[#abd9d9] duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 mt-[1rem] w-[17rem] cursor-pointer p-8 lg:rounded-xl md:bg-[#abd9d9] md:duration-500 md:group-hover:blur-sm md:hover:!blur-none md:group-hover:scale-[0.85] md:hover:!scale-100 md:cursor-pointer md:p-8 md:rounded-xl">
               <p>
-                <SiMediamarkt className="lg:h-20 lg:mx-auto lg:w-[9rem] sm:h-[7rem] sm:ml-[3.7rem] sm:w-[5rem] md:h-20 md:mx-auto md:w-[9rem]" />
+                <SiMediamarkt className="lg:h-20 lg:mx-auto lg:w-[9rem] h-[7rem] ml-[3.7rem] w-[5rem] md:h-20 md:mx-auto md:w-[9rem]" />
               </p>
-              <h4 className="lg:uppercase lg:text-xl lg:font-bold lg:ml-[54px] sm:uppercase sm:text-[17px] sm:font-bold sm:ml-[63px] md:uppercase md:text-xl md:mt-[10px]  md:font-bold md:ml-[54px]">
+              <h4 className="lg:uppercase lg:text-xl lg:font-bold lg:ml-[54px] uppercase text-[17px] font-bold ml-[63px] md:uppercase md:text-xl md:mt-[10px]  md:font-bold md:ml-[54px]">
                 Media IT
               </h4>
-              <h4 className="lg:uppercase lg:text-xl lg:font-bold lg:ml-[41px] md:uppercase md:text-xl md:font-bold md:ml-[45px] sm:uppercase sm:text-[17px] sm:font-bold sm:ml-[48px]">
+              <h4 className="lg:uppercase lg:text-xl lg:font-bold lg:ml-[41px] md:uppercase md:text-xl md:font-bold md:ml-[45px] uppercase text-[17px] font-bold ml-[48px]">
                 Solutions
               </h4>
-              <p className="lg:text-sm lg:leading-7 lg:my-3 lg:font-light lg:opacity-50 sm:text-sm sm:leading-7 sm:my-3 sm:w-[12rem] sm:font-light sm:opacity-50 md:text-sm md:leading-7 md:my-3 md:font-light md:opacity-50">
+              <p className="lg:text-sm lg:leading-7 lg:my-3 lg:font-light lg:opacity-50 text-sm leading-7 my-3 w-[12rem] font-light opacity-50 md:text-sm md:leading-7 md:my-3 md:font-light md:opacity-50">
                 We also design and develop high end websites for clients and
                 comfort demands.
               </p>
               <Link to="/aboutDetails">
-              <button className="lg:bg-[#00A3BA] lg:text-[#fff] lg:py-2 lg:px-6 lg:cursor-pointer lg:rounded-full lg:transition lg:ease-in-and-out lg:duration-500 lg:font-bold lg:hover:text-[#000000] lg:ml-[35px] md:font-bold md:bg-[#00A3BA] sm:text-[#fff] md:py-2 md:px-6 md:cursor-pointer md:rounded-full md:transition md:ease-in-and-out md:duration-500 md:font-bold md:hover:text-[#000000] md:ml-[40px] sm:bg-[#00A3BA] sm:text-[#fff] sm:py-2 sm:px-6 sm:cursor-pointer sm:rounded-full sm:transition sm:ease-in-and-out sm:duration-500 sm:font-bold sm:hover:text-[#000000] sm:ml-[40px]">
+              <button className="lg:bg-[#00A3BA] lg:text-[#fff] lg:py-2 lg:px-6 lg:cursor-pointer lg:rounded-full lg:transition lg:ease-in-and-out lg:duration-500 lg:font-bold lg:hover:text-[#000000] lg:ml-[35px] md:font-bold md:bg-[#00A3BA] text-[#fff] md:py-2 md:px-6 md:cursor-pointer md:rounded-full md:transition md:ease-in-and-out md:duration-500 md:font-bold md:hover:text-[#000000] md:ml-[40px] bg-[#00A3BA] text-[#fff] py-2 px-6 cursor-pointer rounded-full transition ease-in-and-out duration-500 font-bold hover:text-[#000000] ml-[40px]">
                 More Info
               </button>
               </Link>
