@@ -136,18 +136,19 @@ const Nav = () => {
           {click ? <FaTimes /> : <CiMenuFries />}
         </button>
       </div>
+      
       <div
-        className="lg:w-full lg:bg-cover lg:bg-no-repeat lg:h-[60rem] md:w-full md:bg-contain md:bg-no-repeat md:h-[46rem] sm:w-full sm:bg-contain sm:bg-no-repeat sm:h-[43rem]"
+        className="lg:w-full lg:bg-cover lg:bg-no-repeat lg:h-[60rem] md:w-full md:bg-contain md:bg-no-repeat md:h-[46rem] w-full bg-contain bg-no-repeat h-[43rem]"
         style={{
           backgroundImage: `url(${Img})`,
         }}
       >
-        <div className="lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[39rem] lg:left-[2rem] sm:h-[11.5rem] sm:w-[15rem] sm:bg-black sm:bg-opacity-15 sm-border-none sm:absolute sm:top-[19rem] sm:left-[1rem] md:h-[17.5rem] md:w-[16.5rem] md:bg-black md:bg-opacity-20 md:border-none md:absolute md:top-[18rem] md:left-[1.6rem]">
+        <div className="lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[39rem] lg:left-[2rem] h-[11.5rem] w-[15rem] bg-black bg-opacity-15 border-none absolute top-[19rem] left-[1rem] md:h-[17.5rem] md:w-[16.5rem] md:bg-black md:bg-opacity-20 md:border-none md:absolute md:top-[18rem] md:left-[1.6rem]">
           <div>
-            <h1 className="lg:text-6xl lg:ml-[21px] lg:mt-[25px] Poppins lg:text-[#00A3BA] sm:text-[28px] sm:mt-[10px] sm:ml-[14px] sm:leading-[23px] sm:text-[#00A3BA] md:text-[28px] md:leading-[29px] md:ml-[21px] md:mt-[19px] md:text-[#00A3BA]">
+            <h1 className="lg:text-6xl lg:ml-[21px] lg:mt-[25px] Poppins lg:text-[#00A3BA] text-[28px] mt-[10px] ml-[14px] leading-[23px] text-[#00A3BA] md:text-[28px] md:leading-[29px] md:ml-[21px] md:mt-[19px] md:text-[#00A3BA]">
               We redefine entertainment.
             </h1>
-            <p className="lg:mt-[1.3rem] lg:text-2xl lg:ml-[25px] lg:w-[29rem] lg:text-white sm:mt-[8px] sm:text-sm sm:ml-[14px] sm:w-[14rem] sm:leading-[17px] sm:text-white md:mt-[10px] md:leading-[28px] md:text-base md:ml-[19px] md:w-[15.6rem] md:text-white">
+            <p className="lg:mt-[1.3rem] lg:text-2xl lg:ml-[25px] lg:w-[29rem] lg:text-white mt-[8px] text-sm ml-[14px] w-[14rem] leading-[17px] text-white md:mt-[10px] md:leading-[28px] md:text-base md:ml-[19px] md:w-[15.6rem] md:text-white">
               Timeline Entertainment Limited was established by a team of
               professionals in music, audio-visuals, software managers, and
               media strategists in 2007.
@@ -156,7 +157,7 @@ const Nav = () => {
               <input
                 type="button"
                 value="READ MORE"
-                className="lg:mt-[30px] lg:ml-[28px] lg:bg-[#00A3BA] lg:text-[#fff] lg:border-none lg:pl-[12px] lg:pt-[12px] lg:pb-[12px] lg:pr-[12px] lg:text-[16px] cursor-pointer lg:rounded-[7px] lg:hover:bg-[#00A3BA] lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 sm:ml-[16px] sm:mt-[9px] sm:text-[#fff] sm:bg-[#00A3BA] sm:border-none sm:pl-[5px] sm:pt-[5px] sm:pb-[5px] sm:pr-[5px] sm:text-[10px] sm:rounded-[3px] sm:hover:bg-[#00A3BA] sm:hover:text-[#000000] sm:transition sm:ease-out sm:duration-500 md:mt-[12px] md:text-[#fff] lg:ml-[30px] md:bg-[#00A3BA] md:border-2 md:pl-[9px] md:pt-[9px] md:pb-[9px] md:pr-[9px] md:text-[12px] md:rounded-[7px] md:hover:bg-[#00A3BA] md:hover:text-[#000000] md:transition md:ease-out md:duration-500"
+                className="lg:mt-[30px] lg:ml-[28px] lg:bg-[#00A3BA] lg:text-[#fff] lg:border-none lg:pl-[12px] lg:pt-[12px] lg:pb-[12px] lg:pr-[12px] lg:text-[16px] cursor-pointer lg:rounded-[7px] lg:hover:bg-[#00A3BA] lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 ml-[16px] mt-[9px] text-[#fff] bg-[#00A3BA] border-none pl-[5px] pt-[5px] pb-[5px] pr-[5px] text-[10px] rounded-[3px] hover:bg-[#00A3BA] hover:text-[#000000] transition ease-out duration-500 md:mt-[12px] md:text-[#fff] lg:ml-[30px] md:bg-[#00A3BA] md:border-2 md:pl-[9px] md:pt-[9px] md:pb-[9px] md:pr-[9px] md:text-[12px] md:rounded-[7px] md:hover:bg-[#00A3BA] md:hover:text-[#000000] md:transition md:ease-out md:duration-500"
               />
             </Link>
           </div>
@@ -671,3 +672,35 @@ export default Nav;
   </div>
 </div>
 </section> */
+
+
+
+
+
+
+
+
+/* <div
+        className="lg:w-full lg:bg-cover lg:bg-no-repeat lg:h-[60rem] md:w-full md:bg-contain md:bg-no-repeat md:h-[46rem] sm:w-full sm:bg-contain sm:bg-no-repeat sm:h-[43rem]"
+        style={{
+          backgroundImage: `url(${Img})`,
+        }}
+      >
+        <div className="lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[39rem] lg:left-[2rem] sm:h-[11.5rem] sm:w-[15rem] sm:bg-black sm:bg-opacity-15 sm-border-none sm:absolute sm:top-[19rem] sm:left-[1rem] md:h-[17.5rem] md:w-[16.5rem] md:bg-black md:bg-opacity-20 md:border-none md:absolute md:top-[18rem] md:left-[1.6rem]">
+          <div>
+            <h1 className="lg:text-6xl lg:ml-[21px] lg:mt-[25px] Poppins lg:text-[#00A3BA] sm:text-[28px] sm:mt-[10px] sm:ml-[14px] sm:leading-[23px] sm:text-[#00A3BA] md:text-[28px] md:leading-[29px] md:ml-[21px] md:mt-[19px] md:text-[#00A3BA]">
+              We redefine entertainment.
+            </h1>
+            <p className="lg:mt-[1.3rem] lg:text-2xl lg:ml-[25px] lg:w-[29rem] lg:text-white sm:mt-[8px] sm:text-sm sm:ml-[14px] sm:w-[14rem] sm:leading-[17px] sm:text-white md:mt-[10px] md:leading-[28px] md:text-base md:ml-[19px] md:w-[15.6rem] md:text-white">
+              Timeline Entertainment Limited was established by a team of
+              professionals in music, audio-visuals, software managers, and
+              media strategists in 2007.
+            </p>
+            <Link to="/aboutDetails">
+              <input
+                type="button"
+                value="READ MORE"
+                className="lg:mt-[30px] lg:ml-[28px] lg:bg-[#00A3BA] lg:text-[#fff] lg:border-none lg:pl-[12px] lg:pt-[12px] lg:pb-[12px] lg:pr-[12px] lg:text-[16px] cursor-pointer lg:rounded-[7px] lg:hover:bg-[#00A3BA] lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 sm:ml-[16px] sm:mt-[9px] sm:text-[#fff] sm:bg-[#00A3BA] sm:border-none sm:pl-[5px] sm:pt-[5px] sm:pb-[5px] sm:pr-[5px] sm:text-[10px] sm:rounded-[3px] sm:hover:bg-[#00A3BA] sm:hover:text-[#000000] sm:transition sm:ease-out sm:duration-500 md:mt-[12px] md:text-[#fff] lg:ml-[30px] md:bg-[#00A3BA] md:border-2 md:pl-[9px] md:pt-[9px] md:pb-[9px] md:pr-[9px] md:text-[12px] md:rounded-[7px] md:hover:bg-[#00A3BA] md:hover:text-[#000000] md:transition md:ease-out md:duration-500"
+              />
+            </Link>
+          </div> */
