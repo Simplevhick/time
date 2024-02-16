@@ -143,9 +143,9 @@ const Nav = () => {
           backgroundImage: `url(${Img})`,
         }}
       >
-        <div className="lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[39rem] lg:left-[2rem] h-[11.5rem] w-[15rem] bg-black bg-opacity-15 border-none absolute top-[19rem] left-[1rem] md:h-[17.5rem] md:w-[16.5rem] md:bg-black md:bg-opacity-20 md:border-none md:absolute md:top-[18rem] md:left-[1.6rem]">
+        <div className="lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[39rem] lg:left-[2rem] h-[11.5rem] w-[15rem] bg-black bg-opacity-15 border-none absolute top-[13rem] left-[1rem] md:h-[17.5rem] md:w-[16.5rem] md:bg-black md:bg-opacity-20 md:border-none md:absolute md:top-[18rem] md:left-[1.6rem]">
           <div>
-            <h1 className="lg:text-6xl lg:ml-[21px] lg:mt-[25px] Poppins lg:text-[#00A3BA] text-[28px] mt-[10px] ml-[14px] leading-[23px] text-[#00A3BA] md:text-[28px] md:leading-[29px] md:ml-[21px] md:mt-[19px] md:text-[#00A3BA]">
+            <h1 className="lg:text-6xl lg:ml-[21px] lg:mt-[25px] Poppins lg:text-[#00A3BA] text-[22px] mt-[10px] ml-[14px] leading-[23px] text-[#00A3BA] md:text-[28px] md:leading-[29px] md:ml-[21px] md:mt-[19px] md:text-[#00A3BA]">
               We redefine entertainment.
             </h1>
             <p className="lg:mt-[1.3rem] lg:text-2xl lg:ml-[25px] lg:w-[29rem] lg:text-white mt-[8px] text-sm ml-[14px] w-[14rem] leading-[17px] text-white md:mt-[10px] md:leading-[28px] md:text-base md:ml-[19px] md:w-[15.6rem] md:text-white">
