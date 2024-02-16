@@ -143,8 +143,8 @@ const Nav = () => {
           backgroundImage: `url(${Img})`,
         }}
       >
-        <div className="lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[39rem] lg:left-[2rem] h-[11.5rem] w-[15rem] bg-black bg-opacity-15 border-none absolute top-[13rem] left-[1rem] md:h-[17.5rem] md:w-[16.5rem] md:bg-black md:bg-opacity-20 md:border-none md:absolute md:top-[18rem] md:left-[1.6rem]">
-          {/* <div>
+        <div className="lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[32rem] lg:left-[2rem] h-[11.5rem] w-[15rem] bg-black bg-opacity-15 border-none absolute top-[13rem] left-[1rem] md:h-[17.5rem] md:w-[16.5rem] md:bg-black md:bg-opacity-20 md:border-none md:absolute md:top-[18rem] md:left-[1.6rem]">
+          <div>
             <h1 className="lg:text-6xl lg:ml-[21px] lg:mt-[25px] Poppins lg:text-[#00A3BA] text-[22px] mt-[10px] ml-[14px] leading-[23px] text-[#00A3BA] md:text-[28px] md:leading-[29px] md:ml-[21px] md:mt-[19px] md:text-[#00A3BA]">
               We redefine entertainment.
             </h1>
@@ -160,7 +160,7 @@ const Nav = () => {
                 className="lg:mt-[30px] lg:ml-[28px] lg:bg-[#00A3BA] lg:text-[#fff] lg:border-none lg:pl-[12px] lg:pt-[12px] lg:pb-[12px] lg:pr-[12px] lg:text-[16px] cursor-pointer lg:rounded-[7px] lg:hover:bg-[#00A3BA] lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 ml-[16px] mt-[9px] text-[#fff] bg-[#00A3BA] border-none pl-[5px] pt-[5px] pb-[5px] pr-[5px] text-[10px] rounded-[3px] hover:bg-[#00A3BA] hover:text-[#000000] transition ease-out duration-500 md:mt-[12px] md:text-[#fff] lg:ml-[30px] md:bg-[#00A3BA] md:border-2 md:pl-[9px] md:pt-[9px] md:pb-[9px] md:pr-[9px] md:text-[12px] md:rounded-[7px] md:hover:bg-[#00A3BA] md:hover:text-[#000000] md:transition md:ease-out md:duration-500"
               />
             </Link>
-          </div> */}
+          </div>
 
           {/* <section id="about" className="z-10 lg:w-[75rem] lg:mt-[4rem] lg:p-[6rem] p-[5px] w-[34rem] ml-[13px] mt-[8rem] md:w-[15rem] md:mt-[15rem] xl:w-[75rem] xl:mt-[15rem] xl:p-[6rem] 2xl:w-[75rem] 2xl:mt-[13rem] 2xl:p-[6rem] 2xl:ml-[10.5rem]">
             <div className="">
