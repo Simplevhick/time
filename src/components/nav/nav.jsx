@@ -162,7 +162,7 @@ const Nav = () => {
             </Link>
           </div>
 
-          <section id="about" className="z-10 lg:w-[75rem] lg:mt-[4rem] lg:p-[6rem] p-[5px] w-[34rem] ml-[13px] mt-[8rem] md:w-[15rem] md:mt-[15rem] xl:w-[75rem] xl:mt-[15rem] xl:p-[6rem] 2xl:w-[75rem] 2xl:mt-[13rem] 2xl:p-[6rem] 2xl:ml-[10.5rem]">
+          {/* <section id="about" className="z-10 lg:w-[75rem] lg:mt-[4rem] lg:p-[6rem] p-[5px] w-[34rem] ml-[13px] mt-[8rem] md:w-[15rem] md:mt-[15rem] xl:w-[75rem] xl:mt-[15rem] xl:p-[6rem] 2xl:w-[75rem] 2xl:mt-[13rem] 2xl:p-[6rem] 2xl:ml-[10.5rem]">
             <div className="">
               <div className="lg:flex">
                 <div className="lg:text-[2.8rem] lg:text-xl lg:font-bold lg:ml-[3rem] md:text-[2.6rem] md:text-xl md:font-bold md:ml-[1.5rem] text-[2.4rem] text-xl font-bold ml-[0.23rem] xl:text-[2.8rem] xl:text-xl xl:font-bold xl:ml-[3rem] 2xl:text-[2.8rem] 2xl:text-xl 2xl:font-bold 2xl:ml-[6rem]">
@@ -190,9 +190,9 @@ const Nav = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
 
-           <section id="team">
+           {/* <section id="team">
             <div className="mt-[7rem] border-2 w-[38rem] h-[215rem] lg:h-[80rem] lg:w-[82rem] lg:ml-[-4rem] lg:mt-[8rem] md:h-[78rem] md:ml-[-2rem] md:w-[48.4rem] md:mt-[12rem] lg:border-2 lg: bg-[#29A59D] border-2 bg-[#29A59D] md:border-2 md:bg-[#29A59D] 2xl:h-[80rem] 2xl:w-[108rem] 2xl:ml-[-4rem] 2xl:mt-[12rem]">
               <div className="Poppins ptSerif lg:text-5xl lg:text-[#fff] lg:mt-[6rem] lg:ml-[27rem] md:text-5xl md:text-[#fff] md:mt-[4rem] md:ml-[11rem] text-5xl text-[#fff] mt-[3rem] ml-[6rem] 2xl:text-5xl 2xl:text-[#fff] 2xl:mt-[6rem] 2xl:ml-[43rem]">
                 Our Amazing Team
@@ -371,11 +371,11 @@ const Nav = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
         </div>
       </div>
 
-      <section id="services" className="">
+      {/* <section id="services" className="">
         <div className="lg:mt-[153rem] mt-[246rem] md:mt-[132rem] 2xl:ml-[15rem] 2xl:mt-[170rem]">
           <div className="Poppins ptSerif lg:ml-[32rem] lg:text-4xl ml-[12.5rem] text-4xl md:ml-[17rem] md:text-4xl">
             <h1>What We Do</h1>
@@ -475,9 +475,9 @@ const Nav = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <div
+      {/* <div
         id="contact"
         className="lg:w-full lg:bg-cover lg:bg-no-repeat lg:h-[60rem] lg:mt-[13rem] md:w-full md:bg-contain md:bg-no-repeat md:mt-[17rem] md:h-[46rem] w-full bg-contain bg-no-repeat mt-[10rem] h-[43rem]"
         style={{
@@ -527,7 +527,7 @@ const Nav = () => {
             </div>
           </div>
 
-          <div>
+           <div>
             <div className="lg:border lg:ml-[-0.2px] lg:w-[29rem] lg:mt-[33rem] lg:bg-[#e5e5e5] lg:h-[30rem] sm:border w-[29rem] mt-[12rem] ml-[-27.3rem] bg-[#e5e5e5] h-[30rem] md:border md:w-[34rem] md:ml-[-31rem] md:mt-[15rem] md:bg-[#e5e5e5] md:h-[33rem]">
               <div>
                 <p className="lg:font-bold lg:text-[28px] lg:p-[31px] lg:ml-[7rem] font-bold text-[32px] p-[31px] ml-[5.5rem] md:font-bold md:text-[42px] md:p-[31px] md:ml-[7rem]">
@@ -571,9 +571,9 @@ const Nav = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div>  */}
 
-      <footer className="lg:mt-[12rem] lg:border lg:bg-[#00A3BA] lg:pr-[2rem] lg:pl-[2rem] lg:pt-[2rem] lg:pb-[1rem] lg:text-center lg:font-[0.9rem] md:mt-[48rem] md:border md:bg-[#00A3BA] md:pr-[2rem] md:pl-[2rem] md:pt-[2rem] md:pb-[1rem] md:text-center md:font-[0.9rem] mt-[46rem] border bg-[#00A3BA] pr-[2rem] pl-[2rem] pt-[2rem] lg:pb-[1rem] text-center font-[0.9rem]">
+      {/* <footer className="lg:mt-[12rem] lg:border lg:bg-[#00A3BA] lg:pr-[2rem] lg:pl-[2rem] lg:pt-[2rem] lg:pb-[1rem] lg:text-center lg:font-[0.9rem] md:mt-[48rem] md:border md:bg-[#00A3BA] md:pr-[2rem] md:pl-[2rem] md:pt-[2rem] md:pb-[1rem] md:text-center md:font-[0.9rem] mt-[46rem] border bg-[#00A3BA] pr-[2rem] pl-[2rem] pt-[2rem] lg:pb-[1rem] text-center font-[0.9rem]">
         <Link
           to="#"
           className="lg:font-bold md:font-bold font-bold lg:text-4xl lg:text-[#1f1f38] text-3xl"
@@ -635,7 +635,7 @@ const Nav = () => {
             reserved.
           </small>
         </div>
-      </footer>
+      </footer> */}
     </nav>
   );
 };
