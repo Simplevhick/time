@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { FaTimes } from "react-icons/fa";
 import { CiMenuFries } from "react-icons/ci";
+import "./nav.css"
 import Img from "./new.jpeg";
 import Img1 from "./logo.png";
 import Img6 from "./bg.PNG";
@@ -138,8 +139,12 @@ const Nav = () => {
       </div>
       {/* lg:w-full lg:bg-cover lg:bg-no-repeat lg:h-[60rem] md:w-full md:bg-contain md:bg-no-repeat md:h-[46rem] w-full bg-contain bg-no-repeat h-[27rem] */}
       <div
-        className="lg:max-w-full lg:bg-contain lg:bg-no-repeat lg:h-[60rem] md:max-w-full md:bg-cover md:bg-no-repeat md:h-[46rem] min-w-full bg-contain bg-no-repeat h-[27rem]"
+        className="body"
         style={{
+          width: 'full',
+          height: '27rem',
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
           backgroundImage: `url(${Img})`,
         }}
       >
