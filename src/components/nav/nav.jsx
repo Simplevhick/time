@@ -143,7 +143,7 @@ const Nav = () => {
         style={{
           width: 'full',
           height: '27rem',
-          backgroundSize: "cover",
+          backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
           backgroundImage: `url(${Img})`,
         }}
