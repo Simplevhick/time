@@ -139,12 +139,8 @@ const Nav = () => {
       </div>
       {/* lg:w-full lg:bg-cover lg:bg-no-repeat lg:h-[60rem] md:w-full md:bg-contain md:bg-no-repeat md:h-[46rem] w-full bg-contain bg-no-repeat h-[27rem] */}
       <div
-        className="body"
+        className="lg:w-full lg:bg-cover lg:bg-no-repeat lg:h-[60rem] w-full bg-contain bg-no-repeat h-[43rem]"
         style={{
-          width: 'full',
-          height: '27rem',
-          backgroundSize: "contain",
-          backgroundRepeat: "no-repeat",
           backgroundImage: `url(${Img})`,
         }}
       >
