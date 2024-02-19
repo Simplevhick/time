@@ -146,10 +146,10 @@ const Nav = () => {
       >
         <div className="body_p">
           <div>
-            <h1>
+            <h1 className="body_h1">
               We redefine entertainment.
             </h1>
-            <p>
+            <p className="body_p2">
               Timeline Entertainment Limited was established by a team of
               professionals in music, audio-visuals, software managers, and
               media strategists in 2007.
@@ -158,7 +158,7 @@ const Nav = () => {
               <input
                 type="button"
                 value="READ MORE"
-                className=""
+                className="body_button"
               />
             </Link>
           </div>
