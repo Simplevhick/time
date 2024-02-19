@@ -1,3 +1,11 @@
+.body_image{
+    background-image: url(new.jpeg);
+    width: full;
+    height: 54rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .body_p{
     position: absolute;
     top: 33rem;
@@ -48,6 +56,14 @@
 
 
 @media screen and (max-width: 600px) {
+    .body_image{
+        background-image: url(new.jpeg);
+        width: full;
+        height: 54rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
     .body_p{
         position: absolute;
         top: 15rem;
