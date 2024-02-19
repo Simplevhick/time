@@ -160,15 +160,15 @@ const Nav = () => {
             </Link>
           </div>
 
-          {/* <section id="about" className="z-10 lg:w-[75rem] lg:mt-[4rem] lg:p-[6rem] p-[5px] w-[34rem] ml-[13px] mt-[8rem] md:w-[15rem] md:mt-[15rem] xl:w-[75rem] xl:mt-[15rem] xl:p-[6rem] 2xl:w-[75rem] 2xl:mt-[13rem] 2xl:p-[6rem] 2xl:ml-[10.5rem]">
-            <div className="">
-              <div className="lg:flex">
-                <div className="lg:text-[2.8rem] lg:text-xl lg:font-bold lg:ml-[3rem] md:text-[2.6rem] md:text-xl md:font-bold md:ml-[1.5rem] text-[2.4rem] text-xl font-bold ml-[0.23rem] xl:text-[2.8rem] xl:text-xl xl:font-bold xl:ml-[3rem] 2xl:text-[2.8rem] 2xl:text-xl 2xl:font-bold 2xl:ml-[6rem]">
-                  <h1 className="lg:text-[#00A3BA] text-[#00A3BA] md:text-[#00A3BA] xl:text-[#00A3BA]">ABOUT US</h1>
+           <section id="about" className="about_section">
+            <div>
+              <div className="about_divone">
+                <div className="about_divtwo">
+                  <h1 className="about_sectionH1">ABOUT US</h1>
                 </div>
 
-                <div className="lg:ml-[6rem] xl:ml-[6rem]">
-                  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5] md:font-medium md:text-[1.1rem] md:w-[42rem] md:p-[20px] md:text-[#B2BEB5] font-medium text-[1rem] w-[34rem] mt-[10px] text-[#B2BEB5] xl:font-medium xl:text-[1.1rem] xl:w-[42rem] xl:p-[20px] xl:text-[#B2BEB5] 2xl:font-medium 2xl:text-[1.5rem] 2xl:w-[42rem] 2xl:p-[20px] 2xl:text-[#B2BEB5]">
+                <div className="about_section_div_three">
+                  <p className="about_section_p1">
                     Hello, and welcome to TIMELINE ENTERTAINMENT! We,re a small,
                     passionate team of creatives who dedicated to bringing joy
                     and excitement to people's lives through our work. Our
@@ -178,7 +178,7 @@ const Nav = () => {
                     smiles to the faces of people all over the world with our
                     unique brand of entertainment.
                   </p>
-                  <p className="lg:font-medium lg:text-[1.1rem] lg:w-[42rem] lg:p-[20px] lg:text-[#B2BEB5] font-medium text-[1rem] mt-[15px] w-[34rem] text-[#B2BEB5] md:font-medium md:text-[1.1rem] md:text-[#B2BEB5] xl:font-medium xl:text-[1.1rem] xl:w-[42rem] xl:p-[20px] xl:text-[#B2BEB5] 2xl:font-medium 2xl:text-[1.5rem] 2xl:w-[42rem] 2xl:p-[20px] 2xl:text-[#B2BEB5]">
+                  <p className="about_section_p2">
                     Timeline Entertainment is a leading provider of innovative
                     and engaging entertainment experiences. We are commited to
                     pushing the boundaries of whats possible in entertainment
@@ -188,7 +188,7 @@ const Nav = () => {
                 </div>
               </div>
             </div>
-          </section> */}
+          </section>
 
            {/* <section id="team">
             <div className="mt-[7rem] border-2 w-[38rem] h-[215rem] lg:h-[80rem] lg:w-[82rem] lg:ml-[-4rem] lg:mt-[8rem] md:h-[78rem] md:ml-[-2rem] md:w-[48.4rem] md:mt-[12rem] lg:border-2 lg: bg-[#29A59D] border-2 bg-[#29A59D] md:border-2 md:bg-[#29A59D] 2xl:h-[80rem] 2xl:w-[108rem] 2xl:ml-[-4rem] 2xl:mt-[12rem]">
