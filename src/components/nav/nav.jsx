@@ -61,27 +61,27 @@ const Nav = () => {
     <>
       <div className="lg:hidden block absolute top-14 w-full left-0 right-0 bg-slate-900 transition z-20 lg:fixed">
         <ul className="text-center text-xl p-20">
-          <Link spy={true} smooth={true} to="Home">
+          <Link to="Home">
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               Home
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="About">
+          <Link to="About">
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               <a href="#about">About </a>
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="Services">
+          <Link to="Services">
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               Team
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="Services">
+          <Link to="Services">
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               Services
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="Contact">
+          <Link to="Contact">
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               Contact
             </li>
@@ -105,7 +105,7 @@ const Nav = () => {
         <div className="lg:flex md:flex lg: flex-1 items center justify-end font-normal hidden">
           <div className="flex-10">
             <ul className="flex gap-7 text-[15.5px] font-semibold">
-              <Link spy={true} smooth={true} to="Home">
+              <Link to="Home">
                 <li className="hover:text-[#00A3BA] transition border-b-2 border-slate-900 hover:border-[#00A3BA] cursor-pointer">
                   Home
                 </li>
