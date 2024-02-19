@@ -144,12 +144,12 @@ const Nav = () => {
           backgroundImage: `url(${Img})`,
         }}
       >
-        <div className="lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[32rem] lg:left-[2rem] h-[11.5rem] w-[14rem] bg-black bg-opacity-15 border-none absolute top-[13rem] left-[1rem] md:h-[17.5rem] md:w-[16.5rem] md:bg-black md:bg-opacity-20 md:border-none md:absolute md:top-[18rem] md:left-[1.6rem]">
+        <div className="body_p">
           <div>
-            <h1 className="lg:text-6xl lg:ml-[21px] lg:mt-[25px] Poppins lg:text-[#00A3BA] text-[22px] mt-[10px] ml-[14px] leading-[23px] text-[#00A3BA] md:text-[28px] md:leading-[29px] md:ml-[21px] md:mt-[19px] md:text-[#00A3BA]">
+            <h1>
               We redefine entertainment.
             </h1>
-            <p className="lg:mt-[1.3rem] lg:text-2xl lg:ml-[25px] lg:w-[29rem] lg:text-white mt-[8px] text-sm ml-[14px] w-[14rem] leading-[17px] text-white md:mt-[10px] md:leading-[28px] md:text-base md:ml-[19px] md:w-[15.6rem] md:text-white">
+            <p>
               Timeline Entertainment Limited was established by a team of
               professionals in music, audio-visuals, software managers, and
               media strategists in 2007.
@@ -158,7 +158,7 @@ const Nav = () => {
               <input
                 type="button"
                 value="READ MORE"
-                className="lg:mt-[30px] lg:ml-[28px] lg:bg-[#00A3BA] lg:text-[#fff] lg:border-none lg:pl-[12px] lg:pt-[12px] lg:pb-[12px] lg:pr-[12px] lg:text-[16px] cursor-pointer lg:rounded-[7px] lg:hover:bg-[#00A3BA] lg:hover:text-[#000000] lg:transition lg:ease-out lg:duration-500 ml-[16px] mt-[9px] text-[#fff] bg-[#00A3BA] border-none pl-[5px] pt-[5px] pb-[5px] pr-[5px] text-[10px] rounded-[3px] hover:bg-[#00A3BA] hover:text-[#000000] transition ease-out duration-500 md:mt-[12px] md:text-[#fff] lg:ml-[30px] md:bg-[#00A3BA] md:border-2 md:pl-[9px] md:pt-[9px] md:pb-[9px] md:pr-[9px] md:text-[12px] md:rounded-[7px] md:hover:bg-[#00A3BA] md:hover:text-[#000000] md:transition md:ease-out md:duration-500"
+                className=""
               />
             </Link>
           </div>

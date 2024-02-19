@@ -1,3 +1,10 @@
-.body{
-    
+.body_p{
+    position: absolute;
+    top: 5rem;
+    width: 31rem;
+    height: 20rem;
+    opacity: 0.55;
+    background-color: black;
+    color: white;
 }
+/* lg:h-[25rem] lg:w-[31rem] lg:bg-black lg:bg-opacity-20 lg:border-none lg:border-2 lg:absolute lg:top-[39rem] lg:left-[2rem] */
